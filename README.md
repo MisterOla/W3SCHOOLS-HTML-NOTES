@@ -5,8 +5,8 @@ This repository summarizes the key things that I learned from the w3schools onli
 ## Course Outline
 
 ## **Part One**
-HTML Tutorial
-HTML HOME
+* HTML Tutorial
+* HTML HOME
 HTML Introduction
 HTML Editors
 HTML Basic

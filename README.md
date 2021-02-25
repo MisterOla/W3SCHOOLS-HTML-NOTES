@@ -8,7 +8,7 @@ This repository summarizes the key things that I learned from the w3schools onli
 ## **Part One**
 * HTML Tutorial
 * HTML HOME
-* HTML Introduction
+* [HTML Introduction](#html-introduction)
 * HTML Editors
 * HTML Basic
 * HTML Elements
@@ -80,7 +80,7 @@ This repository summarizes the key things that I learned from the w3schools onli
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-* HTML Introduction
+* #HTML Introduction
 
 
 HTML describe webpage structure with tags marking the documents appropriately to 

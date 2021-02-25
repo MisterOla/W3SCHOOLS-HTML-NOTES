@@ -117,18 +117,18 @@ Here, <!DOCTYPE html> defines that document is html5, <html> is root element of 
 
 HTML BASICS
 
-*<!DOCTYPE> declaration represents the document type, and helps browsers display web pages correctly. Must appear once in the webpage, not case sensitive
+```<!DOCTYPE>``` declaration represents the document type, and helps browsers display web pages correctly. Must appear once in the webpage, not case sensitive
 
 * This is how to declare doctype for HTML5
-<!DOCTYPE html>  
+```<!DOCTYPE html>```  
 
 *Attributes provide additional information about html elements
-<a> defines html links
+```<a>``` defines html links
 
 'href' attribute defines link destination
 
 
-<img> defines html images. The attributes src(source file), alternative text(alt), width,and height
+```<img>``` defines html images. The attributes src(source file), alternative text(alt), width,and height
 
 
 
@@ -157,9 +157,9 @@ Example of using the imag tag
 HTML ELEMENTS
 
 *HTML element is everything from start to end of tag
-<tagname>Content goes here...</tagname> 
+```<tagname>Content goes here...</tagname>``` 
 
-*The  <html> element is the root element and it defines the whole html document.
+*The  ```<html>``` element is the root element and it defines the whole html document.
 
 **Even though skipping the end tag can work, skipping the end tag is not reliable
 
@@ -167,7 +167,7 @@ Never rely on the fact that some tags could run without end tag. Unexpected resu
 
 
 *empty elements have no content. 
-<br> defines line break and it is an empty element without a closing tag.
+```<br>``` defines line break and it is an empty element without a closing tag.
 
 
 HTML is not case sensitive but xhtml is more strict. So always use lower case letter do denote tags
@@ -176,15 +176,15 @@ HTML is not case sensitive but xhtml is more strict. So always use lower case le
 HTML ATTRIBUTES
  **Attribute comes as name="value"
 
-*HTML links: <a href="https://www.w3schools.com">Visit W3Schools</a> 
+*HTML links: ```<a href="https://www.w3schools.com">Visit W3Schools</a>``` 
 
 
 The SRC attribute: 
+```
 <h2>The src Attribute</h2>
 <p>HTML images are defined with the img tag, and the filename of the image source is specified in the src attribute:</p>
-
 <img src="img_girl.jpg" width="500" height="600">
-
+```
 **specifying the url int eh src attribute
 
 
@@ -193,17 +193,18 @@ Absolute url: links to image on another site: src="https://www.w3schools.com/ima
 Relative url: Links to image hosted within the website. No domain name included here. src="img_girl.jpg"
 src="/images/img_girl.jpg"   **in this case, the slash is relative to the site url
 
-**Width and height attribute(pixels) with <img>
+**Width and height attribute(pixels) with  ```<img>```
+```
  <img src="img_girl.jpg" width="500" height="600"> 
-
+```
 
 **Alt attribute includes alternative text for the image incase a user can not read the image: <img src="img_girl.jpg" alt="Girl with a jacket"> 
 
 
 **style attribute adds style elements like color, font, size, etc to an image
-
+```
  <p style="color:red;">This is a red paragraph.</p> 
-
+```
 
 **Lang attribute: Should always be included inside an <html> tag the declare website language to assist search engines locate you
 
@@ -248,11 +249,11 @@ Or vice versa:
 ***Attributes Summary
 
 * All HTML elements can have attributes
-* The href attribute of <a> specifies the URL of the page the link goes to
-* The src attribute of <img> specifies the path to the image to be displayed
-* The width and height attributes of <img> provide size information for images
-* The alt attribute of <img> provides an alternate text for an image
-* The style attribute is used to add styles to an element, such as color, font,       size, and more
+* The href attribute of ```<a>``` specifies the URL of the page the link goes to
+* The src attribute of ```<img>``` specifies the path to the image to be displayed
+* The width and height attributes of ```<img>``` provide size information for images
+* The alt attribute of ```<img>```provides an alternate text for an image
+* The style attribute is used to add styles to an element, such as color, font, size, and more
 * The lang attribute of the <html> tag declares the language of the Web page
 * The title attribute defines some extra information about an element
 
@@ -260,7 +261,7 @@ Or vice versa:
 
 HTML HEADINGS
 
-Headings go from <h1> to <h6>. Search engines use them to understand the structure of the webpage
+Headings go from ```<h1> to <h6>```. Search engines use them to understand the structure of the webpage
 
 Use h1 for main headings followed by h2 and so on
 
@@ -285,7 +286,7 @@ Browser removes extra spaces once page displays
 <hr> tag has no closing tag since it is an empty tag.
 
 
-*Line breaks: <br> element
+*Line breaks: ```<br>``` element
 Use this when you want a line break without starting a new paragraph.
 
 
@@ -293,11 +294,12 @@ The Poem Problem: Poems have to be included in the <pre> preformatted text tag
 The <pre> tag displays text in fixed-width font (usually Courier), and it preserves both spaces and line breaks.
 
 Tags summary
+```
 <p> 	Defines a paragraph
 <hr> 	Defines a thematic change in the content
 <br> 	Inserts a single line break
 <pre> 	Defines pre-formatted text
-
+```
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 HTML STYLES
 
@@ -349,6 +351,7 @@ Styles summary
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 HTML FORMATTING
+```
    <b> - Bold text
    <strong> - Important text
    <i> - Italic text...often used to indicate a technical term, a phrase from another language, a thought, a ship name, etc.
@@ -359,6 +362,8 @@ HTML FORMATTING
    <ins> - Inserted text... (into a document) Browsers usually underline this. Can be used after del. 
    <sub> - Subscript text...appears half a character below the normal line
    <sup> - Superscript text...can be used for footnotes citation
+```
+
 
 ```
 *<p>My favorite color is <del>blue</del> <ins>red</ins>.</p>
@@ -366,10 +371,10 @@ HTML FORMATTING
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 HTML QUOTATION AND CITATION ELEMENTS
 
-<abbr> 	Defines an abbreviation or acronym. Marking them give information to browsers, translation systems and search engines. Use global attribute title with it to show full meaning of the abbreviation.
-<address> 	Defines contact information for the author/owner of a document or an article. This can be email, url, physical, mobile no, social media handles etc. Browsers add line break before and after <address> element.
+```<abbr>``` 	Defines an abbreviation or acronym. Marking them give information to browsers, translation systems and search engines. Use global attribute title with it to show full meaning of the abbreviation.
+```<address>``` 	Defines contact information for the author/owner of a document or an article. This can be email, url, physical, mobile no, social media handles etc. Browsers add line break before and after <address> element.
 <bdo> 	Defines the text direction.Used to override current text direction
-<blockquote> 	Defines a section that is quoted from another source. Browser usually indents this. cite is used here to show the source, not href.
+<blockquote>	Defines a section that is quoted from another source. Browser usually indents this. cite is used here to show the source, not href.
 <cite> 	Defines the title of a creative work. Creator's name is not a title.Browsers will usually cite this element in italic
 <q> 	Defines a short inline quotation.Browser inserts quotation marks around the quotation
 
@@ -464,17 +469,18 @@ HTML supports 140 standard color names
 ```
 
 * These are all the same
-
+```
 rgb(255, 99, 71)
 #ff6347
 hsl(9, 100%, 64%)
-
+```
 
 
 * RGBA, HSLA
-
+```
 rgba(255, 99, 71, 0.5)
 hsla(9, 100%, 64%, 0.5)
+```
 
 ```
 <h1 style="background-color:rgb(255, 99, 71);">...</h1>
@@ -493,13 +499,13 @@ rgb(r,g,b)  each parameter has a value between  0 and 255 i.e 256 in total
 
 
 Total number of colors: 256 x 256 x 256 = 16777216 possible colors!
-
+```
 Red color: rgb(255, 0, 0), 
 Green color: rgb(0, 255, 0)
 Black: rgb(0, 0, 0)
 White:rgb(255, 255, 255). 
 Grey: rgb( x,x,x) where x is not zero or 255. Black and white are at the two ends of the color spectrum.
-
+```
 
 RGBA
 
@@ -750,7 +756,7 @@ When you move the mouse over a link, the mouse arrow will turn into a little han
 
 Note: A link does not have to be text. A link can be an image or any other HTML element!
 
-
+```
 <a> tag defines hyperlinks: 
 
 <a href="url">link text</a>
@@ -758,7 +764,7 @@ Note: A link does not have to be text. A link can be an image or any other HTML 
 href attribute is the link destination, and the link text is what the use sees.
 
  <a href="https://www.w3schools.com/">Visit W3Schools.com!</a> 
-
+```
 
 **By default, links will appear as follows in all browsers:
 
@@ -777,13 +783,12 @@ The target attribute specifies where to open the linked document.
 
 
 Possible Values for the target attribute: 
-
-
+```
     _self - Default. Opens the document in the same window/tab as it was clicked
     _blank - Opens the document in a new window or tab
     _parent - Opens the document in the parent frame
     _top - Opens the document in the full body of the window
-
+```
 
 
 **Absolute vs Relative URLs
@@ -792,60 +797,61 @@ Absolute URLs use the full web address in href attribute.
 A link to a page within the current is specified with a relative URL( OMITTING HTTPS://WWW.)
 
 *Examples of relative and absolute URL:
- <h2>Absolute URLs</h2>
+```
+<h2>Absolute URLs</h2>
 <p><a href="https://www.w3.org/">W3C</a></p>
 <p><a href="https://www.google.com/">Google</a></p>
 
 <h2>Relative URLs</h2>
 <p><a href="html_images.asp">HTML Images</a></p>
 <p><a href="/css/default.asp">CSS Tutorial</a></p> 
-
+```
 
 **HTML Links - Use an Image as a Link: To do this, just use in image <img> tae
-
+```
  <a href="default.asp">
 <img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;">
 </a> 
-
+```
 
 **Link to an Email Address: use mailto: inside href attribute to create a link that oopens in the user's email program (to let them send a new email):
 
-** <a href="mailto:someone@example.com">Send email</a> 
+** ```<a href="mailto:someone@example.com">Send email</a>``` 
 
 
 **To use a button as an HTML Link; you need to add some Js CODES. JS allows you to specify what happends at cetain events, such as a click of a button:
 
 **Here is the JS code
- <button onclick="document.location='default.asp'">HTML Tutorial</button> 
+ ```<button onclick="document.location='default.asp'">HTML Tutorial</button>``` 
 
 ** LInk titles: Shown as tooltip when mouse pointer is moved on element.
 
- <a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a> 
+ ```<a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a>```
 
 
 **More on relative and absolute URLS:
 
 *Use a full URL to link to a web page: 
+```
 <a href="https://www.w3schools.com/html/default.asp">HTML tutorial</a> 
-
+```
 *Link to a page located in the html folder on the current web site: 
-<a href="/html/default.asp">HTML tutorial</a> 
+
+```<a href="/html/default.asp">HTML tutorial</a>``` 
 
 *Link to a page located in the same folder ( within the html folder of the current website ) as the current page: 
-<a href="default.asp">HTML tutorial</a> 
+```<a href="default.asp">HTML tutorial</a>``` 
+
+   Use the ```<a>``` element to define a link
+   Use the ```href``` attribute to define the link address
+   Use the target attribute to define where to open the linked document
+   Use the ```<img>``` element (inside ```<a>```) to use an image as a link
+   Use the mailto: scheme inside the href attribute to create a link that opens the user's email program
+
+```<a href="https://www.w3schools.com/html/default.asp">HTML tutorial</a>``` 
 
 
-
-    Use the <a> element to define a link
-    Use the href attribute to define the link address
-    Use the target attribute to define where to open the linked document
-    Use the <img> element (inside <a>) to use an image as a link
-    Use the mailto: scheme inside the href attribute to create a link that opens the user's email program
-
-<a href="https://www.w3schools.com/html/default.asp">HTML tutorial</a> 
-
-
-cHAPTER SUMMARY:
+CHAPTER SUMMARY:
 
     Use the <a> element to define a link
     Use the href attribute to define the link address
@@ -863,7 +869,7 @@ By default, a link will appear like this (in all browsers):
     An active link is underlined and red
 
 **The default css for links is :
-
+```
 <style>
 a:link {
   color: green;
@@ -889,10 +895,11 @@ a:active {
   text-decoration: underline;
 }
 </style> 
-
+```
 
 
 **style a link like a button here: 
+```
 <style>
 a:link, a:visited {
   background-color: #f44336;
@@ -907,40 +914,39 @@ a:hover, a:active {
   background-color: red;
 }
 </style> 
-
-
-
+```
 
 **HTML Links - Create Bookmarks: can enable users to jump to certain part of a webpage. This helps for a long webpage. 
 
 *To create bookmark, create bookmark then add link to it. Clicking the page automatically redirects to boookmarked location in the webpage
 
 -Use id attribute to create a bookmark: 
-
+```
 <h2 id="C4">Chapter 4</h2>
-
+```
 -Add link to the bookmark from within the same page.
+```
  <a href="#C4">Jump to Chapter 4</a> 
-
+```
 -Add link to a bookmark on another page: 
-
+```
 <a href="html_demo.html#C4">Jump to Chapter 4</a>
-
+```
 **To remove the underline from link, remove text decoration: 
-
+```
 <a href="html_images.asp" style="text-decoration:none">HTML Images</a> 
-
+```
 Chapter Summary:
 Chapter Summary
 
-Use the id attribute (id="value") to define bookmarks in a page
-Use the href attribute (href="#value") to link to the bookmark
+Use the id attribute (```id="value"```) to define bookmarks in a page
+Use the href attribute (```href="#value"```) to link to the bookmark
 
-
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 HTML5 IMAGES
 
-<img src="pic_trulli.jpg" alt="Italian Trulli">
+```<img src="pic_trulli.jpg" alt="Italian Trulli">```
 
 
 Image tag is used to insert images in a webpage. Images are linked to a webpage not embeded. 
@@ -950,7 +956,7 @@ SRC attributes
     alt - Specifies an alternate text for the image
 
 Syntax
-<img src="url" alt="alternatetext"> 
+```<img src="url" alt="alternatetext">``` 
 
 Browsers get image from a web server and inserts into the page each time yu load. Image stays in same spot in relation to a webpage...else the alt text shows up to indicate that the link is brocken.
 
@@ -959,15 +965,15 @@ Browsers get image from a web server and inserts into the page each time yu load
 
 **You can also specify width and height in the style attribute of the image
 
- <img src="img_girl.jpg" alt="Girl in a jacket" style="width:500px;height:600px;"> 
+ ```<img src="img_girl.jpg" alt="Girl in a jacket" style="width:500px;height:600px;">``` 
 
 **With and height attribute as width and height attribute...which is always in pixels
- <img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600"> 
+ ```<img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">``` 
 
 **It is better to use style attribute so the stylesheet does not end up changing image size.
 
-
- <!DOCTYPE html>
+```
+<!DOCTYPE html>
 <html>
 <head>
 <style>
@@ -984,16 +990,16 @@ img {
 
 </body>
 </html> 
-
+```
 
 **For images in the subfolder, you must include the folder name
 
- <img src="/images/html5.gif" alt="HTML5 Icon" style="width:128px;height:128px;"> 
+```<img src="/images/html5.gif" alt="HTML5 Icon" style="width:128px;height:128px;">``` 
 
 
 If your  site point to an external image on another server, specify full URL to point to the image.
 
- <img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com"> 
+ ```mg src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com">``` 
 
 
 NB on external images: Might be removed by site owner anytime. Also getting permission may be necessary to avoid copyright violation
@@ -1001,21 +1007,24 @@ NB on external images: Might be removed by site owner anytime. Also getting perm
 
 **Animated Images:: HTML allows GIFs
 
- <img src="programming.gif" alt="Computer Man" style="width:48px;height:48px;"> 
+```<img src="programming.gif" alt="Computer Man" style="width:48px;height:48px;">``` 
 
 **Image as a tag:: Put <img> tag inside the <a> tag
 
- <a href="default.asp">
+```
+<a href="default.asp">
   <img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;">
 </a> 
+```
 
 **Let image float to the right or to the left of a text using CSS float property
- <p><img src="smiley.gif" alt="Smiley face" style="float:right;width:42px;height:42px;">
+```
+<p><img src="smiley.gif" alt="Smiley face" style="float:right;width:42px;height:42px;">
 The image will float to the right of the text.</p>
 
 <p><img src="smiley.gif" alt="Smiley face" style="float:left;width:42px;height:42px;">
 The image will float to the left of the text.</p> 
-
+```
 
 **Common image formats supported on a website
 
@@ -1034,19 +1043,19 @@ Image Maps::Allows you to perform actions depending on where in image  you click
 
 The image: Inserted using image tag, but you must add usemap attribute in this case.
 
-
+```
 <img src="workplace.jpg" alt="Workplace" usemap="#workmap">
-
+```
 
 -The usemap value starts with a hash tag # followed by the name of the image map, and is used to create a relationship between the image and the image map.
 
 You can use any image as an image map.
 
--add a <map> element linked to the image using the name attribute.
+-add a ```<map>``` element linked to the image using the name attribute.
 
-
+```
 <map name="workmap">
-
+```
 name attribute must have the same value as the <img>'s usemap attribute
 
 -Add clickable area to the image: You define the clickable area using an <area> element.
@@ -1077,8 +1086,10 @@ To add a circle area, first locate the coordinates of the center of the circle:
 then specify the radius: 44 pixels
 
 
-** <area shape="circle" coords="337, 300, 44" href="coffee.htm"> 
-
+** 
+```
+<area shape="circle" coords="337, 300, 44" href="coffee.htm"> 
+``` 
 Shape=poly"
 
 The shape="poly" contains several coordinate points, which creates a shape formed with straight lines (a polygon).
@@ -1093,6 +1104,7 @@ This can be used to create any shape. Such as a croissant. You have to find x an
 **You can also trigger a JS function by clicking the poissant shape.
 Add a click event to the <area> element to execute a JavaScript function:
 
+```
  <map name="workmap">
   <area shape="circle" coords="337,300,44" onclick="myFunction()">
 </map>
@@ -1102,7 +1114,7 @@ function myFunction() {
   alert("You clicked the coffee cup!");
 }
 </script> 
-
+```
 
 
 You can use href with the function to inform user to confirm what they are trying to do before they follow the hyperlink on the picture.
@@ -1111,46 +1123,43 @@ You can use href with the function to inform user to confirm what they are tryin
 
 **Image Map summary: =
 
-
+```
 <img> 	Defines an image
 <map> 	Defines an image map
 <area> 	Defines a clickable area inside an image map
 <picture> 	Defines a container for multiple image resources
-
+```
 
 
 **Background Images: Repeats itself if it is smaller 
 
 *Add background image on an HTML element using style attribute and css background-image.
-
+```
  <div style="background-image: url('img_girl.jpg');"> 
-
+```
 
 **You can also specify background image in the style element of the head section
-
+```
  <style>
 div {
   background-image: url('img_girl.jpg');
 }
 </style> 
-
-
+```
 
 **Adding background image for an entire page:specify background image on the body element
-
- <style>
+```
+<style>
 body {
   background-image: url('img_girl.jpg');
 }
 </style> 
-
-
-
+```
 
 **Background image repeat:: Background image smaller than the element will repeat itself, horizontally and vertically,until it reaches the end of the element. 
 
-
- <style>
+```
+<style>
 body {
   background-image: url('img_girl.jpg');
 }
@@ -1164,24 +1173,23 @@ body {
   background-repeat: no-repeat;
 }
 </style> 
-
-
+```
 
 *Background Cover: You can set background-size property to cover to make background image to cover the entire element. set the background-attachment property to fixed to make sure the entire element is always covered...This keeps image original proportions. 
 
-
+```
 <style>
 body {
   background-image: url('img_girl.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-
+```
 
 
 **Background stretch::  Allows you to make the background image to stretch to fit the entire element. Set background-size property to 100% 100%
 
-
+```
  <style>
 body {
   background-image: url('img_girl.jpg');
@@ -1190,57 +1198,56 @@ body {
   background-size: 100% 100%;
 }
 </style> 
+```
 
-
-
-
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 HTML PICTURE ELEMENT::
 
+```<picture>``` element allows you to display different pictures for different devices or screen sizes. 
 
-<picture> element allows you to display different pictures for different devices or screen sizes. 
-
-
+```
  <picture>
   <source media="(min-width: 650px)" srcset="img_food.jpg">
   <source media="(min-width: 465px)" srcset="img_car.jpg">
   <img src="img_girl.jpg">
 </picture> 
+```
 
-
-*<img> element should be specified last in the picture element. This element is used by the browsers that do not support the picture elment or if none of the  <source> tags work.
+*```<img>``` element should be specified last in the picture element. This element is used by the browsers that do not support the picture elment or if none of the  <source> tags work.
 
 When to use the picture element:: 
 -Bandwidth:: Wnen on a small screen device, browser searches through the source elements to find the matching element first. 
 
 -Format Support:: You can also add all image formats so that different browser image supports can be accommodated. In this case, the device use the first image format that it supports and ignore the rest. 
 
-
- <picture>
+```
+<picture>
   <source srcset="img_avatar.png">
   <source srcset="img_girl.jpg">
   <img src="img_beatles.gif" alt="Beatles" style="width:auto;">
 </picture> 
-
+```
 HTML IMAGE TAGS SUMMARIZED:::
+```
 <img> 	Defines an image
 <map> 	Defines an image map
 <area> 	Defines a clickable area inside an image map
-<picture> 	Defines a container for multiple image resources
+<picture> Defines a container for multiple image resources
+```
 
-
-
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 HTML TABLES
-
+```
 <table> tag defined the HTML table. 
 <tr> defines table row
 <th> defines table header. By default bold and centered.
 <td> defines table data/cell.. By default regular and left-aligned. They are data containers for text, images, lists, other tables, etc.
-
+```
 
 
 
 * A Simple HTML Table
-
+```
  <table style="width:100%">
   <tr>
     <th>Firstname</th>
@@ -1258,7 +1265,7 @@ HTML TABLES
     <td>94</td>
   </tr>
 </table> 
-
+```
 **Table looks like this::
 Firstname 	Lastname 	Age
 Jill 	Smith 	50
@@ -1267,26 +1274,27 @@ John 	Doe 	80
 
 
 *Add a border to HTML table:::
-
+```
 table, th, td {
   border: 1px solid black;
 }
-
+```
 
 **Collapsed Table Border:: Add Border collapse property to enable all borders to collapse into  one border. 
-
+```
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
 }
-
+```
 
 **Add Cell Padding::: Specifies the space between the cell and its borders. If not specified, table cells are displayed without padding. Use css padding property to set padding:
 
+```
 th, td {
   padding: 15px;
 }
-
+```
 
 
 
@@ -1294,22 +1302,22 @@ th, td {
 **Left-align Headings::Table headings are by default bold and centred. 
 
 To left-align table headings, use CSS text-align property. 
-
+```
 th {
   text-align: left;
 }
-
+```
 
 **Add border spacing:: Specifies space between cells. Use CSS border-spacing property. Border spacing has no effect for table with collapsed borders
-
+```
 table {
   border-spacing: 5px;
 }
-
+```
 
 
 **Cells that Spans Many Columns:: use colspan attribute
-
+```
  <table style="width:100%">
   <tr>
     <th>Name</th>
@@ -1321,15 +1329,14 @@ table {
     <td>55577855</td>
   </tr>
 </table> 
-
+```
 
 **Looks like this:Name 	Telephone
 Bill Gates 	55577854 	55577855
 
 
 **Make cell that spans many rows::use rowspan. rowspan=2 means that you will specify two row <tr> elements to contain the content spanning two rows
-
-
+```
  <table style="width:100%">
   <tr>
     <th>Name:</th>
@@ -1343,11 +1350,11 @@ Bill Gates 	55577854 	55577855
     <td>55577855</td>
   </tr>
 </table> 
-
+```
 
 
 **Add a caption to the table:: use <caption>  tag...inserted immediately after the table tag
-
+```
  <table style="width:100%">
   <caption>Monthly savings</caption>
   <tr>
@@ -1363,11 +1370,11 @@ Bill Gates 	55577854 	55577855
     <td>$50</td>
   </tr>
 </table> 
-
+```
 
 
 **Define a special style for one table. Add an id to the table and then define the special style next
- 
+``` 
 <table id="t01">
   <tr>
     <th>Firstname</th>
@@ -1387,10 +1394,10 @@ Bill Gates 	55577854 	55577855
   background-color: #f1f1c1;
 }
 
-
+```
 
 you can also add more styles:
-
+```
 #t01 tr:nth-child(even) {
   background-color: #eee;
 }
@@ -1401,70 +1408,68 @@ you can also add more styles:
   color: white;
   background-color: black;
 }
+```
 
 
-
-**CHAPTER SUMMARY _HTML CHAPTER SUMMARY
-
-
-    Use the HTML <table> element to define a table
-    Use the HTML <tr> element to define a table row
-    Use the HTML <td> element to define a table data
-    Use the HTML <th> element to define a table heading
-    Use the HTML <caption> element to define a table caption
-    Use the CSS border property to define a border
-    Use the CSS border-collapse property to collapse cell borders
-    Use the CSS padding property to add padding to cells
-    Use the CSS text-align property to align cell text
-    Use the CSS border-spacing property to set the spacing between cells
-    Use the colspan attribute to make a cell span many columns
-    Use the rowspan attribute to make a cell span many rows
-    Use the id attribute to uniquely define one table
+*CHAPTER SUMMARY _HTML CHAPTER SUMMARY
+   Use the HTML ```<table>``` element to define a table
+   Use the HTML ``<tr>``element to define a table row
+   Use the HTML ``<td>`` element to define a table data
+   Use the HTML ```<th>``` element to define a table heading
+   Use the HTML ```<caption>``` element to define a table caption
+   Use the CSS border property to define a border
+   Use the CSS border-collapse property to collapse cell borders
+   Use the CSS padding property to add padding to cells
+   Use the CSS text-align property to align cell text
+   Use the CSS border-spacing property to set the spacing between cells
+   Use the colspan attribute to make a cell span many columns
+   Use the rowspan attribute to make a cell span many rows
+   Use the id attribute to uniquely define one table
 
 
-
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 HTML LISTS
 
 **unordered list has bullets
 **ordered lists have numberings or some kind of sequence labels
 
-*Unordered html list:: each starts with <ul> tag and each list item starts with <li> tag
+*Unordered html list:: each starts with ```<ul>``` tag and each list item starts with ```<li>``` tag
 by default, list item  is marked with small black circles as bullets.
-
+```
  <ul>
   <li>Coffee</li>
   <li>Tea</li>
   <li>Milk</li>
 </ul> 
-
+```
 
 *Ordered HTML list: Marked by <ol> and each list item is marked by <li> tag. Numbers are usd to mark list items by default. 
-
+```
  <ol>
   <li>Coffee</li>
   <li>Tea</li>
   <li>Milk</li>
 </ol> 
+```
 
-
-HTML Description lists:: List of terms with description of each term in the list. description list is marked by <dl> tag and each description term (name) is marked by <dt>... and the description of each description list term is tagged by <dd>:
-
+HTML Description lists:: List of terms with description of each term in the list. description list is marked by <dl> tag and each description term (name) is marked by ```<dt>```... and the description of each description list term is tagged by ```<dd>```:
+```
  <dl>
   <dt>Coffee</dt>
   <dd>- black hot drink</dd>
   <dt>Milk</dt>
   <dd>- white cold drink</dd>
 </dl> 
+```
 
-
-**HTML List tags summary
+*HTML List tags summary
 Tag 	Description
-<ul> 	Defines an unordered list
-<ol> 	Defines an ordered list
-<li> 	Defines a list item
-<dl> 	Defines a description list
-<dt> 	Defines a term in a description list
-<dd> 	Describes the term in a description list
+```<ul>``` 	Defines an unordered list
+```<ol>``` 	Defines an ordered list
+```<li>``` 	Defines a list item
+```<dl>``` 	Defines a description list
+```<dt>``` 	Defines a term in a description list
+```<dd>``` 	Describes the term in a description list
 
 
 
@@ -1479,30 +1484,32 @@ square 	Sets the list item marker to a square
 none 	The list items will not be marked
 
  
-**Disc(filled circle)
+*Disc(filled circle)
+```
 <ul style="list-style-type:disc;">
   <li>Coffee</li>
   <li>Tea</li>
   <li>Milk</li>
 </ul> 
+```
 
-
-**Open( unfilled circle)
+*Open( unfilled circle)
+```
  <ul style="list-style-type:circle;">
   <li>Coffee</li>
   <li>Tea</li>
   <li>Milk</li>
 </ul> 
-
+```
 
 **Square (filled with black)
-
+```
  <ul style="list-style-type:square;">
   <li>Coffee</li>
   <li>Tea</li>
   <li>Milk</li>
 </ul> 
-
+```
 
 **None ( No marker)
 

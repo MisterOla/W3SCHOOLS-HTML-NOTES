@@ -5361,8 +5361,22 @@ The EventSource object is used to receive server-sent event notifications.
 You need a server that is capable of sending data updates like PHP or ASP
 
 --------------------------------------------
+NB: (https://gist.github.com/MisterOla/6992c8a9de8814e7b78f44f796d7d70c)
 
+To include anchor links (enables you to jump from section to section within the same file) in your read.md file,
+To create anchor links that jump down to different sections of a README (as in an interactive table of contents), first create a heading:
+#Real Cool Heading
 
+The anchor link for that heading is the lowercase heading name with dashes where there are spaces. You can always get the anchor name by visiting the README on Github.com and clicking on the anchor that appears when you hover to the left of the heading. Copy everything starting at the #:
+#real-cool-heading
+
+Wherever you want to link to your Real Cool Heading section, put your desired text in brackets, followed by the anchor link in parentheses:
+[Go to Real Cool Heading section](#real-cool-heading)
+
+1. Creating a heading (in the content section):  #HTML Introduction
+2. To link to the HTML Introduction section (in the outline), put the text you want to see in the outline in the square bracket(i.e [HTML Introduction])
+and include the anchor in a normal bracket following the displayed text in outline (i.e. (#html-introduction)). Note that the anchor link for the HTML introduction
+in the outline is the lower case version of the outline component in the content with hyphen replacing spaces(i.e #html-introduction)
 See the next note on CSS:https://github.com/MisterOla/CSS-TUTORIALS-W3SCHOOLS
 
 

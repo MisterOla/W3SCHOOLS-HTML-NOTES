@@ -290,7 +290,7 @@ Browser removes extra spaces once page displays
 Use this when you want a line break without starting a new paragraph.
 
 
-The Poem Problem: Poems have to be included in the <pre> preformatted text tag
+The Poem Problem: Poems have to be included in the ```<pre>``` preformatted text tag
 The ```<pre>``` tag displays text in fixed-width font (usually Courier), and it preserves both spaces and line breaks.
 
 Tags summary

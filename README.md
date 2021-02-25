@@ -4,6 +4,8 @@ This repository summarizes the key things that I learned from the w3schools onli
 > Please see: https://www.w3schools.com/html/   for the sources of all the information contained herein. 
 
 [Html Home](#html-home)
+
+
 ## Course Outline
 
 ## **Part One**
@@ -87,7 +89,7 @@ see line here
 
 
 
-Html Home
+# Html Home
 
 
 

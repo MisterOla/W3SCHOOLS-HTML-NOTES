@@ -8,7 +8,7 @@ This repository summarizes the key things that I learned from the w3schools onli
 ## **Part One**
 * HTML Tutorial
 * HTML HOME
-* [HTML Introduction](#html-introduction)
+* [html introduction](#html-introduction)
 * HTML Editors
 * HTML Basic
 * HTML Elements

@@ -370,14 +370,14 @@ HTML FORMATTING
 ```
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 HTML QUOTATION AND CITATION ELEMENTS
-
+```
 <abbr> 	Defines an abbreviation or acronym. Marking them give information to browsers, translation systems and search engines. Use global attribute title with it to show full meaning of the abbreviation.
 <address> 	Defines contact information for the author/owner of a document or an article. This can be email, url, physical, mobile no, social media handles etc. Browsers add line break before and after <address> element.
 <bdo> 	Defines the text direction.Used to override current text direction
 <blockquote>	Defines a section that is quoted from another source. Browser usually indents this. cite is used here to show the source, not href.
 <cite> 	Defines the title of a creative work. Creator's name is not a title.Browsers will usually cite this element in italic
 <q> 	Defines a short inline quotation.Browser inserts quotation marks around the quotation
-
+```
 * Quote
 
 ```

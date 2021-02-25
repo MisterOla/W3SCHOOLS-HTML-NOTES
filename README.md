@@ -3,19 +3,16 @@
 This repository summarizes the key things that I learned from the w3schools online HTML tutorials. 
 > Please see: https://www.w3schools.com/html/   for the sources of all the information contained herein. 
 
-[Html Home](#html-home)
-
-
 ## Course Outline
 
 ## **Part One**
 * HTML Tutorial
 * HTML HOME
 * [Html Introduction](#html-introduction)
-* HTML Editors
-* HTML Basic
-* HTML Elements
-* HTML Attributes
+* [HTML Editors](#html-editors)
+* [HTML Basics](#html-basics)
+* [HTML Elements](#html-elements)
+* [HTML Attributes](#html-attributes)
 * HTML Headings
 * HTML Paragraphs
 * HTML Styles
@@ -83,10 +80,7 @@ This repository summarizes the key things that I learned from the w3schools onli
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
-* # HTML Introduction
-
-# Html Home
-
+* ## HTML Introduction
 HTML describe webpage structure with tags marking the documents appropriately to 
 tell the browser what each tagged element is. 
 
@@ -119,7 +113,7 @@ Here, <!DOCTYPE html> defines that document is html5, <html> is root element of 
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
-HTML BASICS
+## HTML BASICS
 
 ```<!DOCTYPE>``` declaration represents the document type, and helps browsers display web pages correctly. Must appear once in the webpage, not case sensitive
 
@@ -158,7 +152,7 @@ Example of using the imag tag
 ```
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-HTML ELEMENTS
+## HTML ELEMENTS
 
 *HTML element is everything from start to end of tag
 ```<tagname>Content goes here...</tagname>``` 

@@ -3,6 +3,7 @@
 This repository summarizes the key things that I learned from the w3schools online HTML tutorials. 
 > Please see: https://www.w3schools.com/html/   for the sources of all the information contained herein. 
 
+[Html Home](#html-home)
 ## Course Outline
 
 ## **Part One**
@@ -81,6 +82,13 @@ This repository summarizes the key things that I learned from the w3schools onli
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 * HTML Introduction
+see line here
+
+
+
+
+Html Home
+
 
 
 HTML describe webpage structure with tags marking the documents appropriately to 

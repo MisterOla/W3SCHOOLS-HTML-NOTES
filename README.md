@@ -5362,6 +5362,7 @@ You need a server that is capable of sending data updates like PHP or ASP
 
 --------------------------------------------
 NB: (https://gist.github.com/MisterOla/6992c8a9de8814e7b78f44f796d7d70c)
+https://blog.bitsrc.io/how-to-write-beautiful-and-meaningful-readme-md-for-your-next-project-897045e3f991
 
 To include anchor links (enables you to jump from section to section within the same file) in your read.md file,
 To create anchor links that jump down to different sections of a README (as in an interactive table of contents), first create a heading:
@@ -5373,11 +5374,15 @@ The anchor link for that heading is the lowercase heading name with dashes where
 Wherever you want to link to your Real Cool Heading section, put your desired text in brackets, followed by the anchor link in parentheses:
 [Go to Real Cool Heading section](#real-cool-heading)
 
+
 1. Creating a heading (in the content section):  #HTML Introduction
-2. To link to the HTML Introduction section (in the outline), put the text you want to see in the outline in the square bracket(i.e [HTML Introduction])
+2. To link to the HTML Introduction section (in the outline), put the text you want to see in the outline in the square bracket(i.e [HTML Intromimo])
 and include the anchor in a normal bracket following the displayed text in outline (i.e. (#html-introduction)). Note that the anchor link for the HTML introduction
-in the outline is the lower case version of the outline component in the content with hyphen replacing spaces(i.e #html-introduction)
-See the next note on CSS:https://github.com/MisterOla/CSS-TUTORIALS-W3SCHOOLS
+in the outline is the lower case version of the outline component in the content with hyphen replacing spaces(i.e #html-intromimo)
+
+
+
+__See the next note on CSS:https://github.com/MisterOla/CSS-TUTORIALS-W3SCHOOLS__
 
 
 

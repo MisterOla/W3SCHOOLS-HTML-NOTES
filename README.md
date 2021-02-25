@@ -1750,6 +1750,7 @@ Block-level element always starts on a new line and takes up the full width avai
 
 Other block-level element include:
 Here are the block-level elements in HTML:
+```
 <address>
 <article>
 <aside>
@@ -1779,17 +1780,18 @@ Here are the block-level elements in HTML:
 <tfoot>
 <ul>
 <video>
-
+```
 
 **Inline Elements:
 It does not start on a new line but only takes as much width as necessary. 
 example: This is a <span> elements inside a paragraph.
-
+```
  <span>Hello World</span> 
-
+```
 * The list of inline elements:
 
 Here are the inline elements in HTML:
+```
 <a>
 <abbr>
 <acronym>
@@ -1823,18 +1825,17 @@ Here are the inline elements in HTML:
 <time>
 <tt>
 <var>
-
+```
 * An inline element cannot contain a block-level element
 
 
-The <div> Element
+The ```<div>``` Element
 
-<div> element is used as a container for other HTML elements.
+```<div>``` element is used as a container for other HTML elements.
 
-<div> element has no required attribute. the common attributes of the div element are: style, class, id
+```<div>``` element has no required attribute. the common attributes of the div element are: style, class, id
 
 When used together with CSS, the <div> element can used to style blocks of content: 
-
  <div style="background-color:black;color:white;padding:20px;">
   <h2>London</h2>
   <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>

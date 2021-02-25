@@ -113,7 +113,8 @@ Here, <!DOCTYPE html> defines that document is html5, <html> is root element of 
 
 .htm or .html extensions are the same thing. You decide whichever one you want.
 
--------------------------------------------
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
 HTML BASICS
 
 *<!DOCTYPE> declaration represents the document type, and helps browsers display web pages correctly. Must appear once in the webpage, not case sensitive
@@ -136,6 +137,7 @@ When you inspect a site, you can edit the html or css on-the-fly.
 
 Example of using the imag tag
 
+```
 <!DOCTYPE html>
 <html>
 <body>
@@ -149,9 +151,9 @@ Example of using the imag tag
 
 </body>
 </html>
+```
 
-
------------------------------------------------------------
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 HTML ELEMENTS
 
 *HTML element is everything from start to end of tag
@@ -170,7 +172,7 @@ Never rely on the fact that some tags could run without end tag. Unexpected resu
 
 HTML is not case sensitive but xhtml is more strict. So always use lower case letter do denote tags
 
-----------------------------
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 HTML ATTRIBUTES
  **Attribute comes as name="value"
 
@@ -205,55 +207,56 @@ src="/images/img_girl.jpg"   **in this case, the slash is relative to the site u
 
 **Lang attribute: Should always be included inside an <html> tag the declare website language to assist search engines locate you
 
-
+```
 <!DOCTYPE html>
 <html lang="en">
 <body>
 ...
 </body>
 </html>
-
+```
 
 *You can also include country attribute.
 
+```
 <!DOCTYPE html>
 <html lang="en-US">
 <body>
 ...
 </body>
 </html>
-
-
+```
 
 **The title attribute: Gives extra information about an element and the attribute
 will be displayed as a tooltip when mouse pointer runs over it.
-  
- <p title="I'm a tooltip">This is a paragraph.</p> 
 
+```
+ <p title="I'm a tooltip">This is a paragraph.</p> 
+```
 W3C Recommends having attributes in quote and in cases where there is a space in the attribute, you have to have the space.
 
 *when  attribute value contains one of the quotes, use the other quote
 
+```
 <p title='John "ShotGun" Nelson'>
-
+```
 Or vice versa:
+```
 <p title="John 'ShotGun' Nelson"> 
-
+```
 
 ***Attributes Summary
 
-    All HTML elements can have attributes
-    The href attribute of <a> specifies the URL of the page the link goes to
-    The src attribute of <img> specifies the path to the image to be displayed
-    The width and height attributes of <img> provide size information for images
-    The alt attribute of <img> provides an alternate text for an image
-    The style attribute is used to add styles to an element, such as color, font,       size, and more
-    The lang attribute of the <html> tag declares the language of the Web page
-    The title attribute defines some extra information about an element
+* All HTML elements can have attributes
+* The href attribute of <a> specifies the URL of the page the link goes to
+* The src attribute of <img> specifies the path to the image to be displayed
+* The width and height attributes of <img> provide size information for images
+* The alt attribute of <img> provides an alternate text for an image
+* The style attribute is used to add styles to an element, such as color, font,       size, and more
+* The lang attribute of the <html> tag declares the language of the Web page
+* The title attribute defines some extra information about an element
 
-
-
-
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 HTML HEADINGS
 
@@ -264,19 +267,20 @@ Use h1 for main headings followed by h2 and so on
 Each heading has its default size. You can change that by specifying inside a style element.
 
 *Change your style like this:
-
+```
 <h1 style="font-size:60px;">Heading 1</h1>
+```
 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
-
-PARAGRAPHS
+HTML PARAGRAPHS
 
 In html, you cannot be sure of how html will be displayed on each screen size. Adding extra lines or spaces to the document does not add new lines to the page. 
 Browser removes extra spaces once page displays
 
-
+```
 <p>This is a paragraph</p>
-
+```
 *horizontal rules: <hr> Used to separate content(define change) and defines a thematic break in an HTML page. It shows up as an horizontal line. 
 <hr> tag has no closing tag since it is an empty tag.
 
@@ -294,67 +298,72 @@ Tags summary
 <br> 	Inserts a single line break
 <pre> 	Defines pre-formatted text
 
-
- 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 HTML STYLES
-The HTML Style attribute syntax:
 
+The HTML Style attribute syntax:
+```
 <tagname style="property:value;">
+```
 *where The property is a CSS property and value is a CSS value.
 
 
 *Background color: Defines the background color for an HTML element
+```
 <body style="background-color:powderblue;">
-
+```
 *Set background color for two different elements:
+```
 <h1 style="background-color:powderblue;">This is a heading</h1>
 <p style="background-color:tomato;">This is a paragraph.</p>
-
+```
 **Text color
+```
  <h1 style="color:blue;">This is a heading</h1>
 <p style="color:red;">This is a paragraph.</p> 
-
+```
 **Fonts
+```
  <h1 style="font-family:verdana;">This is a heading</h1>
 <p style="font-family:courier;">This is a paragraph.</p> 
-
+```
 **Text Size
+```
  <h1 style="font-size:300%;">This is a heading</h1>
 <p style="font-size:160%;">This is a paragraph.</p> 
+```
 
 **Text alignment
+```
  <h1 style="text-align:center;">Centered Heading</h1>
 <p style="text-align:center;">Centered paragraph.</p> 
-
+```
 
 Styles summary
-
-
-    Use the style attribute for styling HTML elements
-    Use background-color for background color
+  * Use the style attribute for styling HTML elements
+  * Use background-color for background color
     Use color for text colors
     Use font-family for text fonts
     Use font-size for text sizes
     Use text-align for text alignment
 
-
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 HTML FORMATTING
+   <b> - Bold text
+   <strong> - Important text
+   <i> - Italic text...often used to indicate a technical term, a phrase from another language, a thought, a ship name, etc.
+   <em> - Emphasized text. A screen reader will emphasize the text using verbal stress
+   <mark> - Marked text. Element that should be highlighted. You can use style to change the color.
+   <small> - Smaller text
+   <del> - Deleted text. Browsers usually strike a line through
+   <ins> - Inserted text... (into a document) Browsers usually underline this. Can be used after del. 
+   <sub> - Subscript text...appears half a character below the normal line
+   <sup> - Superscript text...can be used for footnotes citation
 
-    <b> - Bold text
-    <strong> - Important text
-    <i> - Italic text...often used to indicate a technical term, a phrase from another language, a thought, a ship name, etc.
-    <em> - Emphasized text. A screen reader will emphasize the text using verbal stress
-    <mark> - Marked text. Element that should be highlighted. You can use style to change the color.
-    <small> - Smaller text
-    <del> - Deleted text. Browsers usually strike a line through
-    <ins> - Inserted text... (into a document) Browsers usually underline this. Can be used after del. 
-    <sub> - Subscript text...appears half a character below the normal line
-    <sup> - Superscript text...can be used for footnotes citation
-
+```
 *<p>My favorite color is <del>blue</del> <ins>red</ins>.</p>
-
-
-
+```
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 HTML QUOTATION AND CITATION ELEMENTS
 
 <abbr> 	Defines an abbreviation or acronym. Marking them give information to browsers, translation systems and search engines. Use global attribute title with it to show full meaning of the abbreviation.
@@ -364,9 +373,9 @@ HTML QUOTATION AND CITATION ELEMENTS
 <cite> 	Defines the title of a creative work. Creator's name is not a title.Browsers will usually cite this element in italic
 <q> 	Defines a short inline quotation.Browser inserts quotation marks around the quotation
 
-
-
 *Quote
+
+```
  <p>Here is a quote from WWF's website:</p>
 <blockquote cite="http://www.worldwildlife.org/who/index.html">
 For 50 years, WWF has been protecting the future of nature.
@@ -375,14 +384,20 @@ WWF works in 100 countries and is supported by
 1.2 million members in the United States and
 close to 5 million globally.
 </blockquote> 
+```
 
 *Short Quotations
+```
  <p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p> 
+```
 
-*<abbr>
+* The use of abbreviation <abbr>
+```
  <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p> 
+```
+* Address
 
-**Address
+```
 <address>
 Written by John Doe.<br>
 Visit us at:<br>
@@ -390,74 +405,85 @@ Example.com<br>
 Box 564, Disneyland<br>
 USA
 </address> 
-
-
-
-**Cite for work title
+```
+* Cite for work title
+ ```
  <p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p> 
+```
 
-
-**Bi-Directional Override(BDO)
+* Bi-Directional Override(BDO)
+```
  <bdo dir="rtl">This text will be written from right to left</bdo> 
+```
 
-
-
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 HTML COMMENTS
 There is only exclamation at the start not at the end
+```
 <!-- Write your comments here -->
+```
 
+Example usage
 
+```
 <!-- This is a comment -->
 
 <p>This is a paragraph.</p>
 
-<!-- Remember to add more information here --> 
+<!-- Remember to add more information here -->
+```
 
-**comments can help you to debug your html lines of code
+* Comments can help you to debug your html lines of code
 
-
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 HTML COLORS
 
 You specify them with color names, RGB, HEX, HSL,RGBA(the alpha is for transparency),HSLA values.
 
 HTML supports 140 standard color names
 
-**Specify background color as shown below:
+* Specify background color as shown below:
+```
  <h1 style="background-color:DodgerBlue;">Hello World</h1>
 <p style="background-color:Tomato;">Lorem ipsum...</p> 
+```
 
-
-**set color of text
+* Set color of text 
+```
 <h1 style="color:Tomato;">Hello World</h1>
 <p style="color:DodgerBlue;">Lorem ipsum...</p>
 <p style="color:MediumSeaGreen;">Ut wisi enim...</p> 
+```
 
+* Set Color of border ( the square box) around text
 
-**Set Color of border ( the square box) around text
-
+```
  <h1 style="border:2px solid Tomato;">Hello World</h1>
 <h1 style="border:2px solid DodgerBlue;">Hello World</h1>
 <h1 style="border:2px solid Violet;">Hello World</h1> 
+```
 
-**These are all the same
+* These are all the same
+
 rgb(255, 99, 71)
 #ff6347
 hsl(9, 100%, 64%)
 
 
 
-**RGBA, HSLA
+* RGBA, HSLA
 
 rgba(255, 99, 71, 0.5)
 hsla(9, 100%, 64%, 0.5)
 
-** <h1 style="background-color:rgb(255, 99, 71);">...</h1>
+```
+<h1 style="background-color:rgb(255, 99, 71);">...</h1>
 <h1 style="background-color:#ff6347;">...</h1>
 <h1 style="background-color:hsl(9, 100%, 64%);">...</h1>
 
 <h1 style="background-color:rgba(255, 99, 71, 0.5);">...</h1>
 <h1 style="background-color:hsla(9, 100%, 64%, 0.5);">...</h1> 
-
+```
 
 RGB and RGBA Coloring
 
@@ -492,7 +518,7 @@ To display black, set all color parameters to 00, like this: #000000.
 To display white, setll all color parameters to ff: #ffffff
 
 Shades of gray: Equal values for all the parameters:
-*each one of these are different shades of gray.
+Each one of these are different shades of gray.
 #404040
 #686868
 #a0a0a0
@@ -532,7 +558,7 @@ HSLA Color Values:
 
 Alpha rep transparency. 0.00 means fully transparent and 1.0 not transparent at all. 
 
-
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 HTML STYLES-CSS (HTML CSS)
 
@@ -547,23 +573,23 @@ Tip: The word cascading means that a style applied to a parent element will also
 
 CSS can be added to HTML documents in 3 ways:
 
-    Inline - by using the style attribute inside HTML elements
-    Internal - by using a <style> element in the <head> section
-    External - by using a <link> element to link to an external CSS file
+   Inline - by using the style attribute inside HTML elements
+   Internal - by using a <style> element in the <head> section
+   External - by using a <link> element to link to an external CSS file
 
 
 Inline CSS: To apply a unique style to a single HTML element, and it uses the style attribute of such element. 
 
 * Set h1 color to blue and p to red
-
+```
  <h1 style="color:blue;">A Blue Heading</h1>
 
 <p style="color:red;">A red paragraph.</p> 
-
+```
 
 Internal CSS: To define style for a single HTML Page and it defined in <head> section of an html page within <style> element
 
-
+```
 <!DOCTYPE html>
 <html>
 <head>
@@ -580,12 +606,12 @@ p    {color: red;}
 
 </body>
 </html> 
-
+```
 
 External CSS: Define style for many HTML pages. To use the external style, you add a link to it in the head section of the html. File must not contain any HTML Code and can be written in any text editor. Save with a .css extension. 
 
-
- <!DOCTYPE html>
+```
+<!DOCTYPE html>
 <html>
 <head>
   <link rel="stylesheet" href="styles.css">
@@ -597,10 +623,11 @@ External CSS: Define style for many HTML pages. To use the external style, you a
 
 </body>
 </html> 
+```
 
 
-
-**Styles.css looks like this
+* Styles.css looks like this
+```
 body {
   background-color: powderblue;
 }
@@ -610,7 +637,7 @@ h1 {
 p {
   color: red;
 }
-
+```
 
 
 
@@ -625,9 +652,9 @@ The CSS font-family property defines the font to be used.
 The CSS font-size property defines the text size to be used.
 
 
-**Use of CSS color, font-family, and font-size properties.
-
- <!DOCTYPE html>
+* Use of CSS color, font-family, and font-size properties.
+```
+<!DOCTYPE html>
 <html>
 <head>
 <style>
@@ -650,10 +677,10 @@ p {
 
 </body>
 </html> 
+```
 
 
-
-**CSS Border
+* CSS Border
 
 The CSS border property defines a border around an HTML element.
 
@@ -661,41 +688,47 @@ Tip: You can define a border for nearly all HTML elements.
 
 
 Use of CSS border property: 
+```
 p {
   border: 2px solid powderblue;
 }
 
+```
 
-**CSS Padding
+* CSS Padding
 
 The CSS padding property defines a padding (space) between the text and the border.
 
 Use of CSS border and padding properties:
+```
 p {
   border: 2px solid powderblue;
   padding: 30px;
 } 
+```
 
-
-**CSS Margin
+* CSS Margin
 
 The CSS margin property defines a margin (space) outside the border.
-
+```
 p {
   border: 2px solid powderblue;
   margin: 50px;
 }
+```
 
-
-**Link to External CSS
+* Link to External CSS
 
 External style sheets can be referenced with a full URL or with a path relative to the current web page.
 
 *Example, linking to a full style sheet
+```
 <link rel="stylesheet" href="https://www.w3schools.com/html/styles.css"> 
-
-*links to a style sheet located in the html folder on the current web site: 
+```
+* Links to a style sheet located in the html folder on the current web site: 
+```
 <link rel="stylesheet" href="/html/styles.css"> 
+```
 
 HTML CSS SUMMARY: 
     Use the HTML style attribute for inline styling
@@ -709,9 +742,7 @@ HTML CSS SUMMARY:
     Use the CSS padding property for space inside the border
     Use the CSS margin property for space outside the border
 
-
-
-
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 HTML LINKS 
 
 They are hyperlinks that can be clicked to be redirected to another page.
@@ -5360,26 +5391,19 @@ The EventSource object is used to receive server-sent event notifications.
 You need a server that is capable of sending data updates like PHP or ASP
 
 --------------------------------------------
-NB: (https://gist.github.com/MisterOla/6992c8a9de8814e7b78f44f796d7d70c)
+NB: 
+
+A. Anchoring link
+
+(https://gist.github.com/MisterOla/6992c8a9de8814e7b78f44f796d7d70c)
 https://blog.bitsrc.io/how-to-write-beautiful-and-meaningful-readme-md-for-your-next-project-897045e3f991
-
-To include anchor links (enables you to jump from section to section within the same file) in your read.md file,
-To create anchor links that jump down to different sections of a README (as in an interactive table of contents), first create a heading:
-#Real Cool Heading
-
-The anchor link for that heading is the lowercase heading name with dashes where there are spaces. You can always get the anchor name by visiting the README on Github.com and clicking on the anchor that appears when you hover to the left of the heading. Copy everything starting at the #:
-#real-cool-heading
-
-Wherever you want to link to your Real Cool Heading section, put your desired text in brackets, followed by the anchor link in parentheses:
-[Go to Real Cool Heading section](#real-cool-heading)
-
-
 1. Creating a heading (in the content section):  #HTML Introduction
 2. To link to the HTML Introduction section (in the outline), put the text you want to see in the outline in the square bracket(i.e [HTML Intromimo])
 and include the anchor in a normal bracket following the displayed text in outline (i.e. (#html-introduction)). Note that the anchor link for the HTML introduction
 in the outline is the lower case version of the outline component in the content with hyphen replacing spaces(i.e #html-intromimo)
 
-
+B. Including HTML codes formated at a code and not text
+ enclose your code in the three back quotes ``` html codes ```
 
 __See the next note on CSS:https://github.com/MisterOla/CSS-TUTORIALS-W3SCHOOLS__
 

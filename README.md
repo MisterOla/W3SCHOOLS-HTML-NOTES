@@ -282,11 +282,11 @@ Browser removes extra spaces once page displays
 ```
 <p>This is a paragraph</p>
 ```
-*horizontal rules: <hr> Used to separate content(define change) and defines a thematic break in an HTML page. It shows up as an horizontal line. 
+* Horizontal rules: <hr> Used to separate content(define change) and defines a thematic break in an HTML page. It shows up as an horizontal line. 
 <hr> tag has no closing tag since it is an empty tag.
 
 
-*Line breaks: ```<br>``` element
+* Line breaks: ```<br>``` element
 Use this when you want a line break without starting a new paragraph.
 
 
@@ -307,14 +307,14 @@ The HTML Style attribute syntax:
 ```
 <tagname style="property:value;">
 ```
-*where The property is a CSS property and value is a CSS value.
+* Where The property is a CSS property and value is a CSS value.
 
 
-*Background color: Defines the background color for an HTML element
+* Background color: Defines the background color for an HTML element
 ```
 <body style="background-color:powderblue;">
 ```
-*Set background color for two different elements:
+* Set background color for two different elements:
 ```
 <h1 style="background-color:powderblue;">This is a heading</h1>
 <p style="background-color:tomato;">This is a paragraph.</p>
@@ -378,7 +378,7 @@ HTML QUOTATION AND CITATION ELEMENTS
 <cite> 	Defines the title of a creative work. Creator's name is not a title.Browsers will usually cite this element in italic
 <q> 	Defines a short inline quotation.Browser inserts quotation marks around the quotation
 
-*Quote
+* Quote
 
 ```
  <p>Here is a quote from WWF's website:</p>
@@ -391,7 +391,7 @@ close to 5 million globally.
 </blockquote> 
 ```
 
-*Short Quotations
+* Short Quotations
 ```
  <p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p> 
 ```
@@ -791,12 +791,12 @@ Possible Values for the target attribute:
 ```
 
 
-**Absolute vs Relative URLs
-Absolute URLs use the full web address in href attribute. 
+* Absolute vs Relative URLs
+ Absolute URLs use the full web address in href attribute. 
 
 A link to a page within the current is specified with a relative URL( OMITTING HTTPS://WWW.)
 
-*Examples of relative and absolute URL:
+* Examples of relative and absolute URL:
 ```
 <h2>Absolute URLs</h2>
 <p><a href="https://www.w3.org/">W3C</a></p>
@@ -831,15 +831,15 @@ A link to a page within the current is specified with a relative URL( OMITTING H
 
 **More on relative and absolute URLS:
 
-*Use a full URL to link to a web page: 
+* Use a full URL to link to a web page: 
 ```
 <a href="https://www.w3schools.com/html/default.asp">HTML tutorial</a> 
 ```
-*Link to a page located in the html folder on the current web site: 
+* Link to a page located in the html folder on the current web site: 
 
 ```<a href="/html/default.asp">HTML tutorial</a>``` 
 
-*Link to a page located in the same folder ( within the html folder of the current website ) as the current page: 
+* Link to a page located in the same folder ( within the html folder of the current website ) as the current page: 
 ```<a href="default.asp">HTML tutorial</a>``` 
 
    Use the ```<a>``` element to define a link
@@ -918,7 +918,7 @@ a:hover, a:active {
 
 **HTML Links - Create Bookmarks: can enable users to jump to certain part of a webpage. This helps for a long webpage. 
 
-*To create bookmark, create bookmark then add link to it. Clicking the page automatically redirects to boookmarked location in the webpage
+* To create bookmark, create bookmark then add link to it. Clicking the page automatically redirects to boookmarked location in the webpage
 
 -Use id attribute to create a bookmark: 
 ```
@@ -1059,7 +1059,7 @@ You can use any image as an image map.
 name attribute must have the same value as the <img>'s usemap attribute
 
 -Add clickable area to the image: You define the clickable area using an <area> element.
-*define shape of the clickable area using any of these values: 
+* Define shape of the clickable area using any of these values: 
     rect - defines a rectangular region
     circle - defines a circular region
     poly - defines a polygonal region
@@ -1096,7 +1096,7 @@ The shape="poly" contains several coordinate points, which creates a shape forme
 
 This can be used to create any shape. Such as a croissant. You have to find x and y coordinates for all edges of the croissant.
 
-*Each point has x and y...specify all the coordinates around the perimeter of the polygonal shape. 
+* Each point has x and y...specify all the coordinates around the perimeter of the polygonal shape. 
 
  <area shape="poly" coords="140,121,181,116,204,160,204,222,191,270,140,329,85,355,58,352,37,322,40,259,103,161,128,147" href="croissant.htm"> 
 
@@ -1213,7 +1213,7 @@ HTML PICTURE ELEMENT::
 </picture> 
 ```
 
-*```<img>``` element should be specified last in the picture element. This element is used by the browsers that do not support the picture elment or if none of the  <source> tags work.
+* ```<img>``` element should be specified last in the picture element. This element is used by the browsers that do not support the picture elment or if none of the  <source> tags work.
 
 When to use the picture element:: 
 -Bandwidth:: Wnen on a small screen device, browser searches through the source elements to find the matching element first. 
@@ -1273,7 +1273,7 @@ Eve 	Jackson 	94
 John 	Doe 	80
 
 
-*Add a border to HTML table:::
+* Add a border to HTML table:::
 ```
 table, th, td {
   border: 1px solid black;
@@ -1462,7 +1462,7 @@ HTML Description lists:: List of terms with description of each term in the list
 </dl> 
 ```
 
-*HTML List tags summary
+* HTML List tags summary
 Tag 	Description
 ```<ul>``` 	Defines an unordered list
 ```<ol>``` 	Defines an ordered list
@@ -1484,7 +1484,7 @@ square 	Sets the list item marker to a square
 none 	The list items will not be marked
 
  
-*Disc(filled circle)
+* Disc(filled circle)
 ```
 <ul style="list-style-type:disc;">
   <li>Coffee</li>
@@ -1493,7 +1493,7 @@ none 	The list items will not be marked
 </ul> 
 ```
 
-*Open( unfilled circle)
+* Open( unfilled circle)
 ```
  <ul style="list-style-type:circle;">
   <li>Coffee</li>
@@ -1538,7 +1538,7 @@ none 	The list items will not be marked
 **A list item (<li>) can contain a new list, and other HTML elements, like images and links, etc.
 
 
-*Horizontal list with CSS
+* Horizontal list with CSS
 
 You can style lists horizontally, to create a navigation menu. 
 
@@ -1626,7 +1626,7 @@ type="i" 	The list items will be numbered with lowercase roman numbers
 
 
 
-*Numbers
+* Numbers
 
  <ol type="1">
   <li>Coffee</li>
@@ -1636,7 +1636,7 @@ type="i" 	The list items will be numbered with lowercase roman numbers
 
 
 
-*Uppercase Letters:
+* Uppercase Letters:
  <ol type="A">
   <li>Coffee</li>
   <li>Tea</li>
@@ -1644,7 +1644,7 @@ type="i" 	The list items will be numbered with lowercase roman numbers
 </ol> 
 
 
-*Lowercase Letters:
+* Lowercase Letters:
 
  <ol type="a">
   <li>Coffee</li>
@@ -1653,7 +1653,7 @@ type="i" 	The list items will be numbered with lowercase roman numbers
 </ol> 
 
 
-*Uppercase Roman Numbers:
+* Uppercase Roman Numbers:
  <ol type="I">
   <li>Coffee</li>
   <li>Tea</li>
@@ -1661,7 +1661,7 @@ type="i" 	The list items will be numbered with lowercase roman numbers
 </ol> 
 
 
-*Lowercase Roman Numbers:
+* Lowercase Roman Numbers:
 
  <ol type="I">
   <li>Coffee</li>
@@ -1670,7 +1670,7 @@ type="i" 	The list items will be numbered with lowercase roman numbers
 </ol> 
 
 
-*Control List Counting: Enables you to be able to start counting controlled list at a certain number other than 50
+* Control List Counting: Enables you to be able to start counting controlled list at a certain number other than 50
 
  <ol start="50">
   <li>Coffee</li>
@@ -1679,7 +1679,7 @@ type="i" 	The list items will be numbered with lowercase roman numbers
 </ol> 
 
 
-*Nested HTML Lists(list inside list)
+* Nested HTML Lists(list inside list)
  <ol>
   <li>Coffee</li>
   <li>Tea
@@ -1693,7 +1693,7 @@ type="i" 	The list items will be numbered with lowercase roman numbers
 
 
 
-*Chapter summary:
+* Chapter summary:
 
     Use the HTML <ol> element to define an ordered list
     Use the HTML type attribute to define the numbering type
@@ -1711,7 +1711,7 @@ HTML List Tags
 <dd> 	Describes the term in a description list
 
 
-*Description lists: List of terms with a description of each term. 
+* Description lists: List of terms with a description of each term. 
 <dl> tag defines the list, <dt> defines the term (name), and <dd> tag describes each term:
 
  <dl>
@@ -1722,7 +1722,7 @@ HTML List Tags
 </dl> 
 
 
-*Description list summary:
+* Description list summary:
 
     Use the HTML <dl> element to define a description list
     Use the HTML <dt> element to define the description term
@@ -1743,7 +1743,7 @@ HTML BLOCK AND INLINE ELEMENTS
 
 Every HTML element has a default display value, depending on what type of element it is. Display values can be block or inline
  
-*Block-level Elements
+* Block-level Elements
 Block-level element always starts on a new line and takes up the full width available (stretches out to the left and right as far as it can)
 
 <div> element is a block-level element
@@ -1787,7 +1787,7 @@ example: This is a <span> elements inside a paragraph.
 
  <span>Hello World</span> 
 
-*The list of inline elements:
+* The list of inline elements:
 
 Here are the inline elements in HTML:
 <a>
@@ -1865,8 +1865,8 @@ HTML CLASSES
 
 **html class attribute is used to specify a class for an html element. 
 
-*Multiple html elements can also share the same class.
-*Class attribute is used to point to a class to manipulate together in a style sheet. Javascript can also manipulate elements in the same class together.
+* Multiple html elements can also share the same class.
+* Class attribute is used to point to a class to manipulate together in a style sheet. Javascript can also manipulate elements in the same class together.
 
 
 **In the example below, all three div elements with class city are style equally together equally according to the .city style definition in the header.
@@ -1936,7 +1936,7 @@ Tip: The class attribute can be used on any HTML element.
 Note: The class name is case sensitive!
 
 
-*The Syntax for Class. 
+* The Syntax for Class. 
 
 To create a class; write a period (.) character, followed by a class name. Then, define the CSS properties within curly braces {}
 
@@ -1968,7 +1968,7 @@ To create a class; write a period (.) character, followed by a class name. Then,
 
 
 
-*Multiple classes. 
+* Multiple classes. 
 
 HTML elements can belong to multiple classes. Define multiple classes by separating the class names with a space. The element will be styled according to all classes specified. 
 
@@ -2028,9 +2028,6 @@ function myFunction() {
   }
 }
 </script> 
-
-
-
 
 
 
@@ -2127,11 +2124,11 @@ To use a bookmark, create it and then add a link to it. Once link is clicked, pa
 <h2 id="C4">Chapter 4</h2>
 
 
-*To add a link to it:
+* To add a link to it:
 
  <a href="#C4">Jump to Chapter 4</a> 
 
-*To add a link to the bookmark (Jump to Chapter 4) from another page.
+* To add a link to the bookmark (Jump to Chapter 4) from another page.
 
 
 <a href="html_demo.html#C4">Jump to Chapter 4</a>
@@ -2219,7 +2216,7 @@ To use a bookmark, create it and then add a link to it. Once link is clicked, pa
 </html>
 
 
-*Using the id Attribute in JavaScript
+* Using the id Attribute in JavaScript
 
 The id attribute can also be used by JavaScript to perform some tasks for that specific element.
 
@@ -2233,7 +2230,7 @@ function displayResult() {
 </script> 
 
 
-*Chapter Summary::
+* Chapter Summary::
 Chapter Summary
 
     The id attribute is used to specify a unique id for an HTML element
@@ -2249,7 +2246,7 @@ HTML iframes
 
 It is used to display a webpage within another webpage
 
-*HTML Iframe syntax
+* HTML Iframe syntax
 
 
 
@@ -2276,7 +2273,7 @@ NB: It is a good practice to always include a title attribute for the <iframe>. 
 
 **Iframe-Remove the border
 
-*To remove border add style attribute and use the CSS border property. 
+* To remove border add style attribute and use the CSS border property. 
 
 <iframe src="demo_iframe.htm" style="border:none;" title="Iframe Example"></iframe>
 
@@ -2328,7 +2325,7 @@ Click me to display Date and Time.</button>
 </html> 
 
 
-*HTML Script tag.
+* HTML Script tag.
 
 It defines client-side JavaScript...the the <script> element contains script statement or points to an external script through an src attribute. JS is used for image manipulation, form validation, and dynamic changes of content.
 
@@ -2363,10 +2360,10 @@ function myFunction() {
 
 
 
-***Use Javascript to change the src attribute of an image.
+** Use Javascript to change the src attribute of an image.
 document.getElementById("image").src = "picture.gif";
 
-*see full code below
+* see full code below
 
 <h1>My First JavaScript</h1>
 <p>Here, a JavaScript changes the value of the src (source) attribute of an image.</p>
@@ -2391,11 +2388,11 @@ function light(sw) {
 </p>
 
 
-*HTML <noscript> tag
+* HTML <noscript> tag
 
 Defines alternate content to be displayed to users that have disabled scripts in their browsers or have browsers with no support for scripts
 
-*This is the script 
+* This is the script 
 <script>
 document.getElementById("demo").innerHTML = "Hello JavaScript!";
 </script>
@@ -2437,7 +2434,7 @@ Path	Description
 <img src="../picture.jpg"> 	The "picture.jpg" file is located in the folder one level up from the current folder
 
 
-*A file path describes the location of a file in a web site's folder structure.
+* A file path describes the location of a file in a web site's folder structure.
 
 File paths are used when linking to external files, like:
 
@@ -2455,17 +2452,17 @@ Absolute file paths: the full url to a file
 
 Relative file paths: Points to a file relative to the current page. 
 
-*File path pointing to a file in the images folder located at the root of the current web. 
+* File path pointing to a file in the images folder located at the root of the current web. 
 
  <img src="/images/picture.jpg" alt="Mountain"> 
 
-
-*File path pointing to a file in the images folder located in the current folder:
+ 
+* File path pointing to a file in the images folder located in the current folder:
 
  <img src="images/picture.jpg" alt="Mountain"> 
 
 
-*File paths pointing to a file in the images folder located in the folder one level up from the current folder:
+* File paths pointing to a file in the images folder located in the folder one level up from the current folder:
 
  <img src="../images/picture.jpg" alt="Mountain"> 
 
@@ -2479,7 +2476,7 @@ When using relative file paths, your web pages will not be bound to your current
 
 
 
-*HTML HEAD- The Head Element
+* HTML HEAD- The Head Element
 
 
 <head> element contains the <title>, <style>, <meta>, <link>, <script>, <base> elements. 
@@ -2575,7 +2572,7 @@ Example of <meta> tags:
 <meta name="author" content="John Doe">
 
 
-*Setting The Viewport
+* Setting The Viewport
 Viewport if user's visible area of a webpage. Varies with the device and is smaller on a mobile phone than PC screen. 
 
 
@@ -2592,11 +2589,11 @@ The width=device-width part sets the width of the page to follow the screen-widt
 The initial-scale=1.0 part sets the initial zoom level when the page is first loaded by the browser.
 
 
-*HTML <script> Element.
+* HTML <script> Element.
 
 The <script> element is used to define client-side JavaScript. 
 
-*The script below writes "Hello JavaScript" into an HTML element with id="demo"
+* The script below writes "Hello JavaScript" into an HTML element with id="demo"
 
  <script>
 function myFunction() {
@@ -2674,7 +2671,7 @@ Techniques for creating HTML layouts
     CSS flexbox
     CSS grid
 
-*CSS Frameworks: Enable you to fastly create your layout: W3.CSS and Boostrap are examples
+* CSS Frameworks: Enable you to fastly create your layout: W3.CSS and Boostrap are examples
 
 CSS Float layout: Use CSS float property to do web layout. You just need to remember float and clear properties to use this. Its main disadvantage is the it is tied to the document flow which may harm flexibility.
 
@@ -2695,7 +2692,7 @@ To create a responsive site, add the following <meta> tag to all your web pages:
 
  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
-*Responsive Images: Scale nicely to fit any browser size. To make image responsive set CSS width property to 100 % and image will become responsive according to the needs. 
+* Responsive Images: Scale nicely to fit any browser size. To make image responsive set CSS width property to 100 % and image will become responsive according to the needs. 
 See code below for a responsive image. 
 
  <img src="img_girl.jpg" style="width:100%;"> 
@@ -2719,14 +2716,14 @@ To avoid image scaling up beyond original size, use max-width property instead o
 
 The text size can be set with "vw" unit, which means the "viewport width"  to enable text size to follow the size ofthe browser window
 
-*the code below enables responsive text size
+* the code below enables responsive text size
 
  <h1 style="font-size:10vw">Hello World</h1> 
 
-*Viewport is the browser window size. 1vw = 1% of viewport width. If the viewport is 50cm wide, 1vw is 0.5cm.
+* Viewport is the browser window size. 1vw = 1% of viewport width. If the viewport is 50cm wide, 1vw is 0.5cm.
 
 
-*Media queries: Enables you to define completely different styles for different browser sizes. 
+* Media queries: Enables you to define completely different styles for different browser sizes. 
 
 
  <style>
@@ -2751,7 +2748,7 @@ The text size can be set with "vw" unit, which means the "viewport width"  to en
 
 
 
-*W3.CSS
+* W3.CSS
 
 W3.CSS is a modern CSS framework with support for desktop, tablet, and mobile design by default.
 
@@ -2839,7 +2836,7 @@ W3.CSS is designed to be independent of jQuery or any other JavaScript library.
 
 
 
-------
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 HTML Computer Code Elements
 
 These are the different html elements for defining use input and computer code.
@@ -2852,7 +2849,7 @@ z = x + y;
 </code> 
 
 
-*HTML <kbd> For Keyboard Input
+* HTML <kbd> For Keyboard Input
 
 <kbd> element defines keyboard input... and the content inside this tag is displayed inside the browser's default monospace font.
 
@@ -2864,7 +2861,7 @@ The code above shows:Save the document by pressing Ctrl + S
 HTML <samp> For Program Output
 Samp element can be used to define sample output from a computer program. The content is displayed inside browser's default monospace font. 
 
-*To define some text as sample output from a computer program:
+* To define some text as sample output from a computer program:
 
  <p>Message from my computer:</p>
 <p><samp>File not found.<br>Press F1 to continue</samp></p> 
@@ -2885,7 +2882,7 @@ z = x + y;
 </code>
 
 
-*To preserve the extra white spaces in a <code> element, use a <pre> element to enclose the <code> element.
+* To preserve the extra white spaces in a <code> element, use a <pre> element to enclose the <code> element.
 
  <pre>
 <code>
@@ -2905,7 +2902,7 @@ The result is:
 The area of a triangle is: 1/2 x b x h, where b is the base, and h is the vertical height.
 
 
-*Chapter Summary
+* Chapter Summary
 
     The <kbd> element defines keyboard input
     The <samp> element defines sample output from a computer program
@@ -2923,7 +2920,7 @@ Non-semantic element: <div> and <span>   tells nothing about the content
 Semantic elements: <form>, <table>, and <article>  defines content
 Sites usually define elements:<div id="nav"> <div class="header"> <div id="footer"> to indicate navigation, header, and footer.
 
-*Semantic Elements in HTML
+* emantic Elements in HTML
     <article>
     <aside>
     <details>
@@ -2957,7 +2954,7 @@ HTML <article> Element
 
 The <article> element specifies independent self-contained content. Article should make sense and should be distributable independently from the rest of the site. Article element can be used in: Forum post, Blog post, Newspaper Article.
 
-*Example of the usage of article elements
+* Example of the usage of article elements
  <article>
 <h2>Google Chrome</h2>
 <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
@@ -2974,7 +2971,7 @@ The <article> element specifies independent self-contained content. Article shou
 </article> 
 
 
-*Use of CSS to style Article elements:
+* Use of CSS to style Article elements:
  <html>
 <head>
 <style>
@@ -3032,7 +3029,7 @@ HTML <header> Element
 
 <header>element rep a containere for introductory content or a set of navigational links and typically contains one or more <h1> -<h6>, logo or icon, authorship information etc.
 
-*Note: You can have several <header> elements in one HTML document. However, <header> cannot be placed within a <footer>, <address> or another <header> element.
+* Note: You can have several <header> elements in one HTML document. However, <header> cannot be placed within a <footer>, <address> or another <header> element.
 
 
 Example of header: 
@@ -3048,7 +3045,7 @@ Example of header:
 
 
 
-*HTML <footer> Element
+* HTML <footer> Element
 
 This element typically contains 
     authorship information
@@ -3057,10 +3054,10 @@ This element typically contains
     sitemap
     back to top links
     related documents
-*One document can have several <footer> elements in one document
+* One document can have several <footer> elements in one document
 
 
-*Examples of footer section in a document
+* Examples of footer section in a document
 
  <footer>
   <p>Author: Hege Refsnes</p>
@@ -3096,7 +3093,7 @@ Defines some contents aside from the content it is placed in like sidebar. The <
 </aside>
 
 
-*Using CSS to style the aside element.
+* Using CSS to style the aside element.
 
 <html>
 <head>
@@ -3143,7 +3140,7 @@ The <img> element defines the actual image/illustration.
 </figure> 
 
 
-*Essence of Semantic Elements
+* Essence of Semantic Elements
 According to the W3C: "A semantic Web allows data to be shared and reused across applications, enterprises, and communities."
 
 
@@ -3169,15 +3166,15 @@ Tag 	Description
 -------
 HTML Style Guide and Coding Conventions
 
-*always declare doctype
+* always declare doctype
 <!DOCTYPE html>
 
-*Use lower case elements
+* Use lower case elements
  <body>
 <p>This is a paragraph.</p>
 </body> 
 
-*Close all HTML elements
+* Close all HTML elements
 
  <section>
   <p>This is a paragraph.</p>
@@ -3185,22 +3182,22 @@ HTML Style Guide and Coding Conventions
 </section> 
 
 
-*Use lowercase attribute Name
+* Use lowercase attribute Name
 
  <a href="https://www.w3schools.com/html/">Visit our HTML tutorial</a> 
 
-*Always Quote Attribute Values
+* Always Quote Attribute Values
  <table class="striped"> 
 
-*Always specify alt attribute for images
+* Always specify alt attribute for images
  <img src="html5.gif" alt="HTML5" style="width:128px;height:128px"> 
 
-*Try not to include spaces around equal sign.
+* Try not to include spaces around equal sign.
  <link rel="stylesheet" href="styles.css"> 
 
-*Avoid too long code lines. So scrolling right and left can be avoided.
+* Avoid too long code lines. So scrolling right and left can be avoided.
 
-*Avoid blank lines, spaces, or indentations without a reason. Make code readable by adding blank lines to separate large of logical code blocks. Add two spaces of indentation for readability. 
+* Avoid blank lines, spaces, or indentations without a reason. Make code readable by adding blank lines to separate large of logical code blocks. Add two spaces of indentation for readability. 
 
 * This is good
  
@@ -3245,30 +3242,30 @@ and the home of the Japanese Imperial Family.</p>
 
 
 
-*Never Skip the <title> Element
+* Never Skip the <title> Element
 
 The content of a page title is important for SEO and is used to decide order when listing page results by search engines.
 
 
 <title> elements: define a title in the browser toolbar, provide title for  the page when it is added to favorites, display title for the page in search-engine result.
 
-*Make sure title is accurate is as meaningful as possible
+* Make sure title is accurate is as meaningful as possible
 
 
 <title>HTML Style Guide and Coding Conventions</title>
 
 
-*Always add <html> and <body> tags
+* Always add <html> and <body> tags
 
 Always add the html and body tags although the html will validate without them
 
 
-*Omitting <head>
+* Omitting <head>
 
 The <head> tag can also be omitted. Browsers add all elements before <body> to a default <head> element. However, it is recommended that you use it. 
 
 
-*Close Empty HTML Elements
+* Close Empty HTML Elements
 
 You have the option to close empty elements or leave it open.. in HTML.
 
@@ -3300,7 +3297,7 @@ for example:
 </html> 
 
 
-*Meta Data
+* Meta Data
 
 Always specify both language and character encoding  <meta charset="charset"> should be defined as early as possible in an HTML document:
 
@@ -3313,11 +3310,11 @@ Always specify both language and character encoding  <meta charset="charset"> sh
 </head>
 
 
-*Setting the Viewport
+* Setting the Viewport
 
 Viewport is the user's visible area of a webpage and varies with screen size of the user's device. 
 
-*include the following <meta> element in all y our web pages to instruct the browser on how to control the page's dimension. 
+* include the following <meta> element in all y our web pages to instruct the browser on how to control the page's dimension. 
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -3326,7 +3323,7 @@ The 'width=device-width' sets the width of the page to follow the screen-width o
 
 The initial-scale=1.0 sets initial zoom level when the page is first loaded by browser. 
 
-*Short comments should be written on one line:
+* Short comments should be written on one line:
 
 <!-- This is a comment -->
 
@@ -3339,7 +3336,7 @@ and for comments that occupy more than one line:
 -->
 
 
-*Using Style Sheets
+* Using Style Sheets
 
 Use simple syntax for linking to style sheets( not necessary to include the type attribute)
 
@@ -3370,12 +3367,12 @@ body {
     Place the closing bracket on a new line, without leading spaces
 
 
-*Loading JS in HTML
+* Loading JS in HTML
 
 <script src="myscript.js">
 
 
-*Accessing HTML Elements with Js
+* Accessing HTML Elements with Js
 
 The use of untidy  html code will result into Js errors. 
 
@@ -3387,12 +3384,12 @@ getElementById("demo").innerHTML = "Hello";
 
  
 
-*Use Lower Case File Names
+* Use Lower Case File Names
 
 Consistently use lower case file names because some servers(like Apache, Unix) are  case sensitive about file names while others (microsoft, IIS) are not. Annd when you make a switch while having a mix, your web will be brocken. Use lower case file names to avoid this problem. So that london.jpg and London.jpg issues do not arise. 
 
 
-*File Extensions
+* File Extensions
 
 HTML files should have a .html extension (.htm is allowed).
 
@@ -3401,12 +3398,12 @@ CSS files should have a .css extension.
 JavaScript files should have a .js extension.
 
 
-*Differences between .htm and .html
+* Differences between .htm and .html
 
 There is no difference between them. Consistency is good, however. 
 
 
-*Default filenames:
+* Default filenames:
 
 When url does not specify filenames (such as "https:www.abc.com/"), the server adds a default filename like "index.html" and "index.htm", "default.html","default.htm".
 
@@ -3415,7 +3412,7 @@ You can always configure servers with more than one default filename, and you ca
  
  -------
 
-*HTML Entities
+* HTML Entities
 Replace reserved characters in HTML with character entities.
 
 HTML entities
@@ -3439,20 +3436,20 @@ Advantage of using an entity name: An entity name is easy to remember.
 Disadvantage of using an entity name: Browsers may not support all entity names, but the support for entity numbers is good.
 
 
-*Non-breaking Space
+* Non-breaking Space
 &nbsp  is a space that will not break into a new line. Two words separated by a non-breaking space will stick together, not break into a new line. Use this when breaking words may not be disruptive.
 
-*examples
+* examples
 
     § 10
     10 km/h
     10 PM
 
-*Tip: The non-breaking hyphen (&#8209;) is used to define a hyphen character (‑) that does not break into a new line.
+* Tip: The non-breaking hyphen (&#8209;) is used to define a hyphen character (‑) that does not break into a new line.
 
 
 
-*Some useful HTML Character Entities
+* Some useful HTML Character Entities
 
 Result 	Description 	Entity Name 	Entity Number
 	non-breaking space 	&nbsp; 	&#160;
@@ -3469,7 +3466,7 @@ Result 	Description 	Entity Name 	Entity Number
 ® 	registered trademark 	&reg; 	&#174;
 
 
-*Combining Diacritical Marks (Useful when writing in yoruba for example and you need the ami signs on the alphabets)
+* Combining Diacritical Marks (Useful when writing in yoruba for example and you need the ami signs on the alphabets)
 
 A diacritical mark is a "glyph" added to a letter.
 
@@ -3491,7 +3488,7 @@ Diacritical marks can be used in combination with alphanumeric characters to pro
  ̃ 	O 	O&#771; 	Õ
 
 -------
-*HTML Symbols
+* HTML Symbols
 
 You can add symbols absent on your keyboard to html using entities.
 
@@ -3501,7 +3498,7 @@ NB: THIS SECTION HAS ABOUT 3 TABLES. Create HTML table in github later.
 
 ----
 HTML EMOJIS
-*Using Emojis in HTML
+* Using Emojis in HTML
 
 Emojis are characters from UTF-8 character set:
 
@@ -3537,7 +3534,7 @@ UTF-8 Characters: You can't type them on the keyboard but they can always be dis
 </body>
 </html> 
 
-*A, B, C are 65, 66, and 67 respectively
+* A, B, C are 65, 66, and 67 respectively
 
 
 To let browser recognize that you are displaying a utf-8 character, you must start with &# and end it with a semi-colon (;)
@@ -3552,7 +3549,7 @@ Emojis are also characters from utf-8.
 &#128512; &#128516; &#128525; &#128151;
 </p>
 
-*HTML Encoding ( Character sets)
+* HTML Encoding ( Character sets)
 
 A browser must know the character set to use to display it correctly. 
 
@@ -3593,7 +3590,7 @@ Explanation:
     filename - defines the name of a document or resource
 
 
-*Common URL Schemes
+* Common URL Schemes
 
 Common URL Schemes
 
@@ -3605,14 +3602,14 @@ ftp 	File Transfer Protocol 	Downloading or uploading files
 file 	  	A file on your computer
 
 
-*URLs can only be sent over the internet using the ASCII character set. The URL has to be converted if it contains outside characters. 
+* URLs can only be sent over the internet using the ASCII character set. The URL has to be converted if it contains outside characters. 
 non-ASCII characters are replaced by  % followed by hexadecimal units. and Spaces are normally replaced by + (plus) sign.
 
-*Your browser will encode character-set used in your page, default character-set in HTML5 is UTF-8.
+* Your browser will encode character-set used in your page, default character-set in HTML5 is UTF-8.
 
 
 -----
-*HTML VS XHTML
+* HTML VS XHTML
 
 XHTML is more strict and more XML-based version of HTML. 
 
@@ -3623,7 +3620,7 @@ What is XHTML?
     XHTML is HTML defined as an XML application
     XHTML is supported by all major browsers
 
-*Differences between HTML and XHTML
+* Differences between HTML and XHTML
 in XHTML
 
     <!DOCTYPE> is mandatory
@@ -3637,7 +3634,7 @@ in XHTML
     Attribute minimization is forbidden
 
 
-*XHTML - <!DOCTYPE ....> Is Mandatory
+* XHTML - <!DOCTYPE ....> Is Mandatory
 
 The <html>, <head>, <title>, and <body> elements must also be present. The xmlns attribute in <htmk> must specify the xml namespace for the document. 
 
@@ -3655,20 +3652,20 @@ The <html>, <head>, <title>, and <body> elements must also be present. The xmlns
 </html>
 
 
-*XHTML Elements Must be Properly Nested
+* XHTML Elements Must be Properly Nested
  <b><i>Some text</i></b>  
 don't switch the tags.
 
 
 
-*XHTML Elements Must Always be Closed.
+* XHTML Elements Must Always be Closed.
 
  <p>This is a paragraph</p>
 <p>This is another paragraph</p> 
 
 
 
-*XHTML Empty Elements Must Always be Closed.
+* XHTML Empty Elements Must Always be Closed.
 A break: <br />
 A horizontal rule: <hr />
 An image: <img src="happy.gif" alt="Happy face" />
@@ -3680,11 +3677,11 @@ XHTML Elements Must be in Lowercase.
 <p>This is a paragraph</p>
 </body> 
 
-*XHTML Attribure Names Must be in Lowercase.
+* XHTML Attribure Names Must be in Lowercase.
 
  <a href="https://www.w3schools.com/html/">Visit our HTML tutorial</a> 
 
-*XHTML Attribute Values Must be Quoted
+* XHTML Attribute Values Must be Quoted
 
  <a href="https://www.w3schools.com/html/">Visit our HTML tutorial</a> 
 
@@ -3708,7 +3705,7 @@ https://validator.w3.org/nu/?doc=https%3A%2F%2Fwww.w3schools.com%2Fhtml%2Fhtml_v
 ------
 HTML Forms
 
-*Filling a form that contains user name and password and that redirects the form to a specific page after servers process the input.
+* Filling a form that contains user name and password and that redirects the form to a specific page after servers process the input.
 
 <h2>HTML Forms</h2>
 
@@ -3737,7 +3734,7 @@ form elements
 The form element is like a container for all kinds of  input elements like: text fields, checkboxes, radio buttons, submit buttons, etc.
 
 
-*The <input> element: is the most used form element and can be displayed on the 'type' attribute. 
+* The <input> element: is the most used form element and can be displayed on the 'type' attribute. 
 
 Type 	Description
 <input type="text"> 	Displays a single-line text input field
@@ -3747,7 +3744,7 @@ Type 	Description
 <input type="button"> 	Displays a clickable button
 
 
-*Text Fields: <input type="text"> 
+* Text Fields: <input type="text"> 
 
 This defines a single-line input field for text input. The form itself is not visible and the number of characters is by default 20 characters. 
 
@@ -3767,11 +3764,11 @@ The <label> element also help users who have difficulty clicking on very small r
 The for attribute of the <label> tag should be equal to the id attribute of the <input> element to bind them together. 
 
 
-*Radio Buttons
+* Radio Buttons
 
 <input type="radio"> defines the radio button which lets use select ONLY one among a few choices.
 
-*see sample radio buttons below:
+* see sample radio buttons below:
  <form>
   <input type="radio" id="male" name="gender" value="male">
   <label for="male">Male</label><br>
@@ -3783,7 +3780,7 @@ The for attribute of the <label> tag should be equal to the id attribute of the 
 
 
 
-*Checkboxes: Enables users select zero or more among a limited no of choices 
+* Checkboxes: Enables users select zero or more among a limited no of choices 
 
 <input type="checkbox"> defines a checkbox
 
@@ -3800,7 +3797,7 @@ NB: the value attribute  can indicate the default option
 </form> 
 
 
-*The Submit Button
+* The Submit Button
 
 <input type="submit"> defines the button for submitting form data to a form-handler. 
 
@@ -3815,16 +3812,16 @@ Example of a form with a submit button below:
 </form> 
 
 
-*The Name Attribute for <input>
-*Each input field must have a name to be submitted. If the value of the name attribute is omitted, the input field value will not be sent at all. 
+* he Name Attribute for <input>
+* Each input field must have a name to be submitted. If the value of the name attribute is omitted, the input field value will not be sent at all. 
 
 
 -------
-*The HTML Form Attribute: A discussion of different attributes
+* The HTML Form Attribute: A discussion of different attributes
 
 The Action Attribute: defines action to be performed when form is submitted.  Form data is usually sent to a file on  server when submit button is clicked. If you omit action attribute, the action is set to the current page.
 
-*To send form data to a file called action_page.php containing a server-side script that handles the form data:
+* To send form data to a file called action_page.php containing a server-side script that handles the form data:
 
  <form action="/action_page.php">
   <label for="fname">First name:</label><br>
@@ -3835,20 +3832,21 @@ The Action Attribute: defines action to be performed when form is submitted.  Fo
 </form> 
 
 
-*The Target Attribute
+* The Target Attribute
 This specified where to display response received after submitting the form. 
 
 See below for the possible values of the target attribute
 
 Value 	Description
+```
 _blank 	The response is displayed in a new window or tab
 _self 	The response is displayed in the current window (default)
 _parent 	The response is displayed in the parent frame
 _top 	The response is displayed in the full body of the window
 framename 	The response is displayed in a named iframe
+```
 
-
-*Example of the use of target attribute:
+* Example of the use of target attribute:
 <p>When submitting this form, the result will be opened in a new browser tab:</p>
 
 <form action="/action_page.php" target="_blank">
@@ -3860,15 +3858,15 @@ framename 	The response is displayed in a named iframe
 </form> 
 
 
-*The Method Attribute
+* The Method Attribute
 
 This specifies the method attribute specifies HTTP method used when submitting form data. 
 
 
-*The get method: <form action="/action_page.php" method="get"> 
-*The post method:  <form action="/action_page.php" method="post"> 
+* The get method: <form action="/action_page.php" method="get"> 
+* The post method:  <form action="/action_page.php" method="post"> 
 
-*Tip: Always use POST if the form data contains sensitive or personal information!
+* Tip: Always use POST if the form data contains sensitive or personal information!
 
 Notes on GET:
 
@@ -3888,7 +3886,7 @@ Tip: Always use POST if the form data contains sensitive or personal information
 
 
 
-*The Autocomplete Attribute
+* The Autocomplete Attribute
 Specifies whether a form should have autocomplete on or off. Autocomplete when left on enables browser automatically complete values based on previously entered values in the same browser. 
 
  <form action="/action_page.php" autocomplete="on"> 
@@ -3899,7 +3897,7 @@ This is a boolean attribute which specifies form-data (input) should not be vali
 
 <form action="/action_page.php" novalidate> 
 
-*List of All <form> Attributes
+* List of All <form> Attributes
 Attribute 	Description
 accept-charset 	Specifies the character encodings used for form submission
 action 	Specifies where to send the form-data when a form is submitted
@@ -3911,39 +3909,40 @@ novalidate 	Specifies that the form should not be validated when submitted
 rel 	Specifies the relationship between a linked resource and the current document
 target 	Specifies where to display the response that is received after submitting the form
 
-----------------
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 HTML <form> Elements
 
 The HTML <form> element can contain one or more of the following form elements:
 
-    <input>
-    <label>
-    <select>
-    <textarea>
-    <button>
-    <fieldset>
-    <legend>
-    <datalist>
-    <output>
-    <option>
-    <optgroup>
+```
+<input>
+<label>
+<select>
+<textarea>
+<button>
+<fieldset>
+<legend>
+<datalist>
+<output>
+<option>
+<optgroup>
+```
 
-
-*The <input> Element
+* The ```<input>``` Element
 Input element is one of the most used form element. Can be displayed in varying ways depending on the type attribute
 
 <label for="fname">First name:</label>
 <input type="text" id="fname" name="fname"> 
 
-*The <label> Element
+* The ```<label>``` Element
 
-<label> element defines a label for several form elements. Helps screen-readers  read out the label when the user focus on the input. 
+```<label>``` element defines a label for several form elements. Helps screen-readers  read out the label when the user focus on the input. 
 It also helps users click on text next to small regions ( like checkboxes and buttons)  to click those small areas. 
 
 The 'for' attribute of the <label> tag should equal to the 'id' attribute of the <input> element to bind them together.
 
 
-*The <select> Element
+* The <select> Element
 This element defvines a drop-down list:
 
  <label for="cars">Choose a car:</label>
@@ -3958,7 +3957,7 @@ This element defvines a drop-down list:
 
  <option value="fiat" selected>Fiat</option> 
 
-*Visible Values: Use size attribute to specify the number of visible values (a small scroll bar is inserted if you have more than the visible value set)
+* Visible Values: Use size attribute to specify the number of visible values (a small scroll bar is inserted if you have more than the visible value set)
 
  <label for="cars">Choose a car:</label>
 <select id="cars" name="cars" size="3">
@@ -3969,7 +3968,7 @@ This element defvines a drop-down list:
 </select> 
 
 
-*Allow Multiple Selections: 'multiple' attribute allow user to select more than one value. To use this, you have to Hold down the Ctrl (windows) / Command (Mac) button to select multiple options
+* Allow Multiple Selections: 'multiple' attribute allow user to select more than one value. To use this, you have to Hold down the Ctrl (windows) / Command (Mac) button to select multiple options
 
  <label for="cars">Choose a car:</label>
 <select id="cars" name="cars" size="4" multiple>
@@ -3981,7 +3980,7 @@ This element defvines a drop-down list:
 
 
 
-*The <textarea> Element
+* The <textarea> Element
 The <textarea> element defines a multi-line input field (a text area):
 The rows attribute specifies the visible number of lines in a text area.
 
@@ -4001,7 +4000,7 @@ The cat was playing in the garden.
 </textarea> 
 
 
-*The <button> Element
+* The <button> Element
 Defines a clickable button. 
 
  <button type="button" onclick="alert('Hello World!')">Click Me!</button> 
@@ -4010,7 +4009,7 @@ Defines a clickable button.
 Note: Always specify the type attribute for the button element. Different browsers may use different default types for the button element.
 
 
-*The <fieldset> and <legend> Elements
+* The <fieldset> and <legend> Elements
 
 The <fieldset> element is used to group related data in a form.
 
@@ -4051,7 +4050,7 @@ The datalist tag is not supported in Safari prior version 12.1
 </form> 
 
 
-*The <output> Element
+* The <output> Element
 Rep the result of a calculation ( such as one performed by a script)
 
  <form action="/action_page.php"
@@ -4082,50 +4081,51 @@ Tag 	Description
 <datalist> 	Specifies a list of pre-defined options for input controls
 <output> 	Defines the result of a calculation
 
----------------------
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
-*HTML Input Types
+* HTML Input Types
 The default is 'text'
-
-
-    <input type="button">
-    <input type="checkbox">
-    <input type="color">
-    <input type="date">
-    <input type="datetime-local">
-    <input type="email">
-    <input type="file">
-    <input type="hidden">
-    <input type="image">
-    <input type="month">
-    <input type="number">
-    <input type="password">
-    <input type="radio">
-    <input type="range">
-    <input type="reset">
-    <input type="search">
-    <input type="submit">
-    <input type="tel">
-    <input type="text">
-    <input type="time">
-    <input type="url">
-    <input type="week">
-
+```
+<input type="button">
+<input type="checkbox">
+<input type="color">
+<input type="date">
+<input type="datetime-local">
+<input type="email">
+<input type="file">
+<input type="hidden">
+<input type="image">
+<input type="month">
+<input type="number">
+<input type="password">
+<input type="radio">
+<input type="range">
+<input type="reset">
+<input type="search">
+<input type="submit">
+<input type="tel">
+<input type="text">
+<input type="time">
+<input type="url">
+<input type="week">
+```
 Tip: The default value of the type attribute is "text".
 
 
-*Input Type Text(default width=20 characters)
-<input type="text"> defines a single-line text input field:
+* Input Type Text(default width=20 characters)
+```<input type="text">``` defines a single-line text input field:
 
- <form>
+```
+<form>
   <label for="fname">First name:</label><br>
   <input type="text" id="fname" name="fname"><br>
   <label for="lname">Last name:</label><br>
   <input type="text" id="lname" name="lname">
 </form> 
+```
 
-
-*Input Type Password
+* Input Type Password
+```
 <input type="password"> defines a password field.The characters in a password field are masked (shown as asterisks or circles)
 
  <form>
@@ -4134,18 +4134,18 @@ Tip: The default value of the type attribute is "text".
   <label for="pwd">Password:</label><br>
   <input type="password" id="pwd" name="pwd">
 </form> 
+```
 
 
-
-*input  Type Submit
-<input type="submit"> defines a button for submitting form data to a form-handler.
+* input  Type Submit
+```<input type="submit">``` defines a button for submitting form data to a form-handler.
 
 The form-handler is typically a server page with a script for processing input data.
 
 The form-handler is specified in the form's action attribute:
 
 If you omit the submit button's value attribute, the button will get a default text (typically 'Submit Query')
-
+```
  <form action="/action_page.php">
   <label for="fname">First name:</label><br>
   <input type="text" id="fname" name="fname" value="John"><br>
@@ -4153,12 +4153,12 @@ If you omit the submit button's value attribute, the button will get a default t
   <input type="text" id="lname" name="lname" value="Doe"><br><br>
   <input type="submit" value="Submit">
 </form> 
+```
 
+* Input Type Reset
 
-*Input Type Reset
-
-<input type="reset"> defines a reset button that will reset all form values to their default values.: YOu can also add value attribute to the reset button to customize what shows up on the button.
-
+```<input type="reset">``` defines a reset button that will reset all form values to their default values.: YOu can also add value attribute to the reset button to customize what shows up on the button.
+```
  <form action="/action_page.php">
   <label for="fname">First name:</label><br>
   <input type="text" id="fname" name="fname" value="John"><br>
@@ -4167,11 +4167,11 @@ If you omit the submit button's value attribute, the button will get a default t
   <input type="submit" value="Submit">
   <input type="reset">
 </form> 
+```
 
-
-*Input Type=Radio
+* Input Type=Radio
 -Defines a radio button which lets a user select one of a limited number of choices:
-
+```
  <form>
   <input type="radio" id="male" name="gender" value="male">
   <label for="male">Male</label><br>
@@ -4180,14 +4180,14 @@ If you omit the submit button's value attribute, the button will get a default t
   <input type="radio" id="other" name="gender" value="other">
   <label for="other">Other</label>
 </form> 
+```
 
+* Input Type Checkbox
 
-*Input Type Checkbox
-
-<input type="checkbox"> defines a checkbox.
+```<input type="checkbox">``` defines a checkbox.
 
 Checkboxes let a user select ZERO or MORE options of a limited number of choices.
-
+```
  <form>
   <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
   <label for="vehicle1"> I have a bike</label><br>
@@ -4196,50 +4196,49 @@ Checkboxes let a user select ZERO or MORE options of a limited number of choices
   <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
   <label for="vehicle3"> I have a boat</label>
 </form> 
+```
+
+* Input Type Button
+```<input type="button">``` defines a button:
+
+ ```<input type="button" onclick="alert('Hello World!')" value="Click Me!">``` 
 
 
 
-*Input Type Button
-<input type="button"> defines a button:
-
- <input type="button" onclick="alert('Hello World!')" value="Click Me!"> 
-
-
-
-*Input Type Color
-The <input type="color"> is used for input fields that should contain a color.
+* Input Type Color
+The ```<input type="color">``` is used for input fields that should contain a color.
 
 Depending on browser support, a color picker can show up in the input field.
 
 type="color" is not supported in Internet Explorer 11 or Safari 9.1 (or earlier)
 
 The value attribute defines a preselected value for the color.
-
+```
  <form>
   <label for="favcolor">Select your favorite color:</label>
   <input type="color" id="favcolor" name="favcolor" value="#ff0000">
   <input type="submit" value="Submit">
 </form> 
+```
 
 
+* Input Type Date
 
-*Input Type Date
-
-The <input type="date"> is used for input fields that should contain a date.
+The ```<input type="date">``` is used for input fields that should contain a date.
 
 Depending on browser support, a date picker can show up in the input field.
 
 type="date" is not supported in Safari or Internet Explorer 11 (or earlier)
-
-
+```
  <form>
   <label for="birthday">Birthday:</label>
   <input type="date" id="birthday" name="birthday">
   <input type="submit" value="Submit">
 </form> 
-
+```
 
 You can also add 'min' and 'max' attributes to add restrictions to dates
+```
 <form action="/action_page.php">
   <label for="datemax">Enter a date before 1980-01-01:</label>
   <input type="date" id="datemax" name="datemax" max="1979-12-31"><br><br>
@@ -4249,76 +4248,75 @@ You can also add 'min' and 'max' attributes to add restrictions to dates
   
   <input type="submit" value="Submit">
 </form>
+```
 
 
+* Input Type Datetime-local
 
-*Input Type Datetime-local
-
-The <input type="datetime-local"> specifies a date and time input field, with no time zone.
+The ```<input type="datetime-local">``` specifies a date and time input field, with no time zone.
 
 Depending on browser support, a date picker can show up in the input field.
-
+```
 <form action="/action_page.php">
   <label for="birthdaytime">Birthday (date and time):</label>
   <input type="datetime-local" id="birthdaytime" name="birthdaytime">
   <input type="submit" value="Submit">
 </form>
+```
 
+* Input Type Email
 
-*Input Type Email
-
-The <input type="email"> is used for input fields that should contain an e-mail address.
+The ```<input type="email">``` is used for input fields that should contain an e-mail address.
 
 Depending on browser support, the e-mail address can be automatically validated when submitted.
 
 Some smartphones recognize the email type, and add ".com" to the keyboard to match email input
 
-
+```
 <form action="/action_page.php">
   <label for="email">Enter your email:</label>
   <input type="email" id="email" name="email">
   <input type="submit" value="Submit">
 </form>
+```
 
-
-*Input Type File
-The <input type="file"> defines a file-select field and a "Browse" button for file uploads.
-
+* Input Type File
+The ```<input type="file">``` defines a file-select field and a "Browse" button for file uploads.
+```
 <form action="/action_page.php">
   <label for="myfile">Select a file:</label>
   <input type="file" id="myfile" name="myfile"><br><br>
   <input type="submit" value="Submit">
 </form>
+```
 
-
-*Input Type Month
-The <input type="month"> allows the user to select a month and year.
+* Input Type Month
+The ```<input type="month">``` allows the user to select a month and year.
 
 Depending on browser support, a date picker can show up in the input field.
-
-
+```
 <form action="/action_page.php">
   <label for="bdaymonth">Birthday (month and year):</label>
   <input type="month" id="bdaymonth" name="bdaymonth">
   <input type="submit" value="Submit">
 </form>
+```
 
-
-*Input type Number
-The <input type="number"> defines a numeric input field.
+* Input type Number
+The ```<input type="number">``` defines a numeric input field.
 
 You can also set restrictions on what numbers are accepted.
 
 Typically adds up and down button to decrease and increase the values between the ranges
 
 The following example displays a numeric input field, where you can enter a value from 1 to 5:
-
+```
 <form action="/action_page.php">
   <label for="quantity">Quantity (between 1 and 5):</label>
   <input type="number" id="quantity" name="quantity" min="1" max="5">
   <input type="submit" value="Submit">
 </form>
-
+```
 
 
 Input Restrictions
@@ -4340,97 +4338,95 @@ value 	Specifies the default value for an input field
 You will learn more about input restrictions in the next chapter.
 
 The following example displays a numeric input field, where you can enter a value from 0 to 100, in steps of 10. The default value is 30:
-
+```
 <form action="/action_page.php">
   <label for="quantity">Quantity:</label>
   <input type="number" id="quantity" name="quantity" min="0" max="100" step="10" value="30">
   <input type="submit" value="Submit">
 </form>
+```
 
-
-*Input Type Range
+* Input Type Range
 The <input type="range"> defines a control for entering a number whose exact value is not important (like a slider control). Default range is 0 to 100. However, you can set restrictions on what numbers are accepted with the min, max, and step attributes:
-
+```
 <form action="/action_page.php" method="get">
   <label for="vol">Volume (between 0 and 50):</label>
   <input type="range" id="vol" name="vol" min="0" max="50">
   <input type="submit" value="Submit">
 </form>
+```
 
-
-*Input Type Search
-
+* Input Type Search
+```
 <form action="/action_page.php">
   <label for="gsearch">Search Google:</label>
   <input type="search" id="gsearch" name="gsearch">
   <input type="submit" value="Submit">
 </form>
-
-*Input Type Search
-The <input type="tel"> is used for input fields that should contain a telephone number.
-
+```
+* Input Type Search
+The ```<input type="tel">``` is used for input fields that should contain a telephone number.
+```
 <form action="/action_page.php">
   <label for="phone">Enter a phone number:</label><br><br>
   <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br><br>
   <small>Format: 123-45-678</small><br><br>
   <input type="submit" value="Submit">
 </form>
+```
 
+* Input Type Time
 
-
-*Input Type Time
-
-The <input type="time"> allows the user to select a time (no time zone).
+The ```<input type="time">``` allows the user to select a time (no time zone).
 
 Depending on browser support, a time picker can show up in the input field.If the browser supports it, a time picker pops up when entering the input field.
-
+```
 <form action="/action_page.php">
   <label for="appt">Select a time:</label>
   <input type="time" id="appt" name="appt">
   <input type="submit" value="Submit">
 </form>
+```
 
+* Input Type Url
 
-*Input Type Url
-
-The <input type="url"> is used for input fields that should contain a URL address.
+The ```<input type="url">``` is used for input fields that should contain a URL address.
 
 Depending on browser support, the url field can be automatically validated when submitted.
 
 Some smartphones recognize the url type, and adds ".com" to the keyboard to match url input.
 
-
+```
 <form action="/action_page.php">
   <label for="homepage">Add your homepage:</label>
   <input type="url" id="homepage" name="homepage">
   <input type="submit" value="Submit">
 </form>
-
-
-*Input Type Week
-The <input type="week"> allows the user to select a week and year.
+```
+* Input Type Week
+The ```<input type="week">``` allows the user to select a week and year.
 
 Depending on browser support, a date picker can show up in the input field.If the browser supports it, a date picker pops up when entering the input field
-
+```
 <form action="/action_page.php">
   <label for="week">Select a week:</label>
   <input type="week" id="week" name="week">
   <input type="submit" value="Submit">
 </form>
-
+```
 
 HTML Input Type Attribute
 Tag 	Description
-<input type=""> 	Specifies the input type to display
+```<input type="">``` 	Specifies the input type to display
 
 
 
-------------------------------
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 HTML INput Attributes: Attributes of input element
 
-*The value attribute
+* The value attribute
 Specifies the initial(default) value for the imput field
-
+```
 <form action="/action_page.php">
   <label for="fname">First name:</label><br>
   <input type="text" id="fname" name="fname" value="John"><br>
@@ -4438,11 +4434,11 @@ Specifies the initial(default) value for the imput field
   <input type="text" id="lname" name="lname" value="Doe"><br><br>
   <input type="submit" value="Submit">
 </form>
+```
 
-
-*The readonly Attribute
+* The readonly Attribute
 Specifies an input field to be read-only. This input field cannot be modified  but user can tab into it, highlight, and copy text from it. The value is sent when submitting the form. 
-
+```
 <form action="/action_page.php">
   <label for="fname">First name:</label><br>
   <input type="text" id="fname" name="fname" value="John" readonly><br>
@@ -4450,11 +4446,11 @@ Specifies an input field to be read-only. This input field cannot be modified  b
   <input type="text" id="lname" name="lname" value="Doe"><br><br>
   <input type="submit" value="Submit">
 </form>
+```
 
-
-*The disabled attribute
+* The disabled attribute
 Specified that an input field is disabled, and such field is unusable and unclickable. Value will not be sent when submitting the form.
-
+```
 <form action="/action_page.php">
   <label for="fname">First name:</label><br>
   <input type="text" id="fname" name="fname" value="John" disabled><br>
@@ -4462,12 +4458,12 @@ Specified that an input field is disabled, and such field is unusable and unclic
   <input type="text" id="lname" name="lname" value="Doe"><br><br>
   <input type="submit" value="Submit">
 </form>
+```
 
-
-*The size Attribute
+* The size Attribute
 
 Specifies the visible width, in characters, of an input field. Default value is size 20. This attribute works with Text, search, tel, url, email, and password. 
-
+```
 <form action="/action_page.php">
   <label for="fname">First name:</label><br>
   <input type="text" id="fname" name="fname" size="50"><br>
@@ -4475,15 +4471,15 @@ Specifies the visible width, in characters, of an input field. Default value is 
   <input type="text" id="pin" name="pin" size="4"><br><br>
   <input type="submit" value="Submit">
 </form>
+```
 
-
-*The maxlength Attribute
+* The maxlength Attribute
 
 Specifies the maximum number of characters allowed in an input field. 
 
 Note: When a maxlength is set, the input field will not accept more than the specified number of characters. However, this attribute does not provide any feedback. So, if you want to alert the user, you must write JavaScript code.
 
-
+```
 <form action="/action_page.php">
   <label for="fname">First name:</label><br>
   <input type="text" id="fname" name="fname" size="50"><br>
@@ -4491,16 +4487,13 @@ Note: When a maxlength is set, the input field will not accept more than the spe
   <input type="text" id="pin" name="pin" maxlength="4" size="4"><br><br>
   <input type="submit" value="Submit">
 </form>
-
+```
 
 *Min and Max Attribute
 Specifies the min and max values for an input field. Works with number, range, date, datetime-local,month, time, and week. 
 
-
 Tip: Use the max and min attributes together to create a range of legal values.
-
-
-
+```
 <form action="/action_page.php">
   <label for="datemax">Enter a date before 1980-01-01:</label>
   <input type="date" id="datemax" name="datemax" max="1979-12-31"><br><br>
@@ -4513,64 +4506,61 @@ Tip: Use the max and min attributes together to create a range of legal values.
 
   <input type="submit" value="Submit">
 </form>
+```
 
-
-*The multiple Attribute
+* The multiple Attribute
 Specifies that the user is allowed to enter more than one value in an input field. multiple attribute works well with email and file types
-
+```
 <form action="/action_page.php">
   <label for="files">Select files:</label>
   <input type="file" id="files" name="files" multiple><br><br>
   <input type="submit" value="Submit">
 </form>
+```
 
-
-*The pattern attribute
+* The pattern attribute
 
 Specifies regular expressions that the input field's value is checked against when form is submitted. Pattern attribute works with text, date, search, url, tel, email, and password.
-
-
 
 Tip: Use the global title attribute to describe the pattern to help the user.
 
 Tip: Learn more about regular expressions in our JavaScript tutorial.
 
-
+```
 <form action="/action_page.php">
   <label for="country_code">Country code:</label>
   <input type="text" id="country_code" name="country_code" pattern="[A-Za-z]{3}" title="Three letter country code"><br><br>
   <input type="submit" value="Submit">
 </form>
+```
 
-
-*The Placeholder Attribute
+* The Placeholder Attribute
 The input placeholder attribute specifies a short hint that describes the expected value of an input field (a sample value or a short description of the expected format).
 
 The short hint is displayed in the input field before the user enters a value.
 
 The placeholder attribute works with the following input types: text, search, url, tel, email, and password.
-
+```
 <form action="/action_page.php">
   <label for="phone">Enter a phone number:</label>
   <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br><br>
   <input type="submit" value="Submit">
 </form>
+```
 
-
-
-*The required Attribute
+* The required Attribute
 
 Specifies that in input must be filled out before submitting the form. It works with the following input types: text, search, url, tel, email, passwork, date pickers, number, checkbox, radio, and file. 
-
+```
 <form action="/action_page.php">
   <label for="username">Username:</label>
   <input type="text" id="username" name="username" required>
   <input type="submit" value="Submit">
 </form>
+```
 
 
-
-*The Step Attribute
+* he Step Attribute
 
 Specifies legal number intervals for an input field (e.g. step="3" means that legal numbers could be -3, 0, 3, 6, etc.)
 
@@ -4578,20 +4568,18 @@ Tip: This attribute can be used together with the max and min attributes to crea
 
 The step attribute works with the following input types: number, range, date, datetime-local, month, time and week.
 
-
+```
 <form action="/action_page.php">
   <label for="points">Points:</label>
   <input type="number" id="points" name="points" step="3">
   <input type="submit" value="Submit">
 </form>
-
+```
 Note: Input restrictions are not foolproof, and JavaScript provides many ways to add illegal input. To safely restrict input, it must also be checked by the receiver (the server)!
 
-
-
-*The Autofocus Attribute
+* The Autofocus Attribute
 The input autofocus attribute specifies the an input field automatically get focus when page loads.
-
+```
 <form action="/action_page.php">
   <label for="fname">First name:</label><br>
   <input type="text" id="fname" name="fname" autofocus><br>
@@ -4599,14 +4587,14 @@ The input autofocus attribute specifies the an input field automatically get foc
   <input type="text" id="lname" name="lname"><br><br>
   <input type="submit" value="Submit">
 </form>
-
+```
 
 * The height and width Attributes
 
-The input height and width attributes specify the height and width of an <input type="image"> element.
+The input height and width attributes specify the height and width of an ```<input type="image">``` element.
 
 Tip: Always specify both the height and width attributes for images. If height and width are set, the space required for the image is reserved when the page is loaded. Without these attributes, the browser does not know the size of the image, and cannot reserve the appropriate space to it. The effect will be that the page layout will change during loading (while the images load).
-
+```
 <form action="/action_page.php">
   <label for="fname">First name:</label>
   <input type="text" id="fname" name="fname"><br><br>
@@ -4614,13 +4602,13 @@ Tip: Always specify both the height and width attributes for images. If height a
   <input type="text" id="lname" name="lname"><br><br>
   <input type="image" src="img_submit.gif" alt="Submit" width="48" height="48">
 </form>
-
+```
 NB: The input type="image" sends the X and Y coordinates of the click that activated the image button
 
 
 *The List Attribute
 The input list attribute refers to a <datalist> element that contains pre-defined options for an <input> element.
-
+```
 <form action="/action_page.php">
   <input list="browsers" name="browser">
   <datalist id="browsers">
@@ -4632,10 +4620,10 @@ The input list attribute refers to a <datalist> element that contains pre-define
   </datalist>
   <input type="submit" value="Submit">
 </form>
+```
 
 
-
-*The Autocomplete Attribute
+* The Autocomplete Attribute
 
 The input autocomplete attribute specifies whether a form or an input field should have autocomplete on or off.
 
@@ -4644,7 +4632,7 @@ Autocomplete allows the browser to predict the value. When a user starts to type
 The autocomplete attribute works with <form> and the following <input> types: text, search, url, tel, email, password, datepickers, range, and color.
 
 In the case below, the autocomplete is on for the form but off for the email field. Fill in the form and reload to see the effect. 
-
+```
 <form action="/action_page.php" autocomplete="on">
   <label for="fname">First name:</label>
   <input type="text" id="fname" name="fname"><br><br>
@@ -4654,19 +4642,19 @@ In the case below, the autocomplete is on for the form but off for the email fie
   <input type="email" id="email" name="email" autocomplete="off"><br><br>
   <input type="submit" value="Submit">
 </form>
+```
 
-
-*Use maxlength for no of characters: maxlength="40"  
+* Use maxlength for no of characters: maxlength="40"  
 And use max for numeric value, use max: max=40
 
---------------------------
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 
 HTML Input form* Attributes
 
 The form attribute: The input form attribute Specifies the form <input> element element belongs to. It's value must be equal to the id attribute of the <form> element it belongs to. 
 
-
+```
 <p>The form attribute specifies the form an input element belongs to.</p>
 
 <form action="/action_page.php" id="form1">
@@ -4674,21 +4662,22 @@ The form attribute: The input form attribute Specifies the form <input> element 
   <input type="text" id="fname" name="fname"><br><br>
   <input type="submit" value="Submit">
 </form>
-
+```
+```
 <p>The "Last name" field below is outside the form element, but still part of the form.</p>
 
 <label for="lname">Last name:</label>
 <input type="text" id="lname" name="lname" form="form1">
+```
 
-
-*The formaction Attribute
+* The formaction Attribute
 The input to formaction attribute specifies the URL of the file that will process the input when the form is submitted. 
 
 Note: This attribute overrides the action attribute of the <form> element.
 
 The formaction attribute works with the following input types: submit and image.
 
-
+```
 <form action="/action_page.php">
   <label for="fname">First name:</label>
   <input type="text" id="fname" name="fname"><br><br>
@@ -4697,29 +4686,29 @@ The formaction attribute works with the following input types: submit and image.
   <input type="submit" value="Submit">
   <input type="submit" formaction="/action_page2.php" value="Submit as Admin">
 </form>
+```
 
 
-
-*The forenctype Attribute
+* The forenctype Attribute
 The input formenctype attribute specifies how the form-data should be encoded when submitted (only for forms with method="post").
 
-Note: This attribute overrides the enctype attribute of the <form> element.
+Note: This attribute overrides the enctype attribute of the ```<form>``` element.
 
 The formenctype attribute works with the following input types: submit and image.
-
+```
 <form action="/action_page_binary.asp" method="post">
   <label for="fname">First name:</label>
   <input type="text" id="fname" name="fname"><br><br>
   <input type="submit" value="Submit">
   <input type="submit" formenctype="multipart/form-data" value="Submit as Multipart/form-data">
 </form>
+```
 
-
-*The formmethod Attribute
+* The formmethod Attribute
 
 The input formmethod attribute defines the HTTP method for sending form-data to the action URL.
 
-Note: This attribute overrides the method attribute of the <form> element.
+Note: This attribute overrides the method attribute of the ```<form>``` element.
 
 The formmethod attribute works with the following input types: submit and image.
 
@@ -4738,7 +4727,7 @@ Notes on the "post" method:
     Form submissions with the "post" method cannot be bookmarked
     The "post" method is more robust and secure than "get", and "post" does not have size limitations
 
-
+```
 <form action="/action_page.php" method="get" target="_blank">
   <label for="fname">First name:</label>
   <input type="text" id="fname" name="fname"><br><br>
@@ -4747,15 +4736,17 @@ Notes on the "post" method:
   <input type="submit" value="Submit using GET">
   <input type="submit" formmethod="post" value="Submit using POST">
 </form>
-
+```
 
 *The formtarget Attribute
 
 The input formtarget attribute specifies a name or a keyword that indicates where to display the response that is received after submitting the form.
 
-Note: This attribute overrides the target attribute of the <form> element.
+Note: This attribute overrides the target attribute of the ```<form>``` element.
 
-The formtarget attribute works with the following input types: submit and image.<form action="/action_page.php">
+The formtarget attribute works with the following input types: submit and image.
+```
+<form action="/action_page.php">
   <label for="fname">First name:</label>
   <input type="text" id="fname" name="fname"><br><br>
   <label for="lname">Last name:</label>
@@ -4763,35 +4754,35 @@ The formtarget attribute works with the following input types: submit and image.
   <input type="submit" value="Submit">
   <input type="submit" formtarget="_blank" value="Submit to a new window/tab">
 </form>
+```
 
-
-*The formnovalidate Attribute
+* The formnovalidate Attribute
 The input formnovalidate attribute specifies that an <input> element should not be validated when submitted.
 
-Note: This attribute overrides the novalidate attribute of the <form> element.
+Note: This attribute overrides the novalidate attribute of the ```<form>``` element.
 
 The formnovalidate attribute works with the following input types: submit.
 
-
+```
 <form action="/action_page.php">
   <label for="email">Enter your email:</label>
   <input type="email" id="email" name="email" required><br><br>
   <input type="submit" value="Submit">
   <input type="submit" formnovalidate="formnovalidate" value="Submit without validation">
 </form>
+```
 
-
-*The novalidate attribute
+* The novalidate attribute
 The novalidate attribute is a <form> attribute.
 
 When present, novalidate specifies that all of the form-data should not be validated when submitted.
-
+```
 <form action="/action_page.php" novalidate>
   <label for="email">Enter your email:</label>
   <input type="email" id="email" name="email" required><br><br>
   <input type="submit" value="Submit">
 </form>
-
+```
 
 Chapter summary
 HTML Form and Input Elements
@@ -4817,21 +4808,22 @@ A canvas is a rectangular area on an HTML page. By default, a canvas has no bord
 
 
 Example of the canvas markup: 
-
+```
  <canvas id="myCanvas" width="200" height="100"></canvas>
-
+```
 
 Note: Always specify an id attribute (to be referred to in a script), and a width and height attribute to define the size of the canvas. To add a border, use the style attribute.
 
 
 
 Example:
+```
  <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
 </canvas> 
-
+```
 
 NB: Canvas can draw line, circle, draw text, Stroke text, Draw linar gradient, draw circular gradient, draw image into an empty canvas line. Since Javascript is used to create the canvas, detailed study of  canvas will be made under javascript training. 
------------------------------------
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 HTML SVG 
 
@@ -4856,22 +4848,19 @@ Comparison of Canvas and SVG
 The table below shows some important differences between Canvas and SVG:
 Canvas 	SVG
 
-    Resolution dependent
-    No support for event handlers
-    Poor text rendering capabilities
-    You can save the resulting image as .png or .jpg
-    Well suited for graphic-intensive games
+   Resolution dependent
+   No support for event handlers
+   Poor text rendering capabilities
+   You can save the resulting image as .png or .jpg
+   Well suited for graphic-intensive games
+   
+   Resolution independent
+   Support for event handlers
+   Best suited for applications with large rendering areas (Google Maps)
+   Slow rendering if complex (anything that uses the DOM a lot will be slow)
+   Not suited for game applications
 
-	
-
-    Resolution independent
-    Support for event handlers
-    Best suited for applications with large rendering areas (Google Maps)
-    Slow rendering if complex (anything that uses the DOM a lot will be slow)
-    Not suited for game applications
-
-
-------------------------------------------
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 PART 5: HTML MEDIA
 
 HTML Multimedia:
@@ -4881,7 +4870,7 @@ Multimedia on the web is sound, music, videos, movies, and animations.
 Multimedia files have formats and different extensions like: .wav, .mp3, .mp4, .mpg, .wmv, and .avi.
 
 
-*Videoformats
+* Videoformats
 
 Format 	File 	Description
 MPEG 	.mpg
@@ -4917,7 +4906,7 @@ Note: Only MP4, WebM, and Ogg video are supported by the HTML standard.
 
 
 
-*Common Audio formats:Only MP3, WAV, and Ogg audio are supported by the HTML standard. MP3 is the best format for compressed recorded music. The term MP3 has become synonymous with digital music. If your website is about recorded music, MP3 is the choice.
+* Common Audio formats:Only MP3, WAV, and Ogg audio are supported by the HTML standard. MP3 is the best format for compressed recorded music. The term MP3 has become synonymous with digital music. If your website is about recorded music, MP3 is the choice.
 
 
 Format 	File 	Description
@@ -4950,34 +4939,34 @@ MP4 	.mp4 	MP4 is a video format, but can also be used for audio. Supported by a
 
 HTML VIDEO
 
-The <video> element is used to shows a video on a page. 
+The ```<video>``` element is used to shows a video on a page. 
 
-
+```
 <video width="320" height="240" controls>
   <source src="movie.mp4" type="video/mp4">
   <source src="movie.ogg" type="video/ogg">
   Your browser does not support the video tag.
 </video>
-
+```
 
 "controls" attribute adds video controls like play, pause, and volume. It is good to include width and height attributes. Without setting these, the page may move irregularly or unsteadily as the video loads. 
 
-The <source> element allows specifying alternative video files that the browser may choose from. The browser by default chooses the first recognized format. The text between video tags will only be displayed if browser does not support the <video> element. 
+The ```<source>``` element allows specifying alternative video files that the browser may choose from. The browser by default chooses the first recognized format. The text between video tags will only be displayed if browser does not support the <video> element. 
 
-*HTML <video> Autoplay
+* HTML ```<video>``` Autoplay
 
-*Autoplay attribute starts video automatically. 
-
+* Autoplay attribute starts video automatically. 
+```
 <video width="320" height="240" autoplay>
   <source src="movie.mp4" type="video/mp4">
   <source src="movie.ogg" type="video/ogg">
   Your browser does not support the video tag.
 </video>
-
+```
 The autoplay attribute does not work in mobile devices like iPad and iPhone.
 
 
-*HTML Video Formats
+* HTML Video Formats
 
 There are three supported video formats: MP4, WebM, and Ogg. The browser support for the different formats is:
 Browser 	MP4 	WebM 	Ogg
@@ -4996,7 +4985,7 @@ Ogg 	video/ogg
 
 
 
-*HTML Video - Methods, Properties, and Events
+* HTML Video - Methods, Properties, and Events
 
 The HTML DOM defines methods, properties, and events for the <video> element.
 
@@ -5005,38 +4994,38 @@ This allows you to load, play, and pause videos, as well as setting duration and
 There are also DOM events that can notify you when a video begins to play, is paused, etc.
 
 
-*See HTML video audio DOM reference for details of how to customize video in HTML
+* See HTML video audio DOM reference for details of how to customize video in HTML
 
 
 Summary
 HTML Video Tags
 Tag 	Description
+```
 <video> 	Defines a video or movie
 <source> 	Defines multiple media resources for media elements, such as <video> and <audio>
 <track> 	Defines text tracks in media players
-
-
-------------------------------
+```
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 HTML AUDIO
 
-HTML <audio> element
+HTML ```<audio>``` element
 
-The <audio> element is used to play an audio file. 
-
+The ```<audio>``` element is used to play an audio file. 
+```
 <audio controls>
   <source src="horse.ogg" type="audio/ogg">
   <source src="horse.mp3" type="audio/mpeg">
 Your browser does not support the audio element.
 </audio> 
+```
 
-
-*HTML Audio - How It Works
+* HTML Audio - How It Works
 
 The controls attribute adds audio controls, like play, pause, and volume.
 
-The <source> element allows you to specify alternative audio files which the browser may choose from. The browser will use the first recognized format.
+The ```<source>``` element allows you to specify alternative audio files which the browser may choose from. The browser will use the first recognized format.
 
-The text between the <audio> and </audio> tags will only be displayed in browsers that do not support the <audio> element.
+The text between the ```<audio>``` and ```</audio>``` tags will only be displayed in browsers that do not support the ```<audio>``` element.
 
 
 There are three supported audio format: MP3, WAV, OGG. 
@@ -5052,9 +5041,9 @@ OGG 	audio/ogg
 WAV 	audio/wav
 
 
-*HTML Audio - Methods, Properties, and Events
+* HTML Audio - Methods, Properties, and Events
 
-The HTML DOM defines methods, properties, and events for the <audio> element.
+The HTML DOM defines methods, properties, and events for the ```<audio>``` element.
 
 This allows you to load, play, and pause audios, as well as set duration and volume.
 
@@ -5062,13 +5051,12 @@ There are also DOM events that can notify you when an audio begins to play, is p
 
 For a full DOM reference, go to w3c HTML Audio/Video DOM Reference.
 
-
 HTML Audio Tags
 Tag 	Description
-<audio> 	Defines sound content
-<source> 	Defines multiple media resources for media elements, such as <video> and <audio>
+```<audio>``` 	Defines sound content
+```<source>``` 	Defines multiple media resources for media elements, such as <video> and <audio>
 
-------------------------------------------
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 HTML Plug-ins
 
@@ -5089,43 +5077,42 @@ ActiveX controls are no longer supported in any browsers.
 The support for Shockwave Flash has also been turned off in modern browsers.
 
 
-The <object> Element
+The ```<object>``` Element
 
-<object> is supported by all browsers and it defines embeded object within an HTML document. It was designed to embed plug-ins (like Java applets, PDF readers, and Flash Players) in web pages, but can also be used to include HTML in HTML:
-
+```<object>``` is supported by all browsers and it defines embeded object within an HTML document. It was designed to embed plug-ins (like Java applets, PDF readers, and Flash Players) in web pages, but can also be used to include HTML in HTML:
+```
 <object width="100%" height="500px" data="snippet.html"></object>
- 
+ ```
 
-*You can also embed an image as an object
-
+* You can also embed an image as an object
+```
 <object data="audi.jpeg"></object>
+```
 
-
-*The <embed> Element
+* The ```<embed>``` Element
 It is supported in all major browsers and defines an embedded object within an HTML document. It is part of HTML5 spec even though it does not show up in the previous versions that it supported. 
-
+```
 <embed src="audi.jpeg">
+```
 
+Note that the ```<embed>``` element does not have a closing tag. It can not contain alternative text.
 
+* The ```<embed>``` element can also be used to include HTML in HTML:
 
-Note that the <embed> element does not have a closing tag. It can not contain alternative text.
-
-*The <embed> element can also be used to include HTML in HTML:
-
-
+```
 <embed width="100%" height="500px" src="snippet.html">
-
+```
 
 One thing you should note is that to select which to use between <object> and <embed>, make sure you consider which is most widely supported by various browsers and your data type embeded.
 
-------------------------------------------
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 HTML YouTube Videos
 
 This is the easiest way to play videos in HTML because it removes the necessity of converting to different formats. YouTube can be allowed to play videos on your website to avoid the conversion problem. 
 
 
-*YouTube Video Id
+* YouTube Video Id
 
 YouTube will display an id (like tgbNymZ7vqY), when you save (or play) a video.
 
@@ -5133,23 +5120,23 @@ You can use this id, and refer to your video in the HTML code.
 
 
 
-*Playing YouTube in HTML
+* Playing YouTube in HTML
 
 To play your video on a web page, do the following:
 
-    Upload the video to YouTube
-    Take a note of the video id
-    Define an <iframe> element in your web page
-    Let the src attribute point to the video URL
-    Use the width and height attributes to specify the dimension of the player
-    Add any other parameters to the URL (see below)
+   Upload the video to YouTube
+   Take a note of the video id
+   Define an <iframe> element in your web page
+   Let the src attribute point to the video URL
+   Use the width and height attributes to specify the dimension of the player
+   Add any other parameters to the URL (see below)
 
-
+```
 <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
 </iframe>
+```
 
-
-*YouTube Autoplay + Mute
+* YouTube Autoplay + Mute
 
 You can let your video start playing automatically when a user visits the page, by adding autoplay=1 to the YouTube URL.
 
@@ -5159,19 +5146,19 @@ Chrome added stricter autoplay policies in 2018. Chromium browsers do not allow 
 
 Add mute=1 after autoplay=1 to let your video start playing automatically (but muted).
 
-
+```
 <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1">
 </iframe>
-
-
+```
+```
  <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1">
 </iframe>
+```
 
-
-
+```
 <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1">
 </iframe>
-
+```
 
 *YouTube Controls
 
@@ -5181,18 +5168,18 @@ Value 0: Player controls does not display.
 
 Value 1 (default): Player controls display.
 
-
+```
 <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0">
 </iframe>
-
-------------------------------------------
+```
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 Part 6 HTML API
 
 HTML GEOLOCATION API
-*HTML Geolocation API is used to locate a user position. 
+* HTML Geolocation API is used to locate a user position. 
 
-*Locate the user's Position
+* Locate the user's Position
 
 The HTML Geolocation API is used to get the geographical position of a user.
 
@@ -5207,7 +5194,7 @@ Note: As of Chrome 50, the Geolocation API will only work on secure contexts suc
 The getCurrentPosition() method is used to return the user's position.
 
 The example below returns the latitude and longitude of the user's position( a basic geolocation without error handling):
-
+```
 <p id="demo"></p>
 
 <script>
@@ -5226,25 +5213,25 @@ function showPosition(position) {
   "<br>Longitude: " + position.coords.longitude;
 }
 </script>
-
+```
 
 
 code above explained.
 
 Example explained:
 
-    Check if Geolocation is supported
-    If supported, run the getCurrentPosition() method. If not, display a message to the user
-    If the getCurrentPosition() method is successful, it returns a coordinates object to the function specified in the parameter (showPosition)
-    The showPosition() function outputs the Latitude and Longitude
+   Check if Geolocation is supported
+   If supported, run the getCurrentPosition() method. If not, display a message to the user
+   If the getCurrentPosition() method is successful, it returns a coordinates object to the function specified in the parameter (showPosition)
+   The showPosition() function outputs the Latitude and Longitude
 
 The example above is a very basic Geolocation script, with no error handling.
 
 
-*Handling Errors and Rejections
+* Handling Errors and Rejections
 
 The second parameter of the getCurrentPosition() method is used to handle errors. It specifies a function to run if it fails to get the user's location:
-
+```
 <button onclick="getLocation()">Try It</button>
 
 <p id="demo"></p>
@@ -5282,16 +5269,16 @@ function showError(error) {
   }
 }
 </script>
+```
 
 
-
-*Displaying the Result in a Map
+* Displaying the Result in a Map
 
 To display the result in a map, you need access to a map service, like Google Maps.
 
 In the example below, the returned latitude and longitude is used to show the location in a Google Map (using a static image):
 
-
+```
 function showPosition(position) {
   var latlon = position.coords.latitude + "," + position.coords.longitude;
 
@@ -5300,18 +5287,17 @@ function showPosition(position) {
 
   document.getElementById("mapholder").innerHTML = "<img src='"+img_url+"'>";
 }
+```
 
-
-*Location-specific Information
+* Location-specific Information
 
 This page has demonstrated how to show a user's position on a map.
 
 Geolocation is also very useful for location-specific information, like:
 
-    Up-to-date local information
-    Showing Points-of-interest near the user
-    Turn-by-turn navigation (GPS)
-
+   Up-to-date local information
+   Showing Points-of-interest near the user
+   Turn-by-turn navigation (GPS)
 
 
 The getCurrentPosition() Method - Return Data
@@ -5328,18 +5314,15 @@ coords.speed 	The speed in meters per second (returned if available)
 timestamp 	The date/time of the response (returned if available)
 
 
-
 Geolocation Object - Other interesting Methods
 
 The Geolocation object also has other interesting methods:
 
-    watchPosition() - Returns the current position of the user and continues to return updated position as the user moves (like the GPS in a car).
-    clearWatch() - Stops the watchPosition() method.
+   watchPosition() - Returns the current position of the user and continues to return updated position as the user moves (like the GPS in a car).
+   clearWatch() - Stops the watchPosition() method.
 
 The example below shows the watchPosition() method. You need an accurate GPS device to test this (like smartphone): 
-
-
-
+```
 <p>Click the button to get your coordinates.</p>
 
 <button onclick="getLocation()">Try It</button>
@@ -5363,9 +5346,9 @@ function showPosition(position) {
 }
 </script>
 
+```
 
-
----------------------------------------
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 HTML Drag and Drop API: Can be used to make an element draggable.
 
@@ -5376,13 +5359,13 @@ HTML Web Workers API: It is a JS running in background without affecting the per
 
 Since web workers are in external files, they do not have access to the following JavaScript objects:
 
-    The window object
-    The document object
-    The parent object
+   The window object
+   The document object
+   The parent object
 
 
 HTML Server Sent Events (SSE) API
-*Server-Sent Events - One Way Messaging
+* Server-Sent Events - One Way Messaging
 
 It allows a webpage to get updates from a server. An SSE is when a webpage gets updates from a server automatically. 
 
@@ -5390,14 +5373,16 @@ It allows a webpage to get updates from a server. An SSE is when a webpage gets 
 Examples of server sent events: Facebook/Twitter updates, stock price updates, news feeds, sport results, etc.
 
 
-*Receive Server-Sent Event Notifications
+* Receive Server-Sent Event Notifications
 
 The EventSource object is used to receive server-sent event notifications. 
  
 
 You need a server that is capable of sending data updates like PHP or ASP
 
---------------------------------------------
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
 NB: 
 
 A. Anchoring link
@@ -5412,12 +5397,4 @@ in the outline is the lower case version of the outline component in the content
 B. Including HTML codes formated at a code and not text
  enclose your code in the three back quotes ``` html codes ```
 
-__See the next note on CSS:https://github.com/MisterOla/CSS-TUTORIALS-W3SCHOOLS__
-
-
-
-
-
-
-
-
+__See the next note on CSS:https://github.com/MisterOla/CSS-TUTORIALS-W3SCHOOLS_

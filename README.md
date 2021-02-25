@@ -33,7 +33,7 @@ This repository summarizes the key things that I learned from the w3schools onli
 * HTML Id
 * HTML Iframes
 * HTML JavaScript
-* HTML File Paths
+* HTML File Path
 * HTML Head
 * HTML Layout
 * HTML Responsive

@@ -72,7 +72,7 @@ This repository summarizes the key things that I learned from the w3schools onli
 * HTML Drag/Drop
 * HTML Web Storage
 * HTML Web Workers
-* HTML SSE
+* HTML SSE.
 
 ## **Part Five** HTML APIs
 * HTML References

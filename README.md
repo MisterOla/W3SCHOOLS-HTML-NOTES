@@ -89,7 +89,7 @@ tell the browser what each tagged element is.
 Here, <!DOCTYPE html> defines that document is html5, <html> is root element of an html page, 
 <head> contains meta information about the html page, <title> specifies title  for the page( which is shown in the browser's title bar or page's tab. <body> is a container for all visible contents of a site. 
 
-'
+`
 <!DOCTYPE html>
 <html>
 <head>
@@ -102,7 +102,7 @@ Here, <!DOCTYPE html> defines that document is html5, <html> is root element of 
 
 </body>
 </html>
-'
+`
 
 
 

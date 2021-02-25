@@ -102,7 +102,7 @@ Here, <!DOCTYPE html> defines that document is html5, <html> is root element of 
 </html>
 ```
 
-*<br> is an empty element...elements without content
+```<br>``` is an empty element...elements without content
 
 *browsers use tag to determine how to display the content of a 
 

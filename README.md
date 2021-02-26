@@ -3071,7 +3071,7 @@ You will find HTML pages with <section> elements containing <article> element an
 
 HTML ```<header>``` Element
 
-```<header>```element rep a containere for introductory content or a set of navigational links and typically contains one or more <h1> -<h6>, logo or icon, authorship information etc.
+```<header>```element rep a containere for introductory content or a set of navigational links and typically contains one or more ```<h1> -<h6>```, logo or icon, authorship information etc.
 
 * Note: You can have several ```<header>``` elements in one HTML document. However, ```<header>``` cannot be placed within a ```<footer>```, ```<address>``` or another ```<header>``` element.
 

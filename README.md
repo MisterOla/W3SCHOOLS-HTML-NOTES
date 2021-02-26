@@ -852,20 +852,20 @@ A link to a page within the current is specified with a relative URL( OMITTING H
 
 CHAPTER SUMMARY:
 
-    Use the <a> element to define a link
-    Use the href attribute to define the link address
-    Use the target attribute to define where to open the linked document
-    Use the <img> element (inside <a>) to use an image as a link
-    Use the mailto: scheme inside the href attribute to create a link that opens the user's email program
+   Use the <a> element to define a link
+   Use the href attribute to define the link address
+   Use the target attribute to define where to open the linked document
+   Use the <img> element (inside <a>) to use an image as a link
+   Use the mailto: scheme inside the href attribute to create a link that opens the user's email program
 
 
 HTML Links - Different Colors
 
 By default, a link will appear like this (in all browsers):
 
-    An unvisited link is underlined and blue
-    A visited link is underlined and purple
-    An active link is underlined and red
+   An unvisited link is underlined and blue
+   A visited link is underlined and purple
+   An active link is underlined and red
 
 **The default css for links is :
 ```
@@ -1334,7 +1334,8 @@ table {
 Bill Gates 	55577854 	55577855
 
 
-**Make cell that spans many rows::use rowspan. rowspan=2 means that you will specify two row <tr> elements to contain the content spanning two rows
+** Make cell that spans many rows::use rowspan. rowspan=2 means that you will specify two row <tr> elements to contain the content spanning two rows
+	
 ```
  <table style="width:100%">
   <tr>
@@ -1352,7 +1353,8 @@ Bill Gates 	55577854 	55577855
 ```
 
 
-**Add a caption to the table:: use <caption>  tag...inserted immediately after the table tag
+** Add a caption to the table:: use <caption>  tag...inserted immediately after the table tag
+	
 ```
  <table style="width:100%">
   <caption>Monthly savings</caption>
@@ -1372,7 +1374,7 @@ Bill Gates 	55577854 	55577855
 ```
 
 
-**Define a special style for one table. Add an id to the table and then define the special style next
+** Define a special style for one table. Add an id to the table and then define the special style next
 ``` 
 <table id="t01">
   <tr>
@@ -1410,7 +1412,7 @@ you can also add more styles:
 ```
 
 
-*CHAPTER SUMMARY _HTML CHAPTER SUMMARY
+* CHAPTER SUMMARY _HTML CHAPTER SUMMARY
    Use the HTML ```<table>``` element to define a table
    Use the HTML ``<tr>``element to define a table row
    Use the HTML ``<td>`` element to define a table data
@@ -1429,10 +1431,10 @@ you can also add more styles:
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 HTML LISTS
 
-**unordered list has bullets
-**ordered lists have numberings or some kind of sequence labels
+** unordered list has bullets
+** ordered lists have numberings or some kind of sequence labels
 
-*Unordered html list:: each starts with ```<ul>``` tag and each list item starts with ```<li>``` tag
+* Unordered html list:: each starts with ```<ul>``` tag and each list item starts with ```<li>``` tag
 by default, list item  is marked with small black circles as bullets.
 ```
  <ul>
@@ -1442,7 +1444,8 @@ by default, list item  is marked with small black circles as bullets.
 </ul> 
 ```
 
-*Ordered HTML list: Marked by <ol> and each list item is marked by <li> tag. Numbers are usd to mark list items by default. 
+* Ordered HTML list: Marked by <ol> and each list item is marked by <li> tag. Numbers are usd to mark list items by default.
+
 ```
  <ol>
   <li>Coffee</li>
@@ -1451,7 +1454,7 @@ by default, list item  is marked with small black circles as bullets.
 </ol> 
 ```
 
-HTML Description lists:: List of terms with description of each term in the list. description list is marked by <dl> tag and each description term (name) is marked by ```<dt>```... and the description of each description list term is tagged by ```<dd>```:
+HTML Description lists:: List of terms with description of each term in the list. description list is marked by ```<dl>``` tag and each description term (name) is marked by ```<dt>``` xyz and the description of each description list term is tagged by ```<dd>```:
 ```
  <dl>
   <dt>Coffee</dt>
@@ -1510,18 +1513,18 @@ none 	The list items will not be marked
 </ul> 
 ```
 
-**None ( No marker)
-
+** None ( No marker)
+```
  <ul style="list-style-type:none;">
   <li>Coffee</li>
   <li>Tea</li>
   <li>Milk</li>
 </ul> 
+```
 
 
-
-**Nested HTML List: List inside list
-
+** Nested HTML List: List inside list
+```
  <ul>
   <li>Coffee</li>
   <li>Tea
@@ -1532,17 +1535,17 @@ none 	The list items will not be marked
   </li>
   <li>Milk</li>
 </ul> 
+```
 
-
-**A list item (<li>) can contain a new list, and other HTML elements, like images and links, etc.
+** A list item (```<li>```) can contain a new list, and other HTML elements, like images and links, etc.
 
 
 * Horizontal list with CSS
 
 You can style lists horizontally, to create a navigation menu. 
 
-**You can style list horizontally to create a navigation menu. The float style left sets the navigation menu to the left
-
+** You can style list horizontally to create a navigation menu. The float style left sets the navigation menu to the left
+```
  <!DOCTYPE html>
 <html>
 <head>
@@ -1583,19 +1586,20 @@ li a:hover {
 
 </body>
 </html> 
+```
 
-
-**Chapter Summary
+** Chapter Summary
 Chapter Summary
 
-    Use the HTML <ul> element to define an unordered list
-    Use the CSS list-style-type property to define the list item marker
-    Use the HTML <li> element to define a list item
-    Lists can be nested
-    List items can contain other HTML elements
-    Use the CSS property float:left to display a list horizontally
+   Use the HTML <ul> element to define an unordered list
+   Use the CSS list-style-type property to define the list item marker
+   Use the HTML <li> element to define a list item
+   Lists can be nested
+   List items can contain other HTML elements
+   Use the CSS property float:left to display a list horizontally
 
-**HTML List Tags Summary
+** HTML List Tags Summary
+```
 HTML List Tags
 Tag 	Description
 <ul> 	Defines an unordered list
@@ -1604,81 +1608,83 @@ Tag 	Description
 <dl> 	Defines a description list
 <dt> 	Defines a term in a description list
 <dd> 	Describes the term in a description list
+```
 
 
 HTML Ordered List:: 
-<ol> tag defines an ordered list which can be numerical or alphabetical.
+```<ol>``` tag defines an ordered list which can be numerical or alphabetical.
 List are marked by numbers by default
 
-**Ordered HTML List - The Type Attribute
+** Ordered HTML List - The Type Attribute
 With the type attribute of the <ol> tag, you can define the type of the list item marker
 
-
-
-
+```
 Type 	Description
 type="1" 	The list items will be numbered with numbers (default)
 type="A" 	The list items will be numbered with uppercase letters
 type="a" 	The list items will be numbered with lowercase letters
 type="I" 	The list items will be numbered with uppercase roman numbers
 type="i" 	The list items will be numbered with lowercase roman numbers
-
+```
 
 
 * Numbers
-
+```
  <ol type="1">
   <li>Coffee</li>
   <li>Tea</li>
   <li>Milk</li>
 </ol> 
-
+```
 
 
 * Uppercase Letters:
+```
  <ol type="A">
   <li>Coffee</li>
   <li>Tea</li>
   <li>Milk</li>
 </ol> 
-
+```
 
 * Lowercase Letters:
-
+```
  <ol type="a">
   <li>Coffee</li>
   <li>Tea</li>
   <li>Milk</li>
 </ol> 
-
+```
 
 * Uppercase Roman Numbers:
+```
  <ol type="I">
   <li>Coffee</li>
   <li>Tea</li>
   <li>Milk</li>
 </ol> 
-
+```
 
 * Lowercase Roman Numbers:
-
+```
  <ol type="I">
   <li>Coffee</li>
   <li>Tea</li>
   <li>Milk</li>
 </ol> 
-
+```
 
 * Control List Counting: Enables you to be able to start counting controlled list at a certain number other than 50
-
+```
  <ol start="50">
   <li>Coffee</li>
   <li>Tea</li>
   <li>Milk</li>
 </ol> 
-
+```
 
 * Nested HTML Lists(list inside list)
+```
  <ol>
   <li>Coffee</li>
   <li>Tea
@@ -1689,46 +1695,46 @@ type="i" 	The list items will be numbered with lowercase roman numbers
   </li>
   <li>Milk</li>
 </ol> 
-
+```
 
 
 * Chapter summary:
 
-    Use the HTML <ol> element to define an ordered list
+    Use the HTML ```<ol>``` element to define an ordered list
     Use the HTML type attribute to define the numbering type
-    Use the HTML <li> element to define a list item
+    Use the HTML ```<li>``` element to define a list item
     Lists can be nested
     List items can contain other HTML elements
 
 HTML List Tags
-
+```
 <ul> 	Defines an unordered list
 <ol> 	Defines an ordered list
 <li> 	Defines a list item
 <dl> 	Defines a description list
 <dt> 	Defines a term in a description list
 <dd> 	Describes the term in a description list
-
+```
 
 * Description lists: List of terms with a description of each term. 
-<dl> tag defines the list, <dt> defines the term (name), and <dd> tag describes each term:
-
+```<dl>``` tag defines the list, ```<dt>``` defines the term (name), and ```<dd>``` tag describes each term:
+```
  <dl>
   <dt>Coffee</dt>
   <dd>- black hot drink</dd>
   <dt>Milk</dt>
   <dd>- white cold drink</dd>
 </dl> 
-
+```
 
 * Description list summary:
 
-    Use the HTML <dl> element to define a description list
-    Use the HTML <dt> element to define the description term
-    Use the HTML <dd> element to describe the term in a description list
+    Use the HTML ```<dl>``` element to define a description list
+    Use the HTML ```<dt>``` element to define the description term
+    Use the HTML ```<dd>``` element to describe the term in a description list
 
 HTML List Tags
-
+```
 **Tag 	Description
 <ul> 	Defines an unordered list
 <ol> 	Defines an ordered list
@@ -1736,7 +1742,7 @@ HTML List Tags
 <dl> 	Defines a description list
 <dt> 	Defines a term in a description list
 <dd> 	Describes the term in a description list
-
+```
 
 HTML BLOCK AND INLINE ELEMENTS
 
@@ -1745,7 +1751,7 @@ Every HTML element has a default display value, depending on what type of elemen
 * Block-level Elements
 Block-level element always starts on a new line and takes up the full width available (stretches out to the left and right as far as it can)
 
-<div> element is a block-level element
+```<div>``` element is a block-level element
 
 Other block-level element include:
 Here are the block-level elements in HTML:
@@ -1781,12 +1787,13 @@ Here are the block-level elements in HTML:
 <video>
 ```
 
-**Inline Elements:
+** Inline Elements:
 It does not start on a new line but only takes as much width as necessary. 
 example: This is a <span> elements inside a paragraph.
-```
- <span>Hello World</span> 
-```
+
+```<span>Hello World</span>```
+	
+
 * The list of inline elements:
 
 Here are the inline elements in HTML:
@@ -1834,43 +1841,46 @@ The ```<div>``` Element
 
 ```<div>``` element has no required attribute. the common attributes of the div element are: style, class, id
 
-When used together with CSS, the <div> element can used to style blocks of content: 
+When used together with CSS, the ```<div>``` element can used to style blocks of content: 
+```
  <div style="background-color:black;color:white;padding:20px;">
   <h2>London</h2>
   <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
 </div> 
+```
+
+The ```<span>``` Element: Used to mark up a part of a text, or part of a document. ```<span>``` element has no required attribute...style,class and id are common ones. When used with css, the span element can be used to style parts of a text.
+
+```
+<p>My mother has <span style="color:blue;font-weight:bold">blue</span> eyes and my father has <span style="color:darkolivegreen;font-weight:bold">dark green</span> eyes.</p>
+```
+** Chapter Summary
+
+   There are two display values: block and inline
+   A block-level element always starts on a new line and takes up the full width available
+   An inline element does not start on a new line and it only takes up as much width as necessary
+   The ```<div>``` element is a block-level and is often used as a container for other HTML elements
+   The ```<span>``` element is an inline container used to mark up a part of a text, or a part of a document
 
 
-The <span> Element: Used to mark up a part of a text, or part of a document. <span> element has no required attribute...style,class and id are common ones. When used with css, the span element can be used to style parts of a text.
-
-*<p>My mother has <span style="color:blue;font-weight:bold">blue</span> eyes and my father has <span style="color:darkolivegreen;font-weight:bold">dark green</span> eyes.</p>
-
-**Chapter Summary
-
-    There are two display values: block and inline
-    A block-level element always starts on a new line and takes up the full width available
-    An inline element does not start on a new line and it only takes up as much width as necessary
-    The <div> element is a block-level and is often used as a container for other HTML elements
-    The <span> element is an inline container used to mark up a part of a text, or a part of a document
-
-
-**HTML Tags summarized
+** HTML Tags summarized
+```
 Tag 	Description
 <div> 	Defines a section in a document (block-level)
 <span> 	Defines a section in a document (inline)
-
+```
 
 
 HTML CLASSES
 
-**html class attribute is used to specify a class for an html element. 
+** html class attribute is used to specify a class for an html element. 
 
 * Multiple html elements can also share the same class.
 * Class attribute is used to point to a class to manipulate together in a style sheet. Javascript can also manipulate elements in the same class together.
 
 
-**In the example below, all three div elements with class city are style equally together equally according to the .city style definition in the header.
-
+** In the example below, all three div elements with class city are style equally together equally according to the .city style definition in the header.
+```
  <!DOCTYPE html>
 <html>
 <head>
@@ -1903,13 +1913,14 @@ HTML CLASSES
 
 </body>
 </html> 
+```
 
 
 
+** Here we can also style note class in <span> elements with .note style definition
 
-**Here we can also style note class in <span> elements with .note style definition
-
- <!DOCTYPE html>
+```
+<!DOCTYPE html>
 <html>
 <head>
 <style>
@@ -1926,6 +1937,7 @@ HTML CLASSES
 
 </body>
 </html> 
+```
 
 
 
@@ -1940,7 +1952,7 @@ Note: The class name is case sensitive!
 
 To create a class; write a period (.) character, followed by a class name. Then, define the CSS properties within curly braces {}
 
-
+```
 <!DOCTYPE html>
 <html>
 <head>
@@ -1965,22 +1977,24 @@ To create a class; write a period (.) character, followed by a class name. Then,
 
 </body>
 </html>
-
+```
 
 
 * Multiple classes. 
 
 HTML elements can belong to multiple classes. Define multiple classes by separating the class names with a space. The element will be styled according to all classes specified. 
 
-Below, <h2> elements belongs to both city class and also main class(<div class="city main">)
+Below, ```<h2>``` elements belongs to both city class and also main class(```<div class="city main">```)
 
 Below, h2 element belongs to both city class and also to the main class and will get CSS styles from both of the classes
-
+```
 <h2 class="city main">London</h2>
 <h2 class="city">Paris</h2>
 <h2 class="city">Tokyo</h2>
+```
 
 * The full html
+```
 <!DOCTYPE html>
 <html>
 <head>
@@ -2007,19 +2021,22 @@ Below, h2 element belongs to both city class and also to the main class and will
 
 </body>
 </html>
+```
 
-
-**Different HTML elements like<p> and <h2> points to city class ans share same style
-
+** Different HTML elements like<p> and <h2> points to city class ans share same style
+	
+```
 <h2 class="city">Paris</h2>
 <p class="city">Paris is the capital of France</p>
+```
 
 
-**Use ofthe class Attribute in Javascript
+
+** Use ofthe class Attribute in Javascript
 Class name can also be used by JS to perform certain tasks for specific elements. 
-JS usually access elemetns with a specific class name with the getElementByClassName() method:
+JS usually access elemetns with a specific class name with the ```getElementByClassName()``` method:
 
-
+```
  <script>
 function myFunction() {
   var x = document.getElementsByClassName("city");
@@ -2028,7 +2045,7 @@ function myFunction() {
   }
 }
 </script> 
-
+```
 
 
 
@@ -2041,10 +2058,11 @@ Only one element has a particular id.
 
 The id attribute is used to point to a specific style declaration in a style sheet. Also used by JS to access and manipulate elements with the specific id. 
 
-id syntax: write hash (#) followed by an id name. Then define the CSS properties with curly braces {}. in the sheet below, <h1> element is styled according to the #myHeader style definition in the header section
+id syntax: write hash ```(#)``` followed by an id name. Then define the CSS properties with curly braces {}. in the sheet below, <h1> element is styled according to the 
+HashmyHeader style definition in the header section
 
-
- <!DOCTYPE html>
+```
+<!DOCTYPE html>
 <html>
 <head>
 <style>
@@ -2062,14 +2080,14 @@ id syntax: write hash (#) followed by an id name. Then define the CSS properties
 
 </body>
 </html> 
+```
 
-
-**The id name is case sensitive! And it must contain at least one character, and must not contain whitespaces (spaces, tabs, etc.).
+** The id name is case sensitive! And it must contain at least one character, and must not contain whitespaces (spaces, tabs, etc.).
 
 Diff between Class and ID: Class can be used by multiple HTML elements while id name must only be used by one HTML element within the page. 
 
-**Below we illlustrate the difference between Class and ID
-
+** Below we illlustrate the difference between Class and ID
+```
 <!DOCTYPE html>
 <html>
 <head>
@@ -2110,32 +2128,33 @@ Diff between Class and ID: Class can be used by multiple HTML elements while id 
 
 </body>
 </html>
+```
 
-
-**HTML Bookmarks with ID and Links. 
+** HTML Bookmarks with ID and Links. 
 
 Html bookmarks allows readers to jump to a specific part of a webpage, useful for very long pages. 
 
 To use a bookmark, create it and then add a link to it. Once link is clicked, page scrolls to the location with the bookmark.
 
 
-**To create a bookmark, 
+** To create a bookmark, 
 
-<h2 id="C4">Chapter 4</h2>
+```<h2 id="C4">Chapter 4</h2>```
 
 
 * To add a link to it:
-
+```
  <a href="#C4">Jump to Chapter 4</a> 
-
+```
 * To add a link to the bookmark (Jump to Chapter 4) from another page.
 
-
+```
 <a href="html_demo.html#C4">Jump to Chapter 4</a>
+```
 
 
-
-**See the demonstration below:
+** See the demonstration below:
+```
 <!DOCTYPE html>
 <html>
 <body>
@@ -2214,32 +2233,31 @@ To use a bookmark, create it and then add a link to it. Once link is clicked, pa
 
 </body>
 </html>
-
+```
 
 * Using the id Attribute in JavaScript
 
 The id attribute can also be used by JavaScript to perform some tasks for that specific element.
 
-JavaScript can access an element with a specific id with the getElementById() method:
+JavaScript can access an element with a specific id with the ```getElementById()``` method:
 
-
+```
  <script>
 function displayResult() {
   document.getElementById("myHeader").innerHTML = "Have a nice day!";
 }
 </script> 
-
+```
 
 * Chapter Summary::
 Chapter Summary
 
-    The id attribute is used to specify a unique id for an HTML element
-    The value of the id attribute must be unique within the HTML document
-    The id attribute is used by CSS and JavaScript to style/select a specific element
-    The value of the id attribute is case sensitive
-    The id attribute is also used to create HTML bookmarks
-    JavaScript can access an element with a specific id with the getElementById() method
-
+   The id attribute is used to specify a unique id for an HTML element
+   The value of the id attribute must be unique within the HTML document
+   The id attribute is used by CSS and JavaScript to style/select a specific element
+   The value of the id attribute is case sensitive
+   The id attribute is also used to create HTML bookmarks
+   JavaScript can access an element with a specific id with the getElementById() method
 
 
 HTML iframes 
@@ -2252,48 +2270,47 @@ It is used to display a webpage within another webpage
 
 HTML Iframe Syntax:
 
-<iframe> tag specifies an inline frame. This inline frame is used to  embed another document within the current html document
+```<iframe>``` tag specifies an inline frame. This inline frame is used to  embed another document within the current html document
 
-**Syntax example below
+** Syntax example below
 
-<iframe src="url" title="description">
+```<iframe src="url" title="description">```
 
 NB: It is a good practice to always include a title attribute for the <iframe>. This is used by screen readers to read out what the content of the iframe is.
 
 
-**Use height and width to specify the size ofthe iframe
-
+** Use height and width to specify the size ofthe iframe
+```
 <iframe src="demo_iframe.htm" height="200" width="300" title="Iframe Example"></iframe>
+```
 
-
-**You can also add style attribute and use css height and width properties:
-
+** You can also add style attribute and use css height and width properties:
+```
 <iframe src="demo_iframe.htm" style="height:200px;width:300px;" title="Iframe Example"></iframe>
-
-
-**Iframe-Remove the border
+```
+** Iframe-Remove the border
 
 * To remove border add style attribute and use the CSS border property. 
-
+```
 <iframe src="demo_iframe.htm" style="border:none;" title="Iframe Example"></iframe>
+```
 
+* You can also use css style to change the size and color of the iframe's border:
 
-*You can also use css style to change the size and color of the iframe's border:
-
-
+```
 <iframe src="demo_iframe.htm" style="border:2px solid red;" title="Iframe Example"></iframe>
-
+```
 
 Iframe - Target for a Link
 
 An iframe can be used as the target frame for a link. The target attribute of the link must refer to the name attribute ofthe iframe
-
+```
 <iframe src="demo_iframe.htm" name="iframe_a" title="Iframe Example"></iframe>
 
 <p><a href="https://www.w3schools.com" target="iframe_a">W3Schools.com</a></p>
+```
 
-
-**When the target attribute of a link matches the name of an iframe, the link will open in the iframe
+** When the target attribute of a link matches the name of an iframe, the link will open in the iframe
 
 
 In essence, the target of a url can be a new (_blank) page and  can also be the name (attribute) of an iframe
@@ -2308,7 +2325,8 @@ HTML JavaScript
 Javascript inclusion in HTML makes it more interactive and dynamic.
 
 
-**The below gives a button that shows date and time. 
+** The below gives a button that shows date and time.
+```
 <!DOCTYPE html>
 <html>
 <body>
@@ -2323,16 +2341,16 @@ Click me to display Date and Time.</button>
 
 </body>
 </html> 
-
+```
 
 * HTML Script tag.
 
 It defines client-side JavaScript...the the <script> element contains script statement or points to an external script through an src attribute. JS is used for image manipulation, form validation, and dynamic changes of content.
 
-To select an HTML element, JavaScript most often uses the document.getElementById() method.
+To select an HTML element, JavaScript most often uses the ```document.getElementById()``` method.
 
 This JavaScript example writes "Hello JavaScript!" into an HTML element with id="demo":
-
+```
 <h2>Use JavaScript to Change Text</h2>
 <p>This example writes "Hello JavaScript!" into an HTML element with id="demo":</p>
 
@@ -2341,9 +2359,10 @@ This JavaScript example writes "Hello JavaScript!" into an HTML element with id=
 <script>
 document.getElementById("demo").innerHTML = "Hello JavaScript!";
 </script> 
+```
 
-
-**Use JavaScript to change the style of an HTML document
+** Use JavaScript to change the style of an HTML document
+```
 <h1>My First JavaScript</h1>
 
 <p id="demo">JavaScript can change the style of an HTML element.</p>
@@ -2357,14 +2376,14 @@ function myFunction() {
 </script>
 
 <button type="button" onclick="myFunction()">Click Me!</button>
-
+```
 
 
 ** Use Javascript to change the src attribute of an image.
-document.getElementById("image").src = "picture.gif";
+```document.getElementById("image").src = "picture.gif";```
 
 * see full code below
-
+```
 <h1>My First JavaScript</h1>
 <p>Here, a JavaScript changes the value of the src (source) attribute of an image.</p>
 
@@ -2386,13 +2405,14 @@ function light(sw) {
 <button type="button" onclick="light(1)">Light On</button>
 <button type="button" onclick="light(0)">Light Off</button>
 </p>
+```
 
-
-* HTML <noscript> tag
+* HTML ```<noscript>``` tag
 
 Defines alternate content to be displayed to users that have disabled scripts in their browsers or have browsers with no support for scripts
 
 * This is the script 
+```
 <script>
 document.getElementById("demo").innerHTML = "Hello JavaScript!";
 </script>
@@ -2408,7 +2428,7 @@ document.getElementById("demo").innerHTML = "Hello JavaScript!";
 <noscript>Sorry, your browser does not support JavaScript!</noscript>
 
 <p>A browser without support for JavaScript will show the text written inside the noscript element.</p>
-
+```
 
 
 
@@ -2418,54 +2438,54 @@ HTML FILE PATHS
 A file path describes the location of a file in a website's folder structure. 
 
 Examples of filepath
-
+```
 Path	Description
 <img src="picture.jpg"> 	The "picture.jpg" file is located in the same folder as the current page
 <img src="images/picture.jpg"> 	The "picture.jpg" file is located in the images folder in the current folder
 <img src="/images/picture.jpg"> 	The "picture.jpg" file is located in the images folder at the root of the current web
 <img src="../picture.jpg"> 	The "picture.jpg" file is located in the folder one level up from the current folder
+```
 
-
-
+```
 Path	Description
 <img src="picture.jpg"> 	The "picture.jpg" file is located in the same folder as the current page
 <img src="images/picture.jpg"> 	The "picture.jpg" file is located in the images folder in the current folder
 <img src="/images/picture.jpg"> 	The "picture.jpg" file is located in the images folder at the root of the current web
 <img src="../picture.jpg"> 	The "picture.jpg" file is located in the folder one level up from the current folder
-
+```
 
 * A file path describes the location of a file in a web site's folder structure.
 
 File paths are used when linking to external files, like:
 
-    Web pages
-    Images
-    Style sheets
-    JavaScripts
+   Web pages
+   Images
+   Style sheets
+   JavaScripts
 
 
 
 Absolute file paths: the full url to a file
-
+```
  <img src="https://www.w3schools.com/images/picture.jpg" alt="Mountain"> 
-
+```
 
 Relative file paths: Points to a file relative to the current page. 
 
 * File path pointing to a file in the images folder located at the root of the current web. 
-
+```
  <img src="/images/picture.jpg" alt="Mountain"> 
-
+```
  
 * File path pointing to a file in the images folder located in the current folder:
-
+```
  <img src="images/picture.jpg" alt="Mountain"> 
-
+```
 
 * File paths pointing to a file in the images folder located in the folder one level up from the current folder:
-
+```
  <img src="../images/picture.jpg" alt="Mountain"> 
-
+```
 Advice:
 
 Best Practice
@@ -2478,108 +2498,116 @@ When using relative file paths, your web pages will not be bound to your current
 
 * HTML HEAD- The Head Element
 
-
+```
 <head> element contains the <title>, <style>, <meta>, <link>, <script>, <base> elements. 
+```
+```<head>``` element is a container for metadata (data about data) and is placed between the ```<html>``` tag and the ```<body>``` tag.
 
-<head> element
-The <head> element is a container for metadata (data about data) and is placed between the <html> tag and the <body> tag.
 
 HTML metadata is data about the HTML document. Metadata is not displayed.
 
 Metadata typically define the document title, character set, styles, scripts, and other meta information.
 
 
-
-
-
-
-<title> element:
+```<title> element:```
 
 Defines document title, it must contain only text and it is shown in the browser title bar or in page's tag. Title element is required in html documents. The content ofthis page title helps for Search Engine Optimization of a webpage which is used by search engine algorithms to decide the order when listing pages in search results.
 
-The <title> element:
+The ```<title>``` element:
 
-    defines a title in the browser toolbar
-    provides a title for the page when it is added to favorites
-    displays a title for the page in search engine-results
+   defines a title in the browser toolbar
+   provides a title for the page when it is added to favorites
+   displays a title for the page in search engine-results
 
 So, try to make the title as accurate and meaningful as possible
 
 
-The HTML <style> element
+The HTML ```<style>``` element
 
 This element is used to define style information for a single HTML page. 
-
+```
  <style>
   body {background-color: powderblue;}
   h1 {color: red;}
   p {color: blue;}
 </style> 
+```
 
-
-The HTML <link> Element.
+The HTML ```<link>``` Element.
 
 Defines relationship between current document and an external resource. Link tag is most used to link to external style sheets:
-
+```
  <link rel="stylesheet" href="mystyle.css"> 
+```
 
-
-**The link element in action
+** The link element in action
+```
 <head>
   <title>Page Title</title>
   <link rel="stylesheet" href="mystyle.css">
 </head>
+```
 
-
-The HTML <meta> Element
+The HTML ```<meta>``` Element
 
 Typically used to specify the character set, page description, kyewords, author of document, and viewport settings. 
 
 The metadata will not be displayed on the page, but are used by browsers (how to display content or reload page), by search engines (keywords), and other web services.
 
 
-**Examples
+** Examples
 
 Examples
 
 Define the character set used:
+```
 <meta charset="UTF-8">
+```
 
 Define keywords for search engines:
+
+```
 <meta name="keywords" content="HTML, CSS, JavaScript">
-
+```
 Define a description of your web page:
-<meta name="description" content="Free Web tutorials">
 
+```
+<meta name="description" content="Free Web tutorials">
+```
+
+```
 Define the author of a page:
 <meta name="author" content="John Doe">
 
+
 Refresh document every 30 seconds:
+
+
 <meta http-equiv="refresh" content="30">
 
+
 Setting the viewport to make your website look good on all devices:
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-
-
-
-
+```
+```
 Example of <meta> tags: 
-
 <meta charset="UTF-8">
 <meta name="description" content="Free Web tutorials">
 <meta name="keywords" content="HTML, CSS, JavaScript">
 <meta name="author" content="John Doe">
-
+```
 
 * Setting The Viewport
 Viewport if user's visible area of a webpage. Varies with the device and is smaller on a mobile phone than PC screen. 
 
 
 You should include the following <meta> element in all your web pages:
-
+```
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+```
 
 
 This gives the browser instructions on how to control the page's dimensions and scaling.
@@ -2589,31 +2617,31 @@ The width=device-width part sets the width of the page to follow the screen-widt
 The initial-scale=1.0 part sets the initial zoom level when the page is first loaded by the browser.
 
 
-* HTML <script> Element.
+* HTML ```<script>``` Element.
 
-The <script> element is used to define client-side JavaScript. 
+The ```<script>``` element is used to define client-side JavaScript. 
 
 * The script below writes "Hello JavaScript" into an HTML element with id="demo"
-
+```
  <script>
 function myFunction() {
   document.getElementById("demo").innerHTML = "Hello JavaScript!";
 }
 </script> 
+```
 
 
+The HTML ```<base>``` Element
 
-The HTML <base> Element
+```<base>``` element specifies the base URL and/or target for all relative URLs in a page. 
 
-<base> element specifies the base URL and/or target for all relative URLs in a page. 
-
-The <base> tag must have either an href or a target attribute present, or both.
+The ```<base>``` tag must have either an href or a target attribute present, or both.
 
 There can only be one single <base> element in a document!
 
 
-**Specify a default URL and a default target for all links on a page:
-
+** Specify a default URL and a default target for all links on a page:
+```
 <head>
 <base href="https://www.w3schools.com/" target="_blank">
 </head>
@@ -2622,24 +2650,24 @@ There can only be one single <base> element in a document!
 <img src="images/stickman.gif" width="24" height="39" alt="Stickman">
 <a href="tags/tag_base.asp">HTML base Tag</a>
 </body>
+```
 
-
-**Chapter Summary
-
+** Chapter Summary
+```
 Chapter Summary
 
-    The <head> element is a container for metadata (data about data)
-    The <head> element is placed between the <html> tag and the <body> tag
-    The <title> element is required and it defines the title of the document
-    The <style> element is used to define style information for a single document
-    The <link> tag is most often used to link to external style sheets
-    The <meta> element is typically used to specify the character set, page description, keywords, author of the document, and viewport settings
-    The <script> element is used to define client-side JavaScripts
-    The <base> element specifies the base URL and/or target for all relative URLs in a page
+   The <head> element is a container for metadata (data about data)
+   The <head> element is placed between the <html> tag and the <body> tag
+   The <title> element is required and it defines the title of the document
+   The <style> element is used to define style information for a single document
+   The <link> tag is most often used to link to external style sheets
+   The <meta> element is typically used to specify the character set, page description, keywords, author of the document, and viewport settings
+   The <script> element is used to define client-side JavaScripts
+   The <base> element specifies the base URL and/or target for all relative URLs in a page
+```
 
-
-**HTML Head Elements
-
+** HTML Head Elements
+```
 Tag 	Description
 <head> 	Defines information about the document
 <title> 	Defines the title of a document
@@ -2648,13 +2676,13 @@ Tag 	Description
 <meta> 	Defines metadata about an HTML document
 <script> 	Defines a client-side script
 <style> 	Defines style information for a document
-
+```
 ----
 
 HTML LAYOUT--Layout Elements and Techniques
 
 HTML has semantic elements 
-
+```
     <header> - Defines a header for a document or a section
     <nav> - Defines a set of navigation links
     <section> - Defines a section in a document
@@ -2663,7 +2691,7 @@ HTML has semantic elements
     <footer> - Defines a footer for a document or a section
     <details> - Defines additional details that the user can open and close on demand
     <summary> - Defines a heading for the <details> element
-
+```
 
 Techniques for creating HTML layouts
     CSS framework
@@ -2689,43 +2717,47 @@ Responsive web looks good irrespecive of the device and it automatically adjust 
 Here, HTML and CSS automatically resize, hide, shrink, or enlarge a site to make it look good on all devices (desktops, tablets, and phones)
 
 To create a responsive site, add the following <meta> tag to all your web pages:
+```
 
  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-
+```
 * Responsive Images: Scale nicely to fit any browser size. To make image responsive set CSS width property to 100 % and image will become responsive according to the needs. 
 See code below for a responsive image. 
-
+```
  <img src="img_girl.jpg" style="width:100%;"> 
-
+```
 To avoid image scaling up beyond original size, use max-width property instead of the width:100%. For exaMple:
-
+```
  <img src="img_girl.jpg" style="max-width:100%;height:auto;"> 
+```
 
+** To show different images depending on browser width, use <picture> element.
 
-**To show different images depending on browser width, use <picture> element.
-
+```
  <picture>
   <source srcset="img_smallflower.jpg" media="(max-width: 600px)">
   <source srcset="img_flowers.jpg" media="(max-width: 1500px)">
   <source srcset="flowers.jpg">
   <img src="img_smallflower.jpg" alt="Flowers">
 </picture> 
+```
 
 
-**Responsive Text Size.
+** Responsive Text Size.
 
 The text size can be set with "vw" unit, which means the "viewport width"  to enable text size to follow the size ofthe browser window
 
 * the code below enables responsive text size
+```
 
  <h1 style="font-size:10vw">Hello World</h1> 
-
+```
 * Viewport is the browser window size. 1vw = 1% of viewport width. If the viewport is 50cm wide, 1vw is 0.5cm.
 
 
 * Media queries: Enables you to define completely different styles for different browser sizes. 
 
-
+```
  <style>
 .left, .right {
   float: left;
@@ -2744,7 +2776,7 @@ The text size can be set with "vw" unit, which means the "viewport width"  to en
   }
 }
 </style> 
-
+```
 
 
 
@@ -2759,7 +2791,8 @@ W3.CSS is designed to be a high quality alternative to Bootstrap.
 W3.CSS is designed to be independent of jQuery or any other JavaScript library.
 
 
-**Example of a full responsive web
+** Example of a full responsive web
+```
  <!DOCTYPE html>
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -2796,11 +2829,11 @@ W3.CSS is designed to be independent of jQuery or any other JavaScript library.
 
 </body>
 </html> 
+```
 
 
-
-**Bootstrap: another framework that uses HTML, CSS, and JQuery to make web pages:
-
+** Bootstrap: another framework that uses HTML, CSS, and JQuery to make web pages:
+```
  <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -2832,7 +2865,7 @@ W3.CSS is designed to be independent of jQuery or any other JavaScript library.
 
 </body>
 </html> 
-
+```
 
 
 
@@ -2841,37 +2874,38 @@ HTML Computer Code Elements
 
 These are the different html elements for defining use input and computer code.
 
-*Code element
+* Code element
+```
  <code>
 x = 5;
 y = 6;
 z = x + y;
 </code> 
+```
 
+* HTML ```<kbd>``` For Keyboard Input
 
-* HTML <kbd> For Keyboard Input
-
-<kbd> element defines keyboard input... and the content inside this tag is displayed inside the browser's default monospace font.
-
-* <p>Save the document by pressing <kbd>Ctrl + S</kbd></p> 
-
+```<kbd>``` element defines keyboard input... and the content inside this tag is displayed inside the browser's default monospace font.
+```
+<p>Save the document by pressing <kbd>Ctrl + S</kbd></p> 
+```
 The code above shows:Save the document by pressing Ctrl + S
 
 
-HTML <samp> For Program Output
+HTML ```<samp>``` For Program Output
 Samp element can be used to define sample output from a computer program. The content is displayed inside browser's default monospace font. 
 
 * To define some text as sample output from a computer program:
-
+```
  <p>Message from my computer:</p>
 <p><samp>File not found.<br>Press F1 to continue</samp></p> 
+```
 
 
-
-HTML <code> For Computer Code.
+HTML ```<code>``` For Computer Code.
 
 This element defines a piece of computer code. Content is displayed inside the browser's default monospace font. 
-
+```
 <h2>The code Element</h2>
 <p>Programming code example:</p>
 
@@ -2880,10 +2914,11 @@ x = 5;
 y = 6;
 z = x + y;
 </code>
-
+```
 
 * To preserve the extra white spaces in a <code> element, use a <pre> element to enclose the <code> element.
 
+```
  <pre>
 <code>
 x = 5;
@@ -2891,36 +2926,39 @@ y = 6;
 z = x + y;
 </code>
 </pre> 
+```
 
 
-HTML <var> For Variables
+HTML ```<var>``` For Variables
 It is used to define variable in programming or in a mathematical expression. The content inside is typically displayed in italics. 
-
+```
  <p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is the vertical height.</p> 
-
+```
 The result is:
-The area of a triangle is: 1/2 x b x h, where b is the base, and h is the vertical height.
+
+The area of a triangle is: ```1/2 x b x h, where b is the base, and h is the vertical height```.
 
 
 * Chapter Summary
-
+```
     The <kbd> element defines keyboard input
     The <samp> element defines sample output from a computer program
     The <code> element defines a piece of computer code
     The <var> element defines a variable in programming or in a mathematical expression
     The <pre> element defines preformatted text
-
+```
 -----
 HTML semantic Elements
 
 Semantic elements are the elements that have a meaning and this meaning describes the content to both browser and the developer. 
 
-Non-semantic element: <div> and <span>   tells nothing about the content
+Non-semantic element: ```<div>``` and ```<span>```   tells nothing about the content
 
-Semantic elements: <form>, <table>, and <article>  defines content
-Sites usually define elements:<div id="nav"> <div class="header"> <div id="footer"> to indicate navigation, header, and footer.
+Semantic elements: ```<form>, <table>, and <article>```  defines content
+Sites usually define elements:```<div id="nav"> <div class="header"> <div id="footer">``` to indicate navigation, header, and footer.
 
 * emantic Elements in HTML
+```
     <article>
     <aside>
     <details>
@@ -2934,10 +2972,10 @@ Sites usually define elements:<div id="nav"> <div class="header"> <div id="foote
     <section>
     <summary>
     <time>
+```
 
-
-HTML <section> Element:  A Thematic grouping of content typically with a heading. You can split a webpage into sections for introduction, content, and contact information.
-
+HTML ```<section>``` Element:  A Thematic grouping of content typically with a heading. You can split a webpage into sections for introduction, content, and contact information.
+```
  <section>
 <h1>WWF</h1>
 <p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was founded in 1961.</p>
@@ -2947,14 +2985,15 @@ HTML <section> Element:  A Thematic grouping of content typically with a heading
 <h1>WWF's Panda symbol</h1>
 <p>The Panda has become the symbol of WWF. The well-known panda logo of WWF originated from a panda named Chi Chi that was transferred from the Beijing Zoo to the London Zoo in the same year of the establishment of WWF.</p>
 </section> 
+```
 
 
+HTML ```<article>``` Element
 
-HTML <article> Element
-
-The <article> element specifies independent self-contained content. Article should make sense and should be distributable independently from the rest of the site. Article element can be used in: Forum post, Blog post, Newspaper Article.
+The ```<article>``` element specifies independent self-contained content. Article should make sense and should be distributable independently from the rest of the site. Article element can be used in: Forum post, Blog post, Newspaper Article.
 
 * Example of the usage of article elements
+```
  <article>
 <h2>Google Chrome</h2>
 <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
@@ -2969,9 +3008,10 @@ The <article> element specifies independent self-contained content. Article shou
 <h2>Microsoft Edge</h2>
 <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
 </article> 
-
+```
 
 * Use of CSS to style Article elements:
+```
  <html>
 <head>
 <style>
@@ -3016,24 +3056,28 @@ The <article> element specifies independent self-contained content. Article shou
 
 </body>
 </html> 
+```
+
+Nesting ```<article>``` in ```<section>``` or Vice Versa.
+
+The ```<article>``` element specifies independent self-contained content while <section> eleemnt defines a section in a document.
+
+You will find HTML pages with <section> elements containing <article> element and <article> elements containing  
+
+```
+<section>
+```
 
 
-Nesting <article> in <section> or Vice Versa.
+HTML ```<header>``` Element
 
-The <article> element specifies independent self-contained content while <section> eleemnt defines a section in a document.
+```<header>```element rep a containere for introductory content or a set of navigational links and typically contains one or more <h1> -<h6>, logo or icon, authorship information etc.
 
-You will find HTML pages with <section> elements containing <article> element and <article> elements containing <section>
-
-
-HTML <header> Element
-
-<header>element rep a containere for introductory content or a set of navigational links and typically contains one or more <h1> -<h6>, logo or icon, authorship information etc.
-
-* Note: You can have several <header> elements in one HTML document. However, <header> cannot be placed within a <footer>, <address> or another <header> element.
+* Note: You can have several ```<header>``` elements in one HTML document. However, ```<header>``` cannot be placed within a ```<footer>```, ```<address>``` or another ```<header>``` element.
 
 
 Example of header: 
-
+```
 <article>
   <header>
     <h1>What Does WWF Do?</h1>
@@ -3042,10 +3086,10 @@ Example of header:
   <p>WWF's mission is to stop the degradation of our planet's natural environment,
   and build a future in which humans live in harmony with nature.</p>
 </article> 
+```
 
 
-
-* HTML <footer> Element
+* HTML ```<footer>``` Element
 
 This element typically contains 
     authorship information
@@ -3058,43 +3102,44 @@ This element typically contains
 
 
 * Examples of footer section in a document
-
+```
  <footer>
   <p>Author: Hege Refsnes</p>
   <p><a href="mailto:hege@example.com">hege@example.com</a></p>
 </footer> 
+```
 
+HTML ```<nav>``` Element:Defines a set of navigation links.
 
-HTML <nav> Element:Defines a set of navigation links.
-
-<nav> element define a set of navigation links which are the major  blocks of navigation links. So you should not use <nav>for all links.
+```<nav>``` element define a set of navigation links which are the major  blocks of navigation links. So you should not use <nav>for all links.
 
 Browsers, such as screen readers for disabled users, can use this element to determine whether to omit the initial rendering of this content.
 
-**A set of navigation links
-
- <nav>
+** A set of navigation links
+```
+ <nav> 
   <a href="/html/">HTML</a> |
   <a href="/css/">CSS</a> |
   <a href="/js/">JavaScript</a> |
   <a href="/jquery/">jQuery</a>
 </nav> 
+```
 
 
-
-HTML <aside> Element
+HTML ```<aside>``` Element
 Defines some contents aside from the content it is placed in like sidebar. The <aside> contentshould be indirectly related to the surrounding content.
 
+```
 <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
 
 <aside>
 <h4>Epcot Center</h4>
 <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
 </aside>
-
+```
 
 * Using CSS to style the aside element.
-
+```
 <html>
 <head>
 <style>
@@ -3122,23 +3167,23 @@ aside {
 </body>
 </html>
 
+```
 
+HTML ```<figure>``` and ```<figcaption>``` Elements
 
-HTML <figure> and <figcaption> Elements
+The ```<figure>``` tag specifies self-contained content, like illustrations, diagrams, photos, code listings, etc.
 
-The <figure> tag specifies self-contained content, like illustrations, diagrams, photos, code listings, etc.
+The ```<figcaption>``` tag defines a caption for a ```<figure>``` element. The ```<figcaption>``` element can be placed as the first or as the last child of a ```<figure>``` element.
 
-The <figcaption> tag defines a caption for a <figure> element. The <figcaption> element can be placed as the first or as the last child of a <figure> element.
-
-The <img> element defines the actual image/illustration. 
+The ```<img>``` element defines the actual image/illustration. 
 
 * Sample code for figure and figure caption
-
+```
 <figure>
   <img src="pic_trulli.jpg" alt="Trulli">
   <figcaption>Fig1. - Trulli, Puglia, Italy.</figcaption>
 </figure> 
-
+```
 
 * Essence of Semantic Elements
 According to the W3C: "A semantic Web allows data to be shared and reused across applications, enterprises, and communities."
@@ -3147,6 +3192,7 @@ According to the W3C: "A semantic Web allows data to be shared and reused across
 Semantic Elements in HTML
 
 Below is a list of some of the semantic elements in HTML.
+```
 Tag 	Description
 <article> 	Defines independent, self-contained content
 <aside> 	Defines content aside from the page content
@@ -3161,12 +3207,13 @@ Tag 	Description
 <section> 	Defines a section in a document
 <summary> 	Defines a visible heading for a <details> element
 <time> 	Defines a date/time
-
+```
 
 -------
 HTML Style Guide and Coding Conventions
 
 * always declare doctype
+```
 <!DOCTYPE html>
 
 * Use lower case elements
@@ -3180,27 +3227,30 @@ HTML Style Guide and Coding Conventions
   <p>This is a paragraph.</p>
   <p>This is a paragraph.</p>
 </section> 
-
+```
 
 * Use lowercase attribute Name
-
+```
  <a href="https://www.w3schools.com/html/">Visit our HTML tutorial</a> 
-
+```
 * Always Quote Attribute Values
+```
  <table class="striped"> 
-
+```
 * Always specify alt attribute for images
+```
  <img src="html5.gif" alt="HTML5" style="width:128px;height:128px"> 
-
+```
 * Try not to include spaces around equal sign.
+```
  <link rel="stylesheet" href="styles.css"> 
-
+```
 * Avoid too long code lines. So scrolling right and left can be avoided.
 
 * Avoid blank lines, spaces, or indentations without a reason. Make code readable by adding blank lines to separate large of logical code blocks. Add two spaces of indentation for readability. 
 
 * This is good
- 
+``` 
 <body>
 
 <h1>Famous Cities</h1>
@@ -3212,8 +3262,9 @@ It is the seat of the Japanese government and the Imperial Palace,
 and the home of the Japanese Imperial Family.</p>
 
 </body> 
-
-**And example of a good table:
+```
+** And example of a good table:
+```
  <table>
   <tr>
     <th>Name</th>
@@ -3228,34 +3279,34 @@ and the home of the Japanese Imperial Family.</p>
     <td>Description of B</td>
   </tr>
 </table> 
-
+```
 
 
 *An example of a good list:
-
+```
  <ul>
   <li>London</li>
   <li>Paris</li>
   <li>Tokyo</li>
 </ul> 
+```
 
 
 
-
-* Never Skip the <title> Element
+* Never Skip the ```<title>``` Element
 
 The content of a page title is important for SEO and is used to decide order when listing page results by search engines.
 
 
-<title> elements: define a title in the browser toolbar, provide title for  the page when it is added to favorites, display title for the page in search-engine result.
+```<title>``` elements: define a title in the browser toolbar, provide title for  the page when it is added to favorites, display title for the page in search-engine result.
 
 * Make sure title is accurate is as meaningful as possible
 
-
+```
 <title>HTML Style Guide and Coding Conventions</title>
+```
 
-
-* Always add <html> and <body> tags
+* Always add ```<html>``` and ```<body>``` tags
 
 Always add the html and body tags although the html will validate without them
 
@@ -3268,21 +3319,21 @@ The <head> tag can also be omitted. Browsers add all elements before <body> to a
 * Close Empty HTML Elements
 
 You have the option to close empty elements or leave it open.. in HTML.
-
+```
  <meta charset="utf-8"> 
-
+```
 
 However, for XML/XHTML, you have to close it
-
+```
  <meta charset="utf-8" /> 
-
+```
 
 * Add the lang attribute
 
 Always add the lang attribute inside your <html> tag, to declare the language of the Web page. This helps search engines and browsers.
 
 for example:
-
+```
  <!DOCTYPE html>
 <html lang="en-us">
 <head>
@@ -3295,68 +3346,66 @@ for example:
 
 </body>
 </html> 
-
+```
 
 * Meta Data
 
-Always specify both language and character encoding  <meta charset="charset"> should be defined as early as possible in an HTML document:
+Always specify both language and character encoding  ```<meta charset="charset">``` should be defined as early as possible in an HTML document:
 
-
+```
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
   <meta charset="UTF-8">
   <title>Page Title</title>
 </head>
-
+```
 
 * Setting the Viewport
 
 Viewport is the user's visible area of a webpage and varies with screen size of the user's device. 
 
 * include the following <meta> element in all y our web pages to instruct the browser on how to control the page's dimension. 
-
+```
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
+The ```'width=device-width'```sets the width of the page to follow the screen-width or the device which will very depending on the device.
 
-The 'width=device-width' sets the width of the page to follow the screen-width or the device which will very depending on the device.
 
-
-The initial-scale=1.0 sets initial zoom level when the page is first loaded by browser. 
+The ```initial-scale=1.0``` sets initial zoom level when the page is first loaded by browser. 
 
 * Short comments should be written on one line:
-
-<!-- This is a comment -->
+```
+<!-- This is a comment -->```
 
 and for comments that occupy more than one line:
-
-
 <!--
   This is a long comment example. This is a long comment example.
   This is a long comment example. This is a long comment example.
 -->
 
-
+```
 * Using Style Sheets
 
 Use simple syntax for linking to style sheets( not necessary to include the type attribute)
 
-
+```
 <link rel="stylesheet" href="styles.css">
-
+```
 Short CSS rules can be written  compressed like this:
-
+```
 p.intro {font-family:Verdana;font-size:16em;}
-
+```
 
 Long CSS rules can be written over multiple lines:
-
+```
 body {
   background-color: lightgrey;
   font-family: "Arial Black", Helvetica, sans-serif;
   font-size: 16em;
   color: black;
 }
-
+```
 
 * Some advice on how to properly include the CSS style sheet
     Place the opening bracket on the same line as the selector
@@ -3368,20 +3417,19 @@ body {
 
 
 * Loading JS in HTML
-
+```
 <script src="myscript.js">
-
-
+```
 * Accessing HTML Elements with Js
 
 The use of untidy  html code will result into Js errors. 
 
 The below produce different results
-
+```
 getElementById("Demo").innerHTML = "Hello";
 
 getElementById("demo").innerHTML = "Hello";
-
+```
  
 
 * Use Lower Case File Names
@@ -3405,9 +3453,9 @@ There is no difference between them. Consistency is good, however.
 
 * Default filenames:
 
-When url does not specify filenames (such as "https:www.abc.com/"), the server adds a default filename like "index.html" and "index.htm", "default.html","default.htm".
+When url does not specify filenames (such as ```"https:www.abc.com/"```), the server adds a default filename like ```"index.html"``` and ```"index.htm"```, ```"default.html","default.htm"```.
 
-You can always configure servers with more than one default filename, and you can usually set up as many default filename as you want. However, if your server is only configured with "index.html" as the default filename, your file must be "index.html", not default .html.
+You can always configure servers with more than one default filename, and you can usually set up as many default filename as you want. However, if your server is only configured with ```"index.html"``` as the default filename, your file must be "index.html", not default .html.
  
  
  -------
@@ -3420,11 +3468,12 @@ Greater than and less than are reserved html signs and browser might mix them up
 
 
 Character entity looks like this:
+```
 &entity_name;
 
 OR
 &#entity_number;
-
+```
 
 
 
@@ -3440,16 +3489,18 @@ Disadvantage of using an entity name: Browsers may not support all entity names,
 &nbsp  is a space that will not break into a new line. Two words separated by a non-breaking space will stick together, not break into a new line. Use this when breaking words may not be disruptive.
 
 * examples
-
+```
     § 10
     10 km/h
     10 PM
-
-* Tip: The non-breaking hyphen (&#8209;) is used to define a hyphen character (‑) that does not break into a new line.
+```
+* Tip: The non-breaking hyphen ```(&#8209;)``` is used to define a hyphen character (‑) that does not break into a new line.
 
 
 
 * Some useful HTML Character Entities
+
+```
 
 Result 	Description 	Entity Name 	Entity Number
 	non-breaking space 	&nbsp; 	&#160;
@@ -3464,7 +3515,7 @@ Result 	Description 	Entity Name 	Entity Number
 € 	euro 	&euro; 	&#8364;
 © 	copyright 	&copy; 	&#169;
 ® 	registered trademark 	&reg; 	&#174;
-
+```
 
 * Combining Diacritical Marks (Useful when writing in yoruba for example and you need the ami signs on the alphabets)
 
@@ -3476,8 +3527,8 @@ Diacritical marks can appear both above and below a letter, inside a letter, and
 
 Diacritical marks can be used in combination with alphanumeric characters to produce a character that is not present in the character set (encoding) used in the page.
 
-
-*Mark 	Character 	Construct 	Result
+```
+* Mark 	Character 	Construct 	Result
  ̀ 	a 	a&#768; 	à
  ́ 	a 	a&#769; 	á
 ̂ 	a 	a&#770; 	â
@@ -3486,7 +3537,7 @@ Diacritical marks can be used in combination with alphanumeric characters to pro
  ́ 	O 	O&#769; 	Ó
 ̂ 	O 	O&#770; 	Ô
  ̃ 	O 	O&#771; 	Õ
-
+```
 -------
 * HTML Symbols
 
@@ -3511,16 +3562,16 @@ HTML CHARSET
 HTML charset attribute:
 To display an HTML page correctly, a web browser must know the character set used in the page. 
 
-
+```
 <meta charset="UTF-8">
-
+```
 if you do not specify the charset, "UTF-8" is the default in HTML.
 
 
 UTF-8 Characters: You can't type them on the keyboard but they can always be displayed using numbers ( entity numbers)
 
-*Both <p> in the paragraph below are the same
-
+* Both ```<p>``` in the paragraph below are the same
+```
  <!DOCTYPE html>
 <html>
 <head>
@@ -3533,7 +3584,7 @@ UTF-8 Characters: You can't type them on the keyboard but they can always be dis
 
 </body>
 </html> 
-
+```
 * A, B, C are 65, 66, and 67 respectively
 
 
@@ -3544,16 +3595,16 @@ Emojis are also characters from utf-8.
 
 
 * You can size emojis like other characters
-
+```
 <p style="font-size:48px">
 &#128512; &#128516; &#128525; &#128151;
 </p>
-
+```
 * HTML Encoding ( Character sets)
 
 A browser must know the character set to use to display it correctly. 
 
-**Excerpts from the HTML ENCODING CHAPTER
+** Excerpts from the HTML ENCODING CHAPTER
 From ASCII to UTF-8
 
 ASCII was the first character encoding standard. ASCII defined 128 different characters that could be used on the internet: numbers (0-9), English letters (A-Z), and some special characters like ! $ + - ( ) @ < > .
@@ -3565,42 +3616,42 @@ ANSI (Windows-1252) was the original Windows character set. ANSI is identical to
 The HTML5 specification encourages web developers to use the UTF-8 character set, which covers almost all of the characters and symbols in the world!
 
 
-**HTML charset attribute
+** HTML charset attribute
 you specify it in the <meta> tag of the HTML page.
 
-
+```
 <meta charset="UTF-8">
-
+```
 ------------------
 HTML URL
 
 HTML Uniform Resource Locators.
 
 WEbbrowsers use URL to request pages from web servers. URL is used to address documents ( or other data) on the web. 
-
+```
 scheme://prefix.domain:port/path/filename 
-
+```
 Explanation:
 
-    scheme - defines the type of Internet service (most common is http or https)
-    prefix - defines a domain prefix (default for http is www)
-    domain - defines the Internet domain name (like w3schools.com)
-    port - defines the port number at the host (default for http is 80)
-    path - defines a path at the server (If omitted: the root directory of the site)
-    filename - defines the name of a document or resource
+   scheme - defines the type of Internet service (most common is http or https)
+   prefix - defines a domain prefix (default for http is www)
+   domain - defines the Internet domain name (like w3schools.com)
+   port - defines the port number at the host (default for http is 80)
+   path - defines a path at the server (If omitted: the root directory of the site)
+   filename - defines the name of a document or resource
 
 
 * Common URL Schemes
 
 Common URL Schemes
-
+```
 The table below lists some common schemes:
 Scheme 	Short for 	Used for
 http 	HyperText Transfer Protocol 	Common web pages. Not encrypted
 https 	Secure HyperText Transfer Protocol 	Secure web pages. Encrypted
 ftp 	File Transfer Protocol 	Downloading or uploading files
 file 	  	A file on your computer
-
+```
 
 * URLs can only be sent over the internet using the ASCII character set. The URL has to be converted if it contains outside characters. 
 non-ASCII characters are replaced by  % followed by hexadecimal units. and Spaces are normally replaced by + (plus) sign.
@@ -3615,14 +3666,14 @@ XHTML is more strict and more XML-based version of HTML.
 
 What is XHTML?
 
-    XHTML stands for EXtensible HyperText Markup Language
-    XHTML is a stricter, more XML-based version of HTML
-    XHTML is HTML defined as an XML application
-    XHTML is supported by all major browsers
+   XHTML stands for EXtensible HyperText Markup Language
+   XHTML is a stricter, more XML-based version of HTML
+   XHTML is HTML defined as an XML application
+   XHTML is supported by all major browsers
 
 * Differences between HTML and XHTML
 in XHTML
-
+```
     <!DOCTYPE> is mandatory
     The xmlns attribute in <html> is mandatory
     <html>, <head>, <title>, and <body> are mandatory
@@ -3632,13 +3683,14 @@ in XHTML
     Attribute names must always be in lowercase
     Attribute values must always be quoted
     Attribute minimization is forbidden
+```
 
+* XHTML - ```OCTYPE ....>``` is Mandatory
 
-* XHTML - <!DOCTYPE ....> Is Mandatory
+The ```<html>, <head>, <title>, and <body>``` elements must also be present. The xmlns attribute in <htmk> must specify the xml namespace for the document. 
 
-The <html>, <head>, <title>, and <body> elements must also be present. The xmlns attribute in <htmk> must specify the xml namespace for the document. 
-
- <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+```
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
 "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -3646,59 +3698,63 @@ The <html>, <head>, <title>, and <body> elements must also be present. The xmlns
 </head>
 <body>
 
-  some content here...
+  some content here  fslfksm
 
 </body>
 </html>
 
-
 * XHTML Elements Must be Properly Nested
  <b><i>Some text</i></b>  
 don't switch the tags.
+```
+
 
 
 
 * XHTML Elements Must Always be Closed.
-
+```
  <p>This is a paragraph</p>
 <p>This is another paragraph</p> 
 
-
+```
 
 * XHTML Empty Elements Must Always be Closed.
+```
 A break: <br />
 A horizontal rule: <hr />
 An image: <img src="happy.gif" alt="Happy face" />
-
+```
 
 XHTML Elements Must be in Lowercase.
-
+```
  <body>
 <p>This is a paragraph</p>
 </body> 
-
+```
 * XHTML Attribure Names Must be in Lowercase.
-
+```
  <a href="https://www.w3schools.com/html/">Visit our HTML tutorial</a> 
-
+```
 * XHTML Attribute Values Must be Quoted
-
+```
  <a href="https://www.w3schools.com/html/">Visit our HTML tutorial</a> 
-
+```
 
 
 Correct:
+```
 <input type="checkbox" name="vehicle" value="car" checked="checked" />
 <input type="text" name="lastname" disabled="disabled" />
 Wrong:
 <input type="checkbox" name="vehicle" value="car" checked />
 <input type="text" name="lastname" disabled />
-
+```
 
 
 W3C has XHTML Validator
+```
 https://validator.w3.org/nu/?doc=https%3A%2F%2Fwww.w3schools.com%2Fhtml%2Fhtml_validate.html
-
+```
 -----------------------------------------------------------------------------------------------------------------
 
 ** Part 2: HTML Forms
@@ -3706,7 +3762,7 @@ https://validator.w3.org/nu/?doc=https%3A%2F%2Fwww.w3schools.com%2Fhtml%2Fhtml_v
 HTML Forms
 
 * Filling a form that contains user name and password and that redirects the form to a specific page after servers process the input.
-
+```
 <h2>HTML Forms</h2>
 
 <form action="/action_page.php">
@@ -3718,57 +3774,58 @@ HTML Forms
 </form> 
 
 <p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+```
 
+* The ```<form>``` Element
 
-* The <form> Element
-
-The HTML <form> element is used to create an HTML form for user input:
-
+The HTML ```<form>``` element is used to create an HTML form for user input:
+```
 <form>
 
 form elements
 
 </form>
-
+```
 
 The form element is like a container for all kinds of  input elements like: text fields, checkboxes, radio buttons, submit buttons, etc.
 
 
-* The <input> element: is the most used form element and can be displayed on the 'type' attribute. 
-
+* The ```<input>``` element: is the most used form element and can be displayed on the 'type' attribute. 
+```
 Type 	Description
 <input type="text"> 	Displays a single-line text input field
 <input type="radio"> 	Displays a radio button (for selecting one of many choices)
 <input type="checkbox"> 	Displays a checkbox (for selecting zero or more of many choices)
 <input type="submit"> 	Displays a submit button (for submitting the form)
 <input type="button"> 	Displays a clickable button
+```
 
-
-* Text Fields: <input type="text"> 
+* Text Fields: ```<input type="text"> ```
 
 This defines a single-line input field for text input. The form itself is not visible and the number of characters is by default 20 characters. 
-
+```
  <form>
   <label for="fname">First name:</label><br>
   <input type="text" id="fname" name="fname"><br>
   <label for="lname">Last name:</label><br>
   <input type="text" id="lname" name="lname">
 </form> 
+```
+The ```<label>``` tag defines a label for many form elements.
 
-The <label> tag defines a label for many form elements.
+The ```<label>``` element is useful for screen-reader users, because the screen-reader will read out loud the label when the user focus on the input element.
 
-The <label> element is useful for screen-reader users, because the screen-reader will read out loud the label when the user focus on the input element.
+The ```<label>``` element also help users who have difficulty clicking on very small regions (such as radio buttons or checkboxes) - because when the user clicks the text within the ```<label>``` element, it toggles the radio button/checkbox.
 
-The <label> element also help users who have difficulty clicking on very small regions (such as radio buttons or checkboxes) - because when the user clicks the text within the <label> element, it toggles the radio button/checkbox.
-
-The for attribute of the <label> tag should be equal to the id attribute of the <input> element to bind them together. 
+The for attribute of the ```<label>``` tag should be equal to the id attribute of the <input> element to bind them together. 
 
 
 * Radio Buttons
-
+```
 <input type="radio"> defines the radio button which lets use select ONLY one among a few choices.
-
+```
 * see sample radio buttons below:
+```
  <form>
   <input type="radio" id="male" name="gender" value="male">
   <label for="male">Male</label><br>
@@ -3777,16 +3834,17 @@ The for attribute of the <label> tag should be equal to the id attribute of the 
   <input type="radio" id="other" name="gender" value="other">
   <label for="other">Other</label>
 </form> 
-
+```
 
 
 * Checkboxes: Enables users select zero or more among a limited no of choices 
-
+```
 <input type="checkbox"> defines a checkbox
-
+```
 NB: the value attribute  can indicate the default option
  
-*See example of form below:
+* See example of form below:
+```
 <form>
   <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
   <label for="vehicle1"> I have a bike</label><br>
@@ -3795,14 +3853,14 @@ NB: the value attribute  can indicate the default option
   <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
   <label for="vehicle3"> I have a boat</label>
 </form> 
-
+```
 
 * The Submit Button
-
+```
 <input type="submit"> defines the button for submitting form data to a form-handler. 
-
+```
 Example of a form with a submit button below: 
-
+```
  <form action="/action_page.php">
   <label for="fname">First name:</label><br>
   <input type="text" id="fname" name="fname" value="John"><br>
@@ -3810,9 +3868,9 @@ Example of a form with a submit button below:
   <input type="text" id="lname" name="lname" value="Doe"><br><br>
   <input type="submit" value="Submit">
 </form> 
+```
 
-
-* he Name Attribute for <input>
+* he Name Attribute for ```<input>```
 * Each input field must have a name to be submitted. If the value of the name attribute is omitted, the input field value will not be sent at all. 
 
 
@@ -3822,7 +3880,7 @@ Example of a form with a submit button below:
 The Action Attribute: defines action to be performed when form is submitted.  Form data is usually sent to a file on  server when submit button is clicked. If you omit action attribute, the action is set to the current page.
 
 * To send form data to a file called action_page.php containing a server-side script that handles the form data:
-
+```
  <form action="/action_page.php">
   <label for="fname">First name:</label><br>
   <input type="text" id="fname" name="fname" value="John"><br>
@@ -3830,7 +3888,7 @@ The Action Attribute: defines action to be performed when form is submitted.  Fo
   <input type="text" id="lname" name="lname" value="Doe"><br><br>
   <input type="submit" value="Submit">
 </form> 
-
+```
 
 * The Target Attribute
 This specified where to display response received after submitting the form. 
@@ -3847,6 +3905,7 @@ framename 	The response is displayed in a named iframe
 ```
 
 * Example of the use of target attribute:
+```
 <p>When submitting this form, the result will be opened in a new browser tab:</p>
 
 <form action="/action_page.php" target="_blank">
@@ -3856,28 +3915,26 @@ framename 	The response is displayed in a named iframe
   <input type="text" id="lname" name="lname" value="Doe"><br><br>
   <input type="submit" value="Submit">
 </form> 
-
+```
 
 * The Method Attribute
 
 This specifies the method attribute specifies HTTP method used when submitting form data. 
 
 
-* The get method: <form action="/action_page.php" method="get"> 
-* The post method:  <form action="/action_page.php" method="post"> 
+* The get method: ```<form action="/action_page.php" method="get"> ```
+* The post method:  ```<form action="/action_page.php" method="post"> ```
 
 * Tip: Always use POST if the form data contains sensitive or personal information!
 
 Notes on GET:
-
-    Appends the form data to the URL, in name/value pairs
-    NEVER use GET to send sensitive data! (the submitted form data is visible in the URL!)
-    The length of a URL is limited (2048 characters)
-    Useful for form submissions where a user wants to bookmark the result
-    GET is good for non-secure data, like query strings in Google
+   Appends the form data to the URL, in name/value pairs
+   NEVER use GET to send sensitive data! (the submitted form data is visible in the URL!)
+   The length of a URL is limited (2048 characters)
+   Useful for form submissions where a user wants to bookmark the result
+   GET is good for non-secure data, like query strings in Google
 
 Notes on POST:
-
     Appends the form data inside the body of the HTTP request (the submitted form data is not shown in the URL)
     POST has no size limitations, and can be used to send large amounts of data.
     Form submissions with POST cannot be bookmarked
@@ -3888,16 +3945,18 @@ Tip: Always use POST if the form data contains sensitive or personal information
 
 * The Autocomplete Attribute
 Specifies whether a form should have autocomplete on or off. Autocomplete when left on enables browser automatically complete values based on previously entered values in the same browser. 
-
+```
  <form action="/action_page.php" autocomplete="on"> 
-
+```
 
 The Novalidate Attribute
 This is a boolean attribute which specifies form-data (input) should not be validated when submitted. 
-
+```
 <form action="/action_page.php" novalidate> 
-
+```
 * List of All <form> Attributes
+
+```
 Attribute 	Description
 accept-charset 	Specifies the character encodings used for form submission
 action 	Specifies where to send the form-data when a form is submitted
@@ -3908,9 +3967,10 @@ name 	Specifies the name of the form
 novalidate 	Specifies that the form should not be validated when submitted
 rel 	Specifies the relationship between a linked resource and the current document
 target 	Specifies where to display the response that is received after submitting the form
+```
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-HTML <form> Elements
+HTML ```<form>``` Elements
 
 The HTML <form> element can contain one or more of the following form elements:
 

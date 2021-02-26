@@ -2023,7 +2023,7 @@ Below, h2 element belongs to both city class and also to the main class and will
 </html>
 ```
 
-** Different HTML elements like<p> and <h2> points to city class ans share same style
+Different HTML elements like ```<p>``` and ```<h2>``` points to city class ans share same style
 	
 ```
 <h2 class="city">Paris</h2>

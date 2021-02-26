@@ -2916,7 +2916,7 @@ z = x + y;
 </code>
 ```
 
-* To preserve the extra white spaces in a <code> element, use a <pre> element to enclose the <code> element.
+* To preserve the extra white spaces in a ```<code>``` element, use a ```<pre>``` element to enclose the ```<code>``` element.
 
 ```
  <pre>

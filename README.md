@@ -2058,7 +2058,7 @@ Only one element has a particular id.
 
 The id attribute is used to point to a specific style declaration in a style sheet. Also used by JS to access and manipulate elements with the specific id. 
 
-id syntax: write hash ```(#)``` followed by an id name. Then define the CSS properties with curly braces {}. in the sheet below, <h1> element is styled according to the 
+id syntax: write hash ```(#)``` followed by an id name. Then define the CSS properties with curly braces {}. in the sheet below, ```<h1>``` element is styled according to the 
 HashmyHeader style definition in the header section
 
 ```

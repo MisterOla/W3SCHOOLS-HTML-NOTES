@@ -4050,23 +4050,24 @@ It also helps users click on text next to small regions ( like checkboxes and bu
 The 'for' attribute of the <label> tag should equal to the 'id' attribute of the <input> element to bind them together.
 
 
-* The <select> Element
-This element defvines a drop-down list:
+* The <select> Element 
 
- <label for="cars">Choose a car:</label>
+This element defvines a drop-down list:
+```
+<label for="cars">Choose a car:</label>
 <select id="cars" name="cars">
   <option value="volvo">Volvo</option>
   <option value="saab">Saab</option>
   <option value="fiat">Fiat</option>
   <option value="audi">Audi</option>
 </select> 
-
+```
 * The option elements defines an option that can be selected. The first item is selected by default. Add the 'selected' attribute to an option to make it pre-selected. 
 
  <option value="fiat" selected>Fiat</option> 
 
 * Visible Values: Use size attribute to specify the number of visible values (a small scroll bar is inserted if you have more than the visible value set)
-
+```
  <label for="cars">Choose a car:</label>
 <select id="cars" name="cars" size="3">
   <option value="volvo">Volvo</option>
@@ -4074,10 +4075,10 @@ This element defvines a drop-down list:
   <option value="fiat">Fiat</option>
   <option value="audi">Audi</option>
 </select> 
-
+```
 
 * Allow Multiple Selections: 'multiple' attribute allow user to select more than one value. To use this, you have to Hold down the Ctrl (windows) / Command (Mac) button to select multiple options
-
+```
  <label for="cars">Choose a car:</label>
 <select id="cars" name="cars" size="4" multiple>
   <option value="volvo">Volvo</option>
@@ -4085,7 +4086,7 @@ This element defvines a drop-down list:
   <option value="fiat">Fiat</option>
   <option value="audi">Audi</option>
 </select> 
-
+```
 
 
 * The <textarea> Element
@@ -4095,13 +4096,12 @@ The rows attribute specifies the visible number of lines in a text area.
 The cols attribute specifies the visible width of a text area.
 
 This is how the HTML code above will be displayed in a browser:
-
+```
 <textarea name="message" rows="10" cols="30">
 The cat was playing in the garden.
 </textarea> 
-
+``` 
 CSS can also be used to define the size of the text area. 
-
 
 <textarea name="message" style="width:200px; height:600px;">
 The cat was playing in the garden.
@@ -4123,7 +4123,7 @@ The <fieldset> element is used to group related data in a form.
 
 The <legend> element defines a caption for the <fieldset> element.
 
-
+```
  <form action="/action_page.php">
   <fieldset>
     <legend>Personalia:</legend>
@@ -4134,10 +4134,10 @@ The <legend> element defines a caption for the <fieldset> element.
     <input type="submit" value="Submit">
   </fieldset>
 </form> 
+```
 
 
-
-* The <datalist> Element
+* The ```<datalist>``` Element
 Specifies a list of pre-defined options for an <input> element (works like a kind of autocomplete which list options you can select from once you type a text) This should be usable with the normal form input element--experiment.
 
 Users will see a drop-down list of the pre-defined options as they input data.
@@ -4145,7 +4145,7 @@ Users will see a drop-down list of the pre-defined options as they input data.
 The list attribute of the <input> element, must refer to the id attribute of the <datalist> element
 
 The datalist tag is not supported in Safari prior version 12.1
-
+```
  <form action="/action_page.php">
   <input list="browsers">
   <datalist id="browsers">
@@ -4156,12 +4156,13 @@ The datalist tag is not supported in Safari prior version 12.1
     <option value="Safari">
   </datalist>
 </form> 
-
+```
 
 * The <output> Element
 Rep the result of a calculation ( such as one performed by a script)
-
- <form action="/action_page.php"
+	
+```
+<form action="/action_page.php"
   oninput="x.value=parseInt(a.value)+parseInt(b.value)">
   0
   <input type="range"  id="a" name="a" value="50">
@@ -4172,9 +4173,10 @@ Rep the result of a calculation ( such as one performed by a script)
   <br><br>
   <input type="submit">
 </form> 
+```
 
-
-**HTML Form Elements
+** HTML Form Elements
+```
 Tag 	Description
 <form> 	Defines an HTML form for user input
 <input> 	Defines an input control
@@ -4188,7 +4190,7 @@ Tag 	Description
 <button> 	Defines a clickable button
 <datalist> 	Specifies a list of pre-defined options for input controls
 <output> 	Defines the result of a calculation
-
+```
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 * HTML Input Types
@@ -4716,6 +4718,7 @@ NB: The input type="image" sends the X and Y coordinates of the click that activ
 
 *The List Attribute
 The input list attribute refers to a <datalist> element that contains pre-defined options for an <input> element.
+
 ```
 <form action="/action_page.php">
   <input list="browsers" name="browser">
@@ -5085,7 +5088,7 @@ Safari 	YES 	YES 	NO
 Opera 	YES 	YES 	YES
 
 
-*HTML Video - Media Types
+* HTML Video - Media Types
 File Format 	Media Type
 MP4 	video/mp4
 WebM 	video/webm

@@ -1,6 +1,6 @@
 # W3SCHOOLS--HTML Tutorial-NOTES 
 # >Note: This repository is still a work in progress. Lots of formatting and mark-up needed. 
-
+<kbd>Return</kbd>
 This repository summarizes the key things that I learned from the w3schools online HTML tutorials. 
 > Please see: https://www.w3schools.com/html/   for the sources of all the information contained herein. 
 
@@ -5509,5 +5509,9 @@ in the outline is the lower case version of the outline component in the content
 
 B. Including HTML codes formated at a code and not text
  enclose your code in the three back quotes ``` html codes ```
+ 
+ C. Inserting "Back to top" Button
+1. Insert  the hyperlink in Homepage (in table of content) first section:   HTML Lecture<a name="#homepage">
+2. Insert the Back to top button in the section of the body of document:    [Back to top](#homepage)
 
 __See the next note on CSS:https://github.com/MisterOla/CSS-TUTORIALS-W3SCHOOLS_

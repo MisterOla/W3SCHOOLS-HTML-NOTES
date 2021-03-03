@@ -7,7 +7,7 @@ This repository summarizes the key things that I learned from the w3schools onli
 ## Course Outline
 
 ## **Part One**
-* HTML Tutorial
+* HTML Tutorial<a name="Homepage"></a>
 * HTML HOME
 * [Html Introduction](#html-introduction)
 * [HTML Editors](#html-editors)
@@ -188,6 +188,8 @@ Never rely on the fact that some tags could run without end tag. Unexpected resu
 
 
 HTML is not case sensitive but xhtml is more strict. So always use lower case letter do denote tags
+
+[Go back to table of contents](#homepage)
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 ## HTML ATTRIBUTES
@@ -5500,9 +5502,9 @@ A. Anchoring link
 
 (https://gist.github.com/MisterOla/6992c8a9de8814e7b78f44f796d7d70c)
 https://blog.bitsrc.io/how-to-write-beautiful-and-meaningful-readme-md-for-your-next-project-897045e3f991
-1. Creating a heading (in the content section):  #HTML Introduction
+1. Creating a heading (in the content section):  # HTML Intromimo
 2. To link to the HTML Introduction section (in the outline), put the text you want to see in the outline in the square bracket(i.e [HTML Intromimo])
-and include the anchor in a normal bracket following the displayed text in outline (i.e. (#html-introduction)). Note that the anchor link for the HTML introduction
+and include the anchor in a normal bracket following the displayed text in outline (i.e. (#html-intromimo)). Note that the anchor link for the HTML introduction
 in the outline is the lower case version of the outline component in the content with hyphen replacing spaces(i.e #html-intromimo)
 
 B. Including HTML codes formated at a code and not text

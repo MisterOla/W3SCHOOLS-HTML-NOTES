@@ -25,18 +25,18 @@ This repository summarizes the key things that I learned from the w3schools onli
 	* [HTML RGB AND RGBA](#rgba)
 	* [HTML HSL AND HSLA](#hsl-and-hsla)
 * [HTML CSS](#html-css)
-	* CSS INLINE(#css-inline)
-	* INTERNAL CSS(#css-internal)
-	* EXTERNAL CSS(#css-external)
-	* CSS COLORS, FONTS, AND SIZES(#css-fonts-colors-and-sizes)
-	* CSS BORDER(#css-border)
-	* CSS PADDING(#css-padding)
-	* CSS MARGIN(#css-marging)
-	* LINK TO EXTERNAL CSS(#css-link-to-external)
+	* [CSS INLINE](#css-inline)
+	* [INTERNAL CSS](#css-internal)
+	* [EXTERNAL CSS](#css-external)
+	* [CSS COLORS, FONTS, AND SIZES](#css-fonts-colors-and-sizes)
+	* [CSS BORDER](#css-border)
+	* [CSS PADDING](#css-padding)
+	* [CSS MARGIN](#css-marging)
+	* [LINK TO EXTERNAL CSS](#css-link-to-external)
 * [HTML Links](#html-links)
-   * Links(#links)
-   * Link colors(#colors)
-   * Link bookmarks(#link-bookmarks)
+   * [Links](#links)
+   * [Link colors](#colors)
+   * [Link bookmarks](#link-bookmarks)
 * [HTML Images](#html-images)
 	* [iMAGES](#images)
 	* [IMAGE MAP](#image-map)
@@ -1328,7 +1328,7 @@ th, td {
 
 
 
-**Left-align Headings::Table headings are by default bold and centred. 
+** Left-align Headings::Table headings are by default bold and centred. 
 
 To left-align table headings, use CSS text-align property. 
 ```
@@ -1337,7 +1337,7 @@ th {
 }
 ```
 
-**Add border spacing:: Specifies space between cells. Use CSS border-spacing property. Border spacing has no effect for table with collapsed borders
+** Add border spacing:: Specifies space between cells. Use CSS border-spacing property. Border spacing has no effect for table with collapsed borders
 ```
 table {
   border-spacing: 5px;

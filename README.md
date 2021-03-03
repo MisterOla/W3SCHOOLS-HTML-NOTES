@@ -14,69 +14,87 @@ This repository summarizes the key things that I learned from the w3schools onli
 * [HTML Basics](#html-basics)
 * [HTML Elements](#html-elements)
 * [HTML Attributes](#html-attributes)
-* HTML Headings
-* HTML Paragraphs
-* HTML Styles
-* HTML Formatting
-* HTML Quotations
-* HTML Comments
-* HTML Colors
-* HTML CSS
-* HTML Links
-   * Links
-   * Links Colors
-   * Links Bookmarks
-* HTML Images
-* HTML Tables
-* HTML Lists
-* HTML Block & Inline
-* HTML Classes
-* HTML Id
-* HTML Iframes
-* HTML JavaScript
-* HTML File Path
-* HTML Head
-* HTML Layout
-* HTML Responsive
-* HTML Computercode
-* HTML Semantics
-* HTML Style Guide
-* HTML Entities
-* HTML Symbols
-* HTML Emojis
-* HTML Charset
-* HTML URL Encode
-* HTML vs. XHTML
+* [HTML Headings](#html-headings)
+* [HTML Paragraphs](#html-paragraphs)
+* [HTML Styles](#html-styles)
+* [HTML Formatting](#html-formatting)
+* [HTML Quotations](#html-quotations)
+* [HTML Comments](#html-comments)
+* [HTML Colors](#html-colors)
+	* [HTML RGB COLORS](#rgb)
+	* [HTML RGB AND RGBA](#rgba)
+	* [HTML HSL AND HSLA](#hsl-and-hsla)
+* [HTML CSS](#html-css)
+	* CSS INLINE(#css-inline)
+	* INTERNAL CSS(#css-internal)
+	* EXTERNAL CSS(#css-external)
+	* CSS COLORS, FONTS, AND SIZES(#css-fonts-colors-and-sizes)
+	* CSS BORDER(#css-border)
+	* CSS PADDING(#css-padding)
+	* CSS MARGIN(#css-marging)
+	* LINK TO EXTERNAL CSS(#css-link-to-external)
+* [HTML Links](#html-links)
+   * Links(#links)
+   * Link colors(#colors)
+   * Link bookmarks(#link-bookmarks)
+* [HTML Images](#html-images)
+	* [iMAGES](#images)
+	* [IMAGE MAP](#image-map)
+	* [Background Images](##background-images)
+	* [Picture Element](#picture-element)
+* [HTML Tables](#html-tables)
+* [HTML Lists](#html-lists)
+*	* [Ordered](#ordered)
+*	* [Unordered](#unordered)
+*	* [Other Lists](#other-lists)
+* [HTML Block and Inline](#html-block-and-inline)
+* [HTML Classes](#html-classes)
+* [HTML Id](#html-id)
+* [HTML Iframes](#html-iframes)
+* [HTML JavaScript](#html-javascript)
+* [HTML File Path](#html-file-path)
+* [HTML Head](#html-head)
+* [HTML Layout](#html-layout)
+* [HTML Responsive](#html-responsive)
+* [HTML Computercode](#html-computercode)
+* [HTML Semantics](#html-semantics)
+* [HTML Style Guide](#html-style-guide)
+* [HTML Entities](#html-entities)
+* [HTML Symbols](#html-symbols)
+* [HTML Emojis](#html-emojis)
+* [HTML Charset](#html-charset)
+* [HTML URL Encode](#html-url-encode)
+* [HTML vs XHTML](#html-vs-xhtml)
 
 ## **Part Two**
 * HTML Forms
-* HTML Forms
-* HTML Form Attributes
-* HTML Form Elements
-* HTML Input Types
-* HTML Input Attributes
-* HTML Input Form Attributes
+* [HTML Form](#html-forms)
+* [HTML Form Attributes](#html-form-attributes)
+* [HTML Form Elements](#html-form-elements)
+* [HTML Input Types](#html-input-types)
+* [HTML Input Attributes](#html-input-attributes)
+* [HTML Input Form Attributes](#html-input-form-attributes)
 
 ## **Part Three** HTML Graphics
-* HTML Canvas
-* HTML SVG
+* [HTML Canvas](#html-canvas)
+* [HTML SVG](#html-svg)
 
 ##  **Part Four** HTML Media
-* HTML Media
-* HTML Video
-* HTML Audio
-* HTML Plug-ins
-* HTML YouTube
+* [HTML Media](#html-media)
+* [HTML Video](#html-video)
+* [HTML Audio](#html-audio)
+* [HTML Plug ins](#html-plug-ins)
+* [HTML YouTube](#html-youtube)
 
 ## **Part Five** HTML APIs
-* HTML Geolocation
-* HTML Drag/Drop
-* HTML Web Storage
-* HTML Web Workers
-* HTML SSE.
+* [HTML Geolocation](#html-geolocation)
+* [HTML Drag and Drop](#html-drag-and-drop)
+* [HTML Web Storage](#html-web-storage)
+* [HTML Web Workers](#html-web-workers)
+* [HTML SSE](#html-sse)
 
 ## **Part Five** HTML APIs
-* HTML References
+* [HTML References](#html-references)
 
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
@@ -172,7 +190,7 @@ Never rely on the fact that some tags could run without end tag. Unexpected resu
 HTML is not case sensitive but xhtml is more strict. So always use lower case letter do denote tags
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-HTML ATTRIBUTES
+## HTML ATTRIBUTES
  **Attribute comes as name="value"
 
 *HTML links: ```<a href="https://www.w3schools.com">Visit W3Schools</a>``` 
@@ -258,7 +276,7 @@ Or vice versa:
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
-HTML HEADINGS
+## HTML HEADINGS
 
 Headings go from ```<h1> to <h6>```. Search engines use them to understand the structure of the webpage
 
@@ -273,7 +291,7 @@ Each heading has its default size. You can change that by specifying inside a st
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
-HTML PARAGRAPHS
+## HTML PARAGRAPHS
 
 In html, you cannot be sure of how html will be displayed on each screen size. Adding extra lines or spaces to the document does not add new lines to the page. 
 Browser removes extra spaces once page displays
@@ -300,7 +318,7 @@ Tags summary
 <pre> 	Defines pre-formatted text
 ```
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-HTML STYLES
+## HTML STYLES
 
 The HTML Style attribute syntax:
 ```
@@ -349,7 +367,7 @@ Styles summary
     Use text-align for text alignment
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-HTML FORMATTING
+## HTML FORMATTING
 ```
    <b> - Bold text
    <strong> - Important text
@@ -368,7 +386,10 @@ HTML FORMATTING
 *<p>My favorite color is <del>blue</del> <ins>red</ins>.</p>
 ```
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-HTML QUOTATION AND CITATION ELEMENTS
+## HTML QUOTATIONS
+
+HTML QUOTATIONs AND CITATION ELEMENTS
+
 ```
 <abbr> 	Defines an abbreviation or acronym. Marking them give information to browsers, translation systems and search engines. Use global attribute title with it to show full meaning of the abbreviation.
 <address> 	Defines contact information for the author/owner of a document or an article. This can be email, url, physical, mobile no, social media handles etc. Browsers add line break before and after <address> element.
@@ -421,7 +442,7 @@ USA
 ```
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-HTML COMMENTS
+## HTML COMMENTS
 There is only exclamation at the start not at the end
 ```
 <!-- Write your comments here -->
@@ -440,7 +461,7 @@ Example usage
 * Comments can help you to debug your html lines of code
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-HTML COLORS
+## HTML COLORS
 
 You specify them with color names, RGB, HEX, HSL,RGBA(the alpha is for transparency),HSLA values.
 
@@ -466,7 +487,7 @@ HTML supports 140 standard color names
 <h1 style="border:2px solid DodgerBlue;">Hello World</h1>
 <h1 style="border:2px solid Violet;">Hello World</h1> 
 ```
-
+## RGB
 * These are all the same
 ```
 rgb(255, 99, 71)
@@ -490,6 +511,7 @@ hsla(9, 100%, 64%, 0.5)
 <h1 style="background-color:hsla(9, 100%, 64%, 0.5);">...</h1> 
 ```
 
+## RGBA
 RGB and RGBA Coloring
 
 Red, Green, Blue, and Alpha
@@ -528,6 +550,7 @@ Each one of these are different shades of gray.
 #686868
 #a0a0a0
 
+## HSL AND HSLA
 
 HSL: Hue, Saturation, and, lightness
 
@@ -564,8 +587,9 @@ HSLA Color Values:
 Alpha rep transparency. 0.00 means fully transparent and 1.0 not transparent at all. 
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+## HTML CSS
 
-HTML STYLES-CSS (HTML CSS)
+HTML STYLES-CSS
 
 CSS can control layout of multiple pages at same time. 
 
@@ -582,7 +606,7 @@ CSS can be added to HTML documents in 3 ways:
    Internal - by using a <style> element in the <head> section
    External - by using a <link> element to link to an external CSS file
 
-
+## CSS INLINE
 Inline CSS: To apply a unique style to a single HTML element, and it uses the style attribute of such element. 
 
 * Set h1 color to blue and p to red
@@ -591,7 +615,7 @@ Inline CSS: To apply a unique style to a single HTML element, and it uses the st
 
 <p style="color:red;">A red paragraph.</p> 
 ```
-
+# CSS INTERNAL
 Internal CSS: To define style for a single HTML Page and it defined in <head> section of an html page within <style> element
 
 ```
@@ -612,7 +636,7 @@ p    {color: red;}
 </body>
 </html> 
 ```
-
+## CSS EXTERNAL
 External CSS: Define style for many HTML pages. To use the external style, you add a link to it in the head section of the html. File must not contain any HTML Code and can be written in any text editor. Save with a .css extension. 
 
 ```
@@ -645,7 +669,7 @@ p {
 ```
 
 
-
+## CSS FONTS COLORS AND SIZES
 CSS Colors, Fonts and Sizes
 
 Here, we will demonstrate some commonly used CSS properties. You will learn more about them later.
@@ -685,7 +709,7 @@ p {
 ```
 
 
-* CSS Border
+## CSS Border
 
 The CSS border property defines a border around an HTML element.
 
@@ -700,7 +724,7 @@ p {
 
 ```
 
-* CSS Padding
+## CSS Padding
 
 The CSS padding property defines a padding (space) between the text and the border.
 
@@ -712,7 +736,7 @@ p {
 } 
 ```
 
-* CSS Margin
+## CSS Margin
 
 The CSS margin property defines a margin (space) outside the border.
 ```
@@ -722,7 +746,7 @@ p {
 }
 ```
 
-* Link to External CSS
+## CSS link to external 
 
 External style sheets can be referenced with a full URL or with a path relative to the current web page.
 
@@ -748,7 +772,7 @@ HTML CSS SUMMARY:
     Use the CSS margin property for space outside the border
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-HTML LINKS 
+## HTML LINKS 
 
 They are hyperlinks that can be clicked to be redirected to another page.
 When you move the mouse over a link, the mouse arrow will turn into a little hand.
@@ -774,8 +798,8 @@ href attribute is the link destination, and the link text is what the use sees.
 You can also style a link with CSS
 
 
-**HTML Links - The target Attribute
-
+## Links
+HTML Links - The target Attribute
 By default, the linked page will be displayed in the current browser window. To change this, you must specify another target for the link.
 
 The target attribute specifies where to open the linked document.
@@ -858,7 +882,7 @@ CHAPTER SUMMARY:
    Use the <img> element (inside <a>) to use an image as a link
    Use the mailto: scheme inside the href attribute to create a link that opens the user's email program
 
-
+## Colors
 HTML Links - Different Colors
 
 By default, a link will appear like this (in all browsers):
@@ -915,7 +939,8 @@ a:hover, a:active {
 </style> 
 ```
 
-**HTML Links - Create Bookmarks: can enable users to jump to certain part of a webpage. This helps for a long webpage. 
+## Link Bookmarks
+HTML Links - Create Bookmarks: can enable users to jump to certain part of a webpage. This helps for a long webpage. 
 
 * To create bookmark, create bookmark then add link to it. Clicking the page automatically redirects to boookmarked location in the webpage
 
@@ -943,7 +968,9 @@ Use the href attribute (```href="#value"```) to link to the bookmark
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
-HTML5 IMAGES
+## HTML IMAGES
+
+## IMAGES
 
 ```<img src="pic_trulli.jpg" alt="Italian Trulli">```
 
@@ -1038,6 +1065,7 @@ SVG 	Scalable Vector Graphics 	.svg
 
 **Loading large images takes time and can slow down your webpage...so use images carefully.
 
+## IMAGE MAP
 Image Maps::Allows you to perform actions depending on where in image  you click. You need an image, some html code that describes the clickable area. 
 
 The image: Inserted using image tag, but you must add usemap attribute in this case.
@@ -1129,8 +1157,9 @@ You can use href with the function to inform user to confirm what they are tryin
 <picture> 	Defines a container for multiple image resources
 ```
 
+## Background Images
 
-**Background Images: Repeats itself if it is smaller 
+Background Images: Repeats itself if it is smaller 
 
 *Add background image on an HTML element using style attribute and css background-image.
 ```
@@ -1174,7 +1203,7 @@ body {
 </style> 
 ```
 
-*Background Cover: You can set background-size property to cover to make background image to cover the entire element. set the background-attachment property to fixed to make sure the entire element is always covered...This keeps image original proportions. 
+* Background Cover: You can set background-size property to cover to make background image to cover the entire element. set the background-attachment property to fixed to make sure the entire element is always covered...This keeps image original proportions. 
 
 ```
 <style>
@@ -1186,7 +1215,7 @@ body {
 ```
 
 
-**Background stretch::  Allows you to make the background image to stretch to fit the entire element. Set background-size property to 100% 100%
+** Background stretch::  Allows you to make the background image to stretch to fit the entire element. Set background-size property to 100% 100%
 
 ```
  <style>
@@ -1200,7 +1229,8 @@ body {
 ```
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-HTML PICTURE ELEMENT::
+
+## PICTURE ELEMENT
 
 ```<picture>``` element allows you to display different pictures for different devices or screen sizes. 
 
@@ -1235,7 +1265,7 @@ HTML IMAGE TAGS SUMMARIZED:::
 ```
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-HTML TABLES
+## HTML TABLES
 ```
 <table> tag defined the HTML table. 
 <tr> defines table row
@@ -1429,7 +1459,7 @@ you can also add more styles:
 
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-HTML LISTS
+## HTML LISTS
 
 ** unordered list has bullets
 ** ordered lists have numberings or some kind of sequence labels
@@ -1443,6 +1473,7 @@ by default, list item  is marked with small black circles as bullets.
   <li>Milk</li>
 </ul> 
 ```
+## ORDERED
 
 * Ordered HTML list: Marked by <ol> and each list item is marked by <li> tag. Numbers are usd to mark list items by default.
 
@@ -1474,7 +1505,7 @@ Tag 	Description
 ```<dd>``` 	Describes the term in a description list
 
 
-
+## UNORDERED
 **HTML Unordered lists cont'd-List marker
 
 To choose list marker, use css list-style-type property to define style of the list item market.
@@ -1504,7 +1535,7 @@ none 	The list items will not be marked
 </ul> 
 ```
 
-**Square (filled with black)
+** Square (filled with black)
 ```
  <ul style="list-style-type:square;">
   <li>Coffee</li>
@@ -1683,6 +1714,7 @@ type="i" 	The list items will be numbered with lowercase roman numbers
 </ol> 
 ```
 
+## OTHER
 * Nested HTML Lists(list inside list)
 ```
  <ol>
@@ -1743,6 +1775,8 @@ HTML List Tags
 <dt> 	Defines a term in a description list
 <dd> 	Describes the term in a description list
 ```
+
+## HTML BLOCK AND INLINE 
 
 HTML BLOCK AND INLINE ELEMENTS
 
@@ -1871,7 +1905,7 @@ Tag 	Description
 ```
 
 
-HTML CLASSES
+## HTML CLASSES
 
 ** html class attribute is used to specify a class for an html element. 
 
@@ -2050,7 +2084,7 @@ function myFunction() {
 
 
 
-
+## HTML ID
 HTML ID ATTRIBUTE: Used to specify a unique id for an HTML element.
 
 Only one element has a particular id. 
@@ -2260,7 +2294,7 @@ Chapter Summary
    JavaScript can access an element with a specific id with the getElementById() method
 
 
-HTML iframes 
+## HTML Iframes 
 
 It is used to display a webpage within another webpage
 
@@ -2318,7 +2352,7 @@ In essence, the target of a url can be a new (_blank) page and  can also be the 
 
 
 
-HTML JavaScript
+## HTML JavaScript
 
 
 
@@ -2433,7 +2467,7 @@ document.getElementById("demo").innerHTML = "Hello JavaScript!";
 
 
 
-HTML FILE PATHS
+## HTML FILE PATH
 
 A file path describes the location of a file in a website's folder structure. 
 
@@ -2495,7 +2529,7 @@ It is best practice to use relative file paths (if possible).
 When using relative file paths, your web pages will not be bound to your current base URL. All links will work on your own computer (localhost) as well as on your current public domain and your future public domains.
 
 
-
+## HTML HEAD
 * HTML HEAD- The Head Element
 
 ```
@@ -2678,6 +2712,7 @@ Tag 	Description
 <style> 	Defines style information for a document
 ```
 ----
+## HTML LAYOUT
 
 HTML LAYOUT--Layout Elements and Techniques
 
@@ -2709,6 +2744,8 @@ CSS Flexbox layout::Ensures that elements behave predictably when  multiple size
 CSS Gridlayout: Offers grid-based layout system which facilitate designing webpages without floats and positioning and using rows and columns to achieve this.
 
 ------
+
+## HTML RESPONSIVE
 
 HTML RESPONSIVE--Responsive Web Design;
 
@@ -2870,6 +2907,7 @@ W3.CSS is designed to be independent of jQuery or any other JavaScript library.
 
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+## HTML COMPUTERCODE
 HTML Computer Code Elements
 
 These are the different html elements for defining use input and computer code.
@@ -2948,6 +2986,8 @@ The area of a triangle is: ```1/2 x b x h, where b is the base, and h is the ver
     The <pre> element defines preformatted text
 ```
 -----
+## HTML SEMANTICS
+
 HTML semantic Elements
 
 Semantic elements are the elements that have a meaning and this meaning describes the content to both browser and the developer. 
@@ -3210,6 +3250,8 @@ Tag 	Description
 ```
 
 -------
+## HTML STYLE GUIDE
+
 HTML Style Guide and Coding Conventions
 
 * always declare doctype
@@ -3459,6 +3501,7 @@ You can always configure servers with more than one default filename, and you ca
  
  
  -------
+ ## HTML ENTITIES
 
 * HTML Entities
 Replace reserved characters in HTML with character entities.
@@ -3539,6 +3582,9 @@ Diacritical marks can be used in combination with alphanumeric characters to pro
  ̃ 	O 	O&#771; 	Õ
 ```
 -------
+
+## HTML SYMBOLS
+
 * HTML Symbols
 
 You can add symbols absent on your keyboard to html using entities.
@@ -3548,7 +3594,9 @@ Many mathematical symbols are present in HTML. You also have greek letters and m
 NB: THIS SECTION HAS ABOUT 3 TABLES. Create HTML table in github later.
 
 ----
-HTML EMOJIS
+
+## HTML EMOJIS
+
 * Using Emojis in HTML
 
 Emojis are characters from UTF-8 character set:
@@ -3558,7 +3606,7 @@ They look like images, or icons, but they are not. and they are letters( charact
 UTF-8 covers almost all existing characters and symbols
 
 -----
-HTML CHARSET
+## HTML CHARSET
 HTML charset attribute:
 To display an HTML page correctly, a web browser must know the character set used in the page. 
 
@@ -3623,7 +3671,7 @@ you specify it in the <meta> tag of the HTML page.
 <meta charset="UTF-8">
 ```
 ------------------
-HTML URL
+## HTML URL ENCODE
 
 HTML Uniform Resource Locators.
 
@@ -3660,7 +3708,7 @@ non-ASCII characters are replaced by  % followed by hexadecimal units. and Space
 
 
 -----
-* HTML VS XHTML
+## HTML VS XHTML
 
 XHTML is more strict and more XML-based version of HTML. 
 

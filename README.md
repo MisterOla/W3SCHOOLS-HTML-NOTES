@@ -3929,7 +3929,7 @@ Example of a form with a submit button below:
 
 <kbd>return</kbd>[Back to table of contents](#homepage)
 
-## HTML Form Attribute
+## HTML Form Attributes
 
 * The HTML Form Attribute: A discussion of different attributes
 

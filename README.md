@@ -4812,7 +4812,7 @@ Tag 	Description
 <kbd>return</kbd>[Back to table of contents](#homepage)
 -------------------------------------------------------------------
 PART 4: HTML GRAPHICS
-
+## HTML CANVAS
 HTML cANVAS GRAPHICS
 
 It is used to draw graphics on a webpage. You use <canvas> element to create the canvas.
@@ -4845,7 +4845,7 @@ NB: Canvas can draw line, circle, draw text, Stroke text, Draw linar gradient, d
 <kbd>return</kbd>[Back to table of contents](#homepage)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
-HTML SVG 
+## HTML SVG 
 
 SVG can draw circle, rectangle, rounded rectangle, svg star, svg logo. 
 
@@ -5391,6 +5391,19 @@ You need a server that is capable of sending data updates like PHP or ASP
 
 <kbd>return</kbd>[Back to table of contents](#homepage)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+## HTML REFERENCES
+1. [HTML TAG/ELEMENT REFERENCE](https://www.w3schools.com/tags/default.asp)
+2. [HTML Browser Support](https://www.w3schools.com/tags/ref_html_browsersupport.asp)
+3. [HTML EVENTS ATTRIBUTE](https://www.w3schools.com/tags/ref_eventattributes.asp)
+4. [COLORS Tutorial](https://www.w3schools.com/colors/default.asp)
+5. [HTML ATTRIBUTE REFERENCE](https://www.w3schools.com/tags/ref_attributes.asp)
+6. [HTML CANVAS REFERENCE](https://www.w3schools.com/tags/ref_canvas.asp)
+7. [SVG REFERENCE](https://www.w3schools.com/graphics/svg_reference.asp)
+8. [HTML CHARACTER SETS](https://www.w3schools.com/charsets/default.asp)
+9. [GOOGLE MAPS REFERENCE](https://www.w3schools.com/graphics/google_maps_reference.asp)
+10.[AWESOME HTML5 REPOSITORY](https://github.com/MisterOla/awesome-html5)
+
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 NB: 

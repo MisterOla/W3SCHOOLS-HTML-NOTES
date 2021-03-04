@@ -1,6 +1,6 @@
 # W3SCHOOLS--HTML Tutorial-NOTES 
-# >Note: This repository is still a work in progress. Lots of formatting and mark-up needed. 
-<kbd>Return</kbd>
+## >Note: This repository is still a work in progress. A little more edits to go.
+
 This repository summarizes the key things that I learned from the w3schools online HTML tutorials. 
 > Please see: https://www.w3schools.com/html/   for the sources of all the information contained herein. 
 

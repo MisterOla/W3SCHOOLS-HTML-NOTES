@@ -4810,7 +4810,7 @@ Tag 	Description
 <input> 	Defines an input control
 
 <kbd>return</kbd>[Back to table of contents](#homepage)
--------------------------------------------------------------------
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 PART 4: HTML GRAPHICS
 ## HTML CANVAS
 HTML cANVAS GRAPHICS

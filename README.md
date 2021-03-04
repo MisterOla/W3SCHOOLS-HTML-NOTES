@@ -521,6 +521,8 @@ hsla(9, 100%, 64%, 0.5)
 <h1 style="background-color:rgba(255, 99, 71, 0.5);">...</h1>
 <h1 style="background-color:hsla(9, 100%, 64%, 0.5);">...</h1> 
 ```
+<kbd>return</kbd>[Back to table of contents](#homepage)
+
 
 ## RGBA
 RGB and RGBA Coloring
@@ -538,11 +540,11 @@ Black: rgb(0, 0, 0)
 White:rgb(255, 255, 255). 
 Grey: rgb( x,x,x) where x is not zero or 255. Black and white are at the two ends of the color spectrum.
 ```
-<kbd>return</kbd>[Back to table of contents](#homepage)
-
 RGBA
 
 rgba(red, green, blue, alpha) alpha 0 means fully transparent while 1.0 is not transparent at all. 
+
+<kbd>return</kbd>[Back to table of contents](#homepage)
 
 
 HTML HEX COLORS
@@ -620,6 +622,8 @@ CSS can be added to HTML documents in 3 ways:
    Inline - by using the style attribute inside HTML elements
    Internal - by using a <style> element in the <head> section
    External - by using a <link> element to link to an external CSS file
+	
+<kbd>return</kbd>[Back to table of contents](#homepage)
 
 ## CSS INLINE
 Inline CSS: To apply a unique style to a single HTML element, and it uses the style attribute of such element. 
@@ -630,6 +634,8 @@ Inline CSS: To apply a unique style to a single HTML element, and it uses the st
 
 <p style="color:red;">A red paragraph.</p> 
 ```
+<kbd>return</kbd>[Back to table of contents](#homepage)
+
 # CSS INTERNAL
 Internal CSS: To define style for a single HTML Page and it defined in <head> section of an html page within <style> element
 
@@ -651,6 +657,8 @@ p    {color: red;}
 </body>
 </html> 
 ```
+<kbd>return</kbd>[Back to table of contents](#homepage)
+
 ## CSS EXTERNAL
 External CSS: Define style for many HTML pages. To use the external style, you add a link to it in the head section of the html. File must not contain any HTML Code and can be written in any text editor. Save with a .css extension. 
 
@@ -682,7 +690,7 @@ p {
   color: red;
 }
 ```
-
+<kbd>return</kbd>[Back to table of contents](#homepage)
 
 ## CSS FONTS COLORS AND SIZES
 CSS Colors, Fonts and Sizes
@@ -722,7 +730,7 @@ p {
 </body>
 </html> 
 ```
-
+<kbd>return</kbd>[Back to table of contents](#homepage)
 
 ## CSS Border
 
@@ -738,6 +746,7 @@ p {
 }
 
 ```
+<kbd>return</kbd>[Back to table of contents](#homepage)
 
 ## CSS Padding
 
@@ -750,6 +759,7 @@ p {
   padding: 30px;
 } 
 ```
+<kbd>return</kbd>[Back to table of contents](#homepage)
 
 ## CSS Margin
 
@@ -760,6 +770,7 @@ p {
   margin: 50px;
 }
 ```
+<kbd>return</kbd>[Back to table of contents](#homepage)
 
 ## CSS link to external 
 
@@ -811,7 +822,7 @@ A visited link is underlined and purple
 An active link is underlined and red
 
 You can also style a link with CSS
-
+<kbd>return</kbd>[Back to table of contents](#homepage)
 
 ## Links
 HTML Links - The target Attribute
@@ -896,6 +907,8 @@ Use the href attribute to define the link address
 Use the target attribute to define where to open the linked document
 Use the <img> element (inside <a>) to use an image as a link
 Use the mailto: scheme inside the href attribute to create a link that opens the user's email program
+	
+<kbd>return</kbd>[Back to table of contents](#homepage)
 
 ## Colors
 HTML Links - Different Colors
@@ -953,6 +966,7 @@ a:hover, a:active {
 }
 </style> 
 ```
+<kbd>return</kbd>[Back to table of contents](#homepage)
 
 ## Link Bookmarks
 HTML Links - Create Bookmarks: can enable users to jump to certain part of a webpage. This helps for a long webpage. 
@@ -990,7 +1004,6 @@ Use the href attribute (```href="#value"```) to link to the bookmark
 ## IMAGES
 
 ```<img src="pic_trulli.jpg" alt="Italian Trulli">```
-
 
 Image tag is used to insert images in a webpage. Images are linked to a webpage not embeded. 
 
@@ -1081,6 +1094,8 @@ SVG 	Scalable Vector Graphics 	.svg
 
 
 **Loading large images takes time and can slow down your webpage...so use images carefully.
+
+<kbd>return</kbd>[Back to table of contents](#homepage)
 
 ## IMAGE MAP
 Image Maps::Allows you to perform actions depending on where in image  you click. You need an image, some html code that describes the clickable area. 
@@ -1173,6 +1188,7 @@ You can use href with the function to inform user to confirm what they are tryin
 <area> 	Defines a clickable area inside an image map
 <picture> 	Defines a container for multiple image resources
 ```
+<kbd>return</kbd>[Back to table of contents](#homepage)
 
 ## Background Images
 
@@ -1489,6 +1505,9 @@ by default, list item  is marked with small black circles as bullets.
   <li>Milk</li>
 </ul> 
 ```
+
+<kbd>return</kbd>[Back to table of contents](#homepage)
+
 ## ORDERED
 
 * Ordered HTML list: Marked by <ol> and each list item is marked by <li> tag. Numbers are usd to mark list items by default.
@@ -1520,6 +1539,7 @@ Tag 	Description
 ```<dt>``` 	Defines a term in a description list
 ```<dd>``` 	Describes the term in a description list
 
+<kbd>return</kbd>[Back to table of contents](#homepage)
 
 ## UNORDERED
 **HTML Unordered lists cont'd-List marker
@@ -1656,7 +1676,7 @@ Tag 	Description
 <dt> 	Defines a term in a description list
 <dd> 	Describes the term in a description list
 ```
-
+<kbd>return</kbd>[Back to table of contents](#homepage)
 
 HTML Ordered List:: 
 ```<ol>``` tag defines an ordered list which can be numerical or alphabetical.
@@ -1729,6 +1749,7 @@ type="i" 	The list items will be numbered with lowercase roman numbers
   <li>Milk</li>
 </ol> 
 ```
+<kbd>return</kbd>[Back to table of contents](#homepage)
 
 ## OTHER
 * Nested HTML Lists(list inside list)
@@ -3582,6 +3603,7 @@ You can add symbols absent on your keyboard to html using entities.
 Many mathematical symbols are present in HTML. You also have greek letters and many more entities. 
 
 NB: THIS SECTION HAS ABOUT 3 TABLES. Create HTML table in github later.
+
 <kbd>return</kbd>[Back to table of contents](#homepage)
 - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 ## HTML EMOJIS
@@ -3593,6 +3615,7 @@ Emojis are characters from UTF-8 character set:
 They look like images, or icons, but they are not. and they are letters( characters) from UTF-8 (Unicode) character set. 
 
 UTF-8 covers almost all existing characters and symbols
+
 <kbd>return</kbd>[Back to table of contents](#homepage)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- - - - - - - - - - - - - - - - -  - - - - - - - - - - - - - -
 ## HTML CHARSET
@@ -3790,7 +3813,7 @@ https://validator.w3.org/nu/?doc=https%3A%2F%2Fwww.w3schools.com%2Fhtml%2Fhtml_v
 - - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
 ** Part 2: HTML Forms
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - -
-HTML Forms
+## HTML Forms
 
 * Filling a form that contains user name and password and that redirects the form to a specific page after servers process the input.
 ```
@@ -3904,8 +3927,10 @@ Example of a form with a submit button below:
 * he Name Attribute for ```<input>```
 * Each input field must have a name to be submitted. If the value of the name attribute is omitted, the input field value will not be sent at all. 
 
+<kbd>return</kbd>[Back to table of contents](#homepage)
 
--------
+## HTML Form Attribute
+
 * The HTML Form Attribute: A discussion of different attributes
 
 The Action Attribute: defines action to be performed when form is submitted.  Form data is usually sent to a file on  server when submit button is clicked. If you omit action attribute, the action is set to the current page.
@@ -4001,6 +4026,7 @@ target 	Specifies where to display the response that is received after submittin
 ```
 <kbd>return</kbd>[Back to table of contents](#homepage)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+## HTML Form Elements
 HTML ```<form>``` Elements
 
 The HTML <form> element can contain one or more of the following form elements:
@@ -4174,8 +4200,9 @@ Tag 	Description
 <datalist> 	Specifies a list of pre-defined options for input controls
 <output> 	Defines the result of a calculation
 ```
+<kbd>return</kbd>[Back to table of contents](#homepage)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-
+## HTML Input Types
 * HTML Input Types
 The default is 'text'
 ```
@@ -4507,6 +4534,9 @@ Depending on browser support, a date picker can show up in the input field.If th
   <input type="submit" value="Submit">
 </form>
 ```
+<kbd>return</kbd>[Back to table of contents](#homepage)
+
+## HTML Input Attributes
 
 HTML Input Type Attribute
 Tag 	Description
@@ -4697,7 +4727,7 @@ Tip: Always specify both the height and width attributes for images. If height a
 NB: The input type="image" sends the X and Y coordinates of the click that activated the image button
 
 
-*The List Attribute
+* The List Attribute
 The input list attribute refers to a <datalist> element that contains pre-defined options for an <input> element.
 
 ```
@@ -4739,8 +4769,9 @@ In the case below, the autocomplete is on for the form but off for the email fie
 * Use maxlength for no of characters: maxlength="40"  
 And use max for numeric value, use max: max=40
 
+<kbd>return</kbd>[Back to table of contents](#homepage)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-
+## HTML Input Form Attributes
 
 HTML Input form* Attributes
 
@@ -4882,6 +4913,7 @@ Tag 	Description
 <form> 	Defines an HTML form for user input
 <input> 	Defines an input control
 
+<kbd>return</kbd>[Back to table of contents](#homepage)
 -------------------------------------------------------------------
 PART 4: HTML GRAPHICS
 

@@ -1,8 +1,9 @@
 # W3SCHOOLS--HTML Tutorial-NOTES 
-## >Note: This repository is still a work in progress. A little more edits to go.
+## Date 12/30/2020
 
 This repository summarizes the key things that I learned from the w3schools online HTML tutorials. 
 > Please see: https://www.w3schools.com/html/   for the sources of all the information contained herein. 
+
 
 ## Course Outline
 
@@ -4876,6 +4877,7 @@ Well suited for graphic-intensive games          | Not suited for game applicati
   
 <kbd>return</kbd>[Back to table of contents](#homepage)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+## HTML MEDIA
 PART 5: HTML MEDIA
 
 HTML Multimedia:
@@ -4950,7 +4952,8 @@ MP3 	.mp3 	MP3 files are actually the sound part of MPEG files. MP3 is the most 
 MP4 	.mp4 	MP4 is a video format, but can also be used for audio. Supported by all browsers.
 <kbd>return</kbd>[Back to table of contents](#homepage)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - -  - - - - - - - -  - - - - - - - - - 
-HTML VIDEO
+
+## HTML VIDEO
 
 The ```<video>``` element is used to shows a video on a page. 
 
@@ -5016,7 +5019,7 @@ Tag 	Description
 ```
 <kbd>return</kbd>[Back to table of contents](#homepage)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-HTML AUDIO
+## HTML AUDIO
 
 HTML ```<audio>``` element
 
@@ -5068,7 +5071,7 @@ Tag 	Description
 <kbd>return</kbd>[Back to table of contents](#homepage)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
-HTML Plug-ins
+## HTML Plug ins
 
 They extend the standard functionality of the browser. Plug-ins can serve the following purposes: 
 To run Java applets
@@ -5116,6 +5119,7 @@ Note that the ```<embed>``` element does not have a closing tag. It can not cont
 One thing you should note is that to select which to use between <object> and <embed>, make sure you consider which is most widely supported by various browsers and your data type embeded.
 <kbd>return</kbd>[Back to table of contents](#homepage)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+## HTML YOUTUBE
 
 HTML YouTube Videos
 
@@ -5183,7 +5187,7 @@ Value 1 (default): Player controls display.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 Part 6 HTML API
-
+## HTML GEOLOCATION
 HTML GEOLOCATION API
 * HTML Geolocation API is used to locate a user position. 
 
@@ -5353,11 +5357,13 @@ function showPosition(position) {
 ```
 <kbd>return</kbd>[Back to table of contents](#homepage)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-
+## HTML DRAG AND DROP
 HTML Drag and Drop API: Can be used to make an element draggable.
 
+## HTML WEB STORAGE
 HTML Web Storage API: Enables users to store data locally within user's browser. The storage limit is greater than that of cookies.the storage is per origin ( per domain and protocol). Pages from one origin can store and access the same data.
 
+## HTML WEB WORKERS
 
 HTML Web Workers API: It is a JS running in background without affecting the performance of the page. This prevents the page from becoming unresponsive until the script in the background finishes loading. 
 
@@ -5366,6 +5372,7 @@ The window object
 The document object
 The parent object
 
+## HTML SSE 
 
 HTML Server Sent Events (SSE) API
 * Server-Sent Events - One Way Messaging

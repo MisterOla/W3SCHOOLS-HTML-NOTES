@@ -121,12 +121,10 @@ Here, <!DOCTYPE html> defines that document is html5, <html> is root element of 
 
 ```<br>``` is an empty element...elements without content
 
-*browsers use tag to determine how to display the content of a 
+* Browsers use tag to determine how to display the content of a 
 
 
-*UTF-8 is preferred way to encode html file and save type as "All Files(*.*)"
-
-
+* UTF-8 is preferred way to encode html file and save type as "All Files(*.*)"
 
 .htm or .html extensions are the same thing. You decide whichever one you want.
 <kbd>return</kbd>[Back to table of contents](#homepage)
@@ -142,15 +140,11 @@ Here, <!DOCTYPE html> defines that document is html5, <html> is root element of 
 *Attributes provide additional information about html elements
 ```<a>``` defines html links
 
-'href' attribute defines link destination
-
+```'href'``` attribute defines link destination
 
 ```<img>``` defines html images. The attributes src(source file), alternative text(alt), width,and height
 
-
-
 When you inspect a site, you can edit the html or css on-the-fly. 
-
 
 Example of using the imag tag
 
@@ -174,17 +168,16 @@ Example of using the imag tag
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 ## HTML ELEMENTS
 
-*HTML element is everything from start to end of tag
+* HTML element is everything from start to end of tag
 ```<tagname>Content goes here...</tagname>``` 
 
-*The  ```<html>``` element is the root element and it defines the whole html document.
+* The  ```<html>``` element is the root element and it defines the whole html document.
 
 **Even though skipping the end tag can work, skipping the end tag is not reliable
 
 Never rely on the fact that some tags could run without end tag. Unexpected results and errors may occur if you forget the end tag.
 
-
-*empty elements have no content. 
+* Empty elements have no content. 
 ```<br>``` defines line break and it is an empty element without a closing tag.
 
 
@@ -196,8 +189,7 @@ HTML is not case sensitive but xhtml is more strict. So always use lower case le
 ## HTML ATTRIBUTES
  **Attribute comes as name="value"
 
-*HTML links: ```<a href="https://www.w3schools.com">Visit W3Schools</a>``` 
-
+* HTML links: ```<a href="https://www.w3schools.com">Visit W3Schools</a>``` 
 
 The SRC attribute: 
 ```
@@ -205,8 +197,7 @@ The SRC attribute:
 <p>HTML images are defined with the img tag, and the filename of the image source is specified in the src attribute:</p>
 <img src="img_girl.jpg" width="500" height="600">
 ```
-**specifying the url int eh src attribute
-
+**specifying the url in the ```src``` attribute
 
 Absolute url: links to image on another site: src="https://www.w3schools.com/images/img_girl.jpg"
 
@@ -217,7 +208,6 @@ src="/images/img_girl.jpg"   **in this case, the slash is relative to the site u
 ```
  <img src="img_girl.jpg" width="500" height="600"> 
 ```
-
 **Alt attribute includes alternative text for the image incase a user can not read the image: <img src="img_girl.jpg" alt="Girl with a jacket"> 
 
 
@@ -236,7 +226,6 @@ src="/images/img_girl.jpg"   **in this case, the slash is relative to the site u
 </body>
 </html>
 ```
-
 *You can also include country attribute.
 
 ```
@@ -247,7 +236,6 @@ src="/images/img_girl.jpg"   **in this case, the slash is relative to the site u
 </body>
 </html>
 ```
-
 **The title attribute: Gives extra information about an element and the attribute
 will be displayed as a tooltip when mouse pointer runs over it.
 
@@ -265,7 +253,6 @@ Or vice versa:
 ```
 <p title="John 'ShotGun' Nelson"> 
 ```
-
 ***Attributes Summary
 
 * All HTML elements can have attributes
@@ -274,12 +261,11 @@ Or vice versa:
 * The width and height attributes of ```<img>``` provide size information for images
 * The alt attribute of ```<img>```provides an alternate text for an image
 * The style attribute is used to add styles to an element, such as color, font, size, and more
-* The lang attribute of the <html> tag declares the language of the Web page
+* The lang attribute of the ```<html>``` tag declares the language of the Web page
 * The title attribute defines some extra information about an element
 
 <kbd>return</kbd>[Back to table of contents](#homepage)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-
 ## HTML HEADINGS
 
 Headings go from ```<h1> to <h6>```. Search engines use them to understand the structure of the webpage
@@ -292,7 +278,6 @@ Each heading has its default size. You can change that by specifying inside a st
 ```
 <h1 style="font-size:60px;">Heading 1</h1>
 ```
-
 <kbd>return</kbd>[Back to table of contents](#homepage)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
@@ -304,13 +289,11 @@ Browser removes extra spaces once page displays
 ```
 <p>This is a paragraph</p>
 ```
-* Horizontal rules: <hr> Used to separate content(define change) and defines a thematic break in an HTML page. It shows up as an horizontal line. 
-<hr> tag has no closing tag since it is an empty tag.
-
+* Horizontal rules: ```<hr>``` Used to separate content(define change) and defines a thematic break in an HTML page. It shows up as an horizontal line. 
+```<hr>``` tag has no closing tag since it is an empty tag.
 
 * Line breaks: ```<br>``` element
 Use this when you want a line break without starting a new paragraph.
-
 
 The Poem Problem: Poems have to be included in the ```<pre>``` preformatted text tag
 The ```<pre>``` tag displays text in fixed-width font (usually Courier), and it preserves both spaces and line breaks.
@@ -332,7 +315,6 @@ The HTML Style attribute syntax:
 <tagname style="property:value;">
 ```
 * Where The property is a CSS property and value is a CSS value.
-
 
 * Background color: Defines the background color for an HTML element
 ```
@@ -419,18 +401,16 @@ WWF works in 100 countries and is supported by
 close to 5 million globally.
 </blockquote> 
 ```
-
 * Short Quotations
 ```
  <p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p> 
 ```
 
-* The use of abbreviation <abbr>
+* The use of abbreviation ```<abbr>```
 ```
- <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p> 
+<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p> 
 ```
-* Address
-
+Address
 ```
 <address>
 Written by John Doe.<br>
@@ -483,7 +463,6 @@ HTML supports 140 standard color names
 <h1 style="background-color:DodgerBlue;">Hello World</h1>
 <p style="background-color:Tomato;">Lorem ipsum...</p> 
 ```
-
 * Set color of text 
 ```
 <h1 style="color:Tomato;">Hello World</h1>
@@ -505,8 +484,6 @@ rgb(255, 99, 71)
 #ff6347
 hsl(9, 100%, 64%)
 ```
-
-
 * RGBA, HSLA
 ```
 rgba(255, 99, 71, 0.5)
@@ -523,13 +500,12 @@ hsla(9, 100%, 64%, 0.5)
 ```
 <kbd>return</kbd>[Back to table of contents](#homepage)
 
-
 ## RGBA
 RGB and RGBA Coloring
 
 Red, Green, Blue, and Alpha
 
-rgb(r,g,b)  each parameter has a value between  0 and 255 i.e 256 in total
+```rgb(r,g,b)```  each parameter has a value between  0 and 255 i.e 256 in total
 
 
 Total number of colors: 256 x 256 x 256 = 16777216 possible colors!
@@ -542,7 +518,7 @@ Grey: rgb( x,x,x) where x is not zero or 255. Black and white are at the two end
 ```
 RGBA
 
-rgba(red, green, blue, alpha) alpha 0 means fully transparent while 1.0 is not transparent at all. 
+```rgba(red, green, blue, alpha)``` alpha 0 means fully transparent while 1.0 is not transparent at all. 
 
 <kbd>return</kbd>[Back to table of contents](#homepage)
 
@@ -551,19 +527,20 @@ HTML HEX COLORS
 
 RR(RED), GG(GREEN)BB(BLUE)...HEXADECIMAL INTEGERS SPECIFY THE COMPONENTS OF THE COLORS, EACH WITH VALUES RANGING FROM 00 TO ff ( same as decimal 0-255)
 
-#ff0000- red since red has the highest value (ff) while the green and blue appear as 00 and 00
+```#ff0000```- red since red has the highest value (ff) while the green and blue appear as 00 and 00
 
-#00ff00 appears as green since green is set to the highest value(ff) and the remaining two have zero values
+```#00ff00``` appears as green since green is set to the highest value(ff) and the remaining two have zero values
 
-To display black, set all color parameters to 00, like this: #000000.
-To display white, setll all color parameters to ff: #ffffff
+To display black, set all color parameters to 00, like this: ```#000000```.
+To display white, setll all color parameters to ff: ```#ffffff```
 
 Shades of gray: Equal values for all the parameters:
 Each one of these are different shades of gray.
+```
 #404040
 #686868
 #a0a0a0
-
+```
 <kbd>return</kbd>[Back to table of contents](#homepage)
 
 ## HSL AND HSLA
@@ -578,8 +555,6 @@ Saturation: It is a percentage value. 0% is black, and 100 % is full color
 
 Lightness:Alsp a percentage value: 0% is black and 100% white
 
-
-
 Saturation can be described as the intensity of a color. It is about how much shade of gray you want to have showing up on the color. 
 
 100% is pure color, no shades of gray
@@ -588,15 +563,13 @@ Saturation can be described as the intensity of a color. It is about how much sh
 
 0% is completely gray, you can no longer see the color.
 
-
 ** The lightness of a color can be described as how much light you want to give the color, where 0% means no light (black), 50% means 50% light (neither dark nor light) 100% means full lightness (white).
 
-
 Shades of Gray: Can be obtained by setting hue and saturation to 0, and adjust the lighness from 0 % to 100 % to get darker/lighter shades: 
-
+```
 hsl(0, 0%, 20%)   --darker shade of grey
 hsl(0, 0%, 70%)== lighter shade of grey
-
+```
 
 HSLA Color Values: 
 
@@ -612,16 +585,13 @@ CSS can control layout of multiple pages at same time.
 
 CSS: CAscading style sheets: To control color, font, the size of text, the spacing between elements, how elements are positioned and laid out, what background images or background colors are to be used, different displays for different devices and screen sizes etc
 
-
-
 Tip: The word cascading means that a style applied to a parent element will also apply to all children elements within the parent. So, if you set the color of the body text to "blue", all headings, paragraphs, and other text elements within the body will also get the same color (unless you specify something else)!
-
 
 CSS can be added to HTML documents in 3 ways:
 
    Inline - by using the style attribute inside HTML elements
-   Internal - by using a <style> element in the <head> section
-   External - by using a <link> element to link to an external CSS file
+   Internal - by using a ```<style>``` element in the ```<head>``` section
+   External - by using a ```<link>``` element to link to an external CSS file
 	
 <kbd>return</kbd>[Back to table of contents](#homepage)
 
@@ -676,8 +646,6 @@ External CSS: Define style for many HTML pages. To use the external style, you a
 </body>
 </html> 
 ```
-
-
 * Styles.css looks like this
 ```
 body {
@@ -947,8 +915,6 @@ a:active {
 }
 </style> 
 ```
-
-
 **style a link like a button here: 
 ```
 <style>
@@ -1018,7 +984,6 @@ Browsers get image from a web server and inserts into the page each time yu load
 
 **Value of alt attribute shows in cases where: because of slow connection, an error in the src attribute, or if the user uses a screen reader which reads html code and reads out for the user...usually used by the visually impaired people.
 
-
 **You can also specify width and height in the style attribute of the image
 
  ```<img src="img_girl.jpg" alt="Girl in a jacket" style="width:500px;height:600px;">``` 
@@ -1052,14 +1017,11 @@ img {
 
 ```<img src="/images/html5.gif" alt="HTML5 Icon" style="width:128px;height:128px;">``` 
 
-
 If your  site point to an external image on another server, specify full URL to point to the image.
 
  ```mg src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com">``` 
 
-
 NB on external images: Might be removed by site owner anytime. Also getting permission may be necessary to avoid copyright violation
-
 
 **Animated Images:: HTML allows GIFs
 
@@ -1072,7 +1034,6 @@ NB on external images: Might be removed by site owner anytime. Also getting perm
   <img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;">
 </a> 
 ```
-
 **Let image float to the right or to the left of a text using CSS float property
 ```
 <p><img src="smiley.gif" alt="Smiley face" style="float:right;width:42px;height:42px;">
@@ -1081,7 +1042,6 @@ The image will float to the right of the text.</p>
 <p><img src="smiley.gif" alt="Smiley face" style="float:left;width:42px;height:42px;">
 The image will float to the left of the text.</p> 
 ```
-
 **Common image formats supported on a website
 
 bbreviation 	File Format 	File Extension
@@ -1126,17 +1086,17 @@ name attribute must have the same value as the <img>'s usemap attribute
 
 -Define coordinate to be able to place the clickable area onto the image.
 
-
+```
 Shape="rect"
-
-The coordinates for shape="rect" come in pairs, one for the x-axis (distance from left) and one for the y-axis(distance from top).
+```
+The coordinates for ```shape="rect"``` come in pairs, one for the x-axis (distance from left) and one for the y-axis(distance from top).
 
 So, the coordinates 34,44 is located 34 pixels from the left margin and 44 pixels from the top:
 
 The coordinates 270,350 is located 270 pixels from the left margin and 350 pixels from the top:
 
 
-Shape="circle"
+```Shape="circle"```
 
 To add a circle area, first locate the coordinates of the center of the circle:
 
@@ -1144,22 +1104,21 @@ To add a circle area, first locate the coordinates of the center of the circle:
 
 then specify the radius: 44 pixels
 
-
 ** 
 ```
 <area shape="circle" coords="337, 300, 44" href="coffee.htm"> 
 ``` 
-Shape=poly"
+```Shape=poly"```
 
-The shape="poly" contains several coordinate points, which creates a shape formed with straight lines (a polygon).
+The ```shape="poly"``` contains several coordinate points, which creates a shape formed with straight lines (a polygon).
 
 This can be used to create any shape. Such as a croissant. You have to find x and y coordinates for all edges of the croissant.
 
 * Each point has x and y...specify all the coordinates around the perimeter of the polygonal shape. 
 
- <area shape="poly" coords="140,121,181,116,204,160,204,222,191,270,140,329,85,355,58,352,37,322,40,259,103,161,128,147" href="croissant.htm"> 
-
-
+ ```
+ <area shape="poly" coords="140,121,181,116,204,160,204,222,191,270,140,329,85,355,58,352,37,322,40,259,103,161,128,147" href="croissant.htm">
+ ``` 
 **You can also trigger a JS function by clicking the poissant shape.
 Add a click event to the <area> element to execute a JavaScript function:
 
@@ -1174,11 +1133,7 @@ function myFunction() {
 }
 </script> 
 ```
-
-
 You can use href with the function to inform user to confirm what they are trying to do before they follow the hyperlink on the picture.
-
-
 
 **Image Map summary: =
 
@@ -1246,8 +1201,6 @@ body {
   background-attachment: fixed;
   background-size: cover;
 ```
-
-
 ** Background stretch::  Allows you to make the background image to stretch to fit the entire element. Set background-size property to 100% 100%
 
 ```
@@ -1307,9 +1260,6 @@ HTML IMAGE TAGS SUMMARIZED:::
 <th> defines table header. By default bold and centered.
 <td> defines table data/cell.. By default regular and left-aligned. They are data containers for text, images, lists, other tables, etc.
 ```
-
-
-
 * A Simple HTML Table
 ```
  <table style="width:100%">
@@ -1374,8 +1324,6 @@ table {
   border-spacing: 5px;
 }
 ```
-
-
 ** Cells that Spans Many Columns:: use colspan attribute
 ```
  <table style="width:100%">
@@ -1412,8 +1360,6 @@ Bill Gates 	55577854 	55577855
   </tr>
 </table> 
 ```
-
-
 ** Add a caption to the table:: use <caption>  tag...inserted immediately after the table tag
 	
 ```
@@ -1433,8 +1379,6 @@ Bill Gates 	55577854 	55577855
   </tr>
 </table> 
 ```
-
-
 ** Define a special style for one table. Add an id to the table and then define the special style next
 ``` 
 <table id="t01">
@@ -1552,7 +1496,6 @@ circle 	Sets the list item marker to a circle
 square 	Sets the list item marker to a square
 none 	The list items will not be marked
 
- 
 * Disc(filled circle)
 ```
 <ul style="list-style-type:disc;">
@@ -1589,7 +1532,6 @@ none 	The list items will not be marked
 </ul> 
 ```
 
-
 ** Nested HTML List: List inside list
 ```
  <ul>
@@ -1603,9 +1545,7 @@ none 	The list items will not be marked
   <li>Milk</li>
 </ul> 
 ```
-
 ** A list item (```<li>```) can contain a new list, and other HTML elements, like images and links, etc.
-
 
 * Horizontal list with CSS
 
@@ -1658,9 +1598,9 @@ li a:hover {
 ** Chapter Summary
 Chapter Summary
 
- Use the HTML <ul> element to define an unordered list
+ Use the HTML ```<ul>``` element to define an unordered list
  Use the CSS list-style-type property to define the list item marker
- Use the HTML <li> element to define a list item
+ Use the HTML ```<li>``` element to define a list item
  Lists can be nested
  List items can contain other HTML elements
  Use the CSS property float:left to display a list horizontally
@@ -1731,7 +1671,6 @@ type="i" 	The list items will be numbered with lowercase roman numbers
   <li>Milk</li>
 </ol> 
 ```
-
 * Lowercase Roman Numbers:
 ```
 <ol type="I">
@@ -1740,7 +1679,6 @@ type="i" 	The list items will be numbered with lowercase roman numbers
   <li>Milk</li>
 </ol> 
 ```
-
 * Control List Counting: Enables you to be able to start counting controlled list at a certain number other than 50
 ```
 <ol start="50">
@@ -1765,8 +1703,6 @@ type="i" 	The list items will be numbered with lowercase roman numbers
   <li>Milk</li>
 </ol> 
 ```
-
-
 * Chapter summary:
 
 Use the HTML ```<ol>``` element to define an ordered list
@@ -1795,7 +1731,6 @@ HTML List Tags
   <dd>- white cold drink</dd>
 </dl> 
 ```
-
 * Description list summary:
 Use the HTML ```<dl>``` element to define a description list
 Use the HTML ```<dt>``` element to define the description term
@@ -1864,7 +1799,6 @@ example: This is a <span> elements inside a paragraph.
 
 ```<span>Hello World</span>```
 	
-
 * The list of inline elements:
 
 Here are the inline elements in HTML:
@@ -1905,7 +1839,6 @@ Here are the inline elements in HTML:
 ```
 * An inline element cannot contain a block-level element
 
-
 The ```<div>``` Element
 
 ```<div>``` element is used as a container for other HTML elements.
@@ -1932,7 +1865,6 @@ An inline element does not start on a new line and it only takes up as much widt
 The ```<div>``` element is a block-level and is often used as a container for other HTML elements
 The ```<span>``` element is an inline container used to mark up a part of a text, or a part of a document
 
-
 ** HTML Tags summarized
 ```
 Tag 	Description
@@ -1949,7 +1881,6 @@ Tag 	Description
 
 * Multiple html elements can also share the same class.
 * Class attribute is used to point to a class to manipulate together in a style sheet. Javascript can also manipulate elements in the same class together.
-
 
 ** In the example below, all three div elements with class city are style equally together equally according to the .city style definition in the header.
 ```
@@ -1989,7 +1920,7 @@ Tag 	Description
 
 
 
-** Here we can also style note class in <span> elements with .note style definition
+** Here we can also style note class in ```<span>``` elements with .note style definition
 
 ```
 <!DOCTYPE html>
@@ -2214,7 +2145,6 @@ To use a bookmark, create it and then add a link to it. Once link is clicked, pa
 <a href="html_demo.html#C4">Jump to Chapter 4</a>
 ```
 
-
 ** See the demonstration below:
 ```
 <!DOCTYPE html>
@@ -2328,8 +2258,6 @@ It is used to display a webpage within another webpage
 
 * HTML Iframe syntax
 
-
-
 HTML Iframe Syntax:
 
 ```<iframe>``` tag specifies an inline frame. This inline frame is used to  embed another document within the current html document
@@ -2437,7 +2365,6 @@ function myFunction() {
 <button type="button" onclick="myFunction()">Click Me!</button>
 ```
 
-
 ** Use Javascript to change the src attribute of an image.
 ```document.getElementById("image").src = "picture.gif";```
 
@@ -2515,12 +2442,10 @@ Path	Description
 
 File paths are used when linking to external files, like:
 
-   Web pages
-   Images
-   Style sheets
-   JavaScripts
-
-
+Web pages
+Images
+Style sheets
+JavaScripts
 
 Absolute file paths: the full url to a file
 ```
@@ -2687,7 +2612,6 @@ function myFunction() {
 </script> 
 ```
 
-
 The HTML ```<base>``` Element
 
 ```<base>``` element specifies the base URL and/or target for all relative URLs in a page. 
@@ -2695,7 +2619,6 @@ The HTML ```<base>``` Element
 The ```<base>``` tag must have either an href or a target attribute present, or both.
 
 There can only be one single <base> element in a document!
-
 
 ** Specify a default URL and a default target for all links on a page:
 ```
@@ -2751,10 +2674,10 @@ HTML has semantic elements
 ```
 
 Techniques for creating HTML layouts
-    CSS framework
-    CSS float property
-    CSS flexbox
-    CSS grid
+CSS framework
+CSS float property
+CSS flexbox
+CSS grid
 
 * CSS Frameworks: Enable you to fastly create your layout: W3.CSS and Boostrap are examples
 
@@ -2802,10 +2725,9 @@ To avoid image scaling up beyond original size, use max-width property instead o
 </picture> 
 ```
 
-
 ** Responsive Text Size.
 
-The text size can be set with "vw" unit, which means the "viewport width"  to enable text size to follow the size ofthe browser window
+The text size can be set with ```"vw"``` unit, which means the ```"viewport width"```  to enable text size to follow the size ofthe browser window
 
 * the code below enables responsive text size
 ```
@@ -2836,8 +2758,6 @@ The text size can be set with "vw" unit, which means the "viewport width"  to en
 }
 </style> 
 ```
-
-
 
 * W3.CSS
 
@@ -2948,7 +2868,6 @@ z = x + y;
 <p>Save the document by pressing <kbd>Ctrl + S</kbd></p> 
 ```
 The code above shows:Save the document by pressing Ctrl + S
-
 
 HTML ```<samp>``` For Program Output
 Samp element can be used to define sample output from a computer program. The content is displayed inside browser's default monospace font. 
@@ -3123,19 +3042,17 @@ Nesting ```<article>``` in ```<section>``` or Vice Versa.
 
 The ```<article>``` element specifies independent self-contained content while <section> eleemnt defines a section in a document.
 
-You will find HTML pages with <section> elements containing <article> element and <article> elements containing  
+You will find HTML pages with ```<section>``` elements containing ```<article>``` element and ```<article>``` elements containing  
 
 ```
 <section>
 ```
-
 
 HTML ```<header>``` Element
 
 ```<header>```element rep a containere for introductory content or a set of navigational links and typically contains one or more ```<h1> -<h6>```, logo or icon, authorship information etc.
 
 * Note: You can have several ```<header>``` elements in one HTML document. However, ```<header>``` cannot be placed within a ```<footer>```, ```<address>``` or another ```<header>``` element.
-
 
 Example of header: 
 ```
@@ -3159,7 +3076,7 @@ contact information
 sitemap
 back to top links
 related documents
-* One document can have several <footer> elements in one document
+* One document can have several ```<footer>``` elements in one document
 
 
 * Examples of footer section in a document
@@ -3344,7 +3261,6 @@ and the home of the Japanese Imperial Family.</p>
 </table> 
 ```
 
-
 *An example of a good list:
 ```
 <ul>
@@ -3370,10 +3286,9 @@ The content of a page title is important for SEO and is used to decide order whe
 
 Always add the html and body tags although the html will validate without them
 
+* Omitting ```<head>```
 
-* Omitting <head>
-
-The <head> tag can also be omitted. Browsers add all elements before <body> to a default <head> element. However, it is recommended that you use it. 
+The ```<head>``` tag can also be omitted. Browsers add all elements before ```<body>``` to a default <head> element. However, it is recommended that you use it. 
 
 
 * Close Empty HTML Elements
@@ -3390,7 +3305,7 @@ However, for XML/XHTML, you have to close it
 
 * Add the lang attribute
 
-Always add the lang attribute inside your <html> tag, to declare the language of the Web page. This helps search engines and browsers.
+Always add the lang attribute inside your ```<html>``` tag, to declare the language of the Web page. This helps search engines and browsers.
 
 for example:
 ```
@@ -3489,7 +3404,6 @@ getElementById("Demo").innerHTML = "Hello";
 getElementById("demo").innerHTML = "Hello";
 ```
  
-
 * Use Lower Case File Names
 
 Consistently use lower case file names because some servers(like Apache, Unix) are  case sensitive about file names while others (microsoft, IIS) are not. Annd when you make a switch while having a mix, your web will be brocken. Use lower case file names to avoid this problem. So that london.jpg and London.jpg issues do not arise. 
@@ -3502,7 +3416,6 @@ HTML files should have a .html extension (.htm is allowed).
 CSS files should have a .css extension.
 
 JavaScript files should have a .js extension.
-
 
 * Differences between .htm and .html
 
@@ -3525,7 +3438,6 @@ Replace reserved characters in HTML with character entities.
 HTML entities
 Greater than and less than are reserved html signs and browser might mix them up. 
 
-
 Character entity looks like this:
 ```
 &entity_name;
@@ -3534,13 +3446,12 @@ OR
 &#entity_number;
 ```
 
-* to display less than < sign, write &lt; or &#60;
+* to display less than < sign, write ```&lt; or &#60;```
 
 NB: Use entity number preferably since it has more browser support.
 
 Advantage of using an entity name: An entity name is easy to remember.
 Disadvantage of using an entity name: Browsers may not support all entity names, but the support for entity numbers is good.
-
 
 * Non-breaking Space
 &nbsp  is a space that will not break into a new line. Two words separated by a non-breaking space will stick together, not break into a new line. Use this when breaking words may not be disruptive.
@@ -3647,12 +3558,9 @@ UTF-8 Characters: You can't type them on the keyboard but they can always be dis
 ```
 * A, B, C are 65, 66, and 67 respectively
 
-
 To let browser recognize that you are displaying a utf-8 character, you must start with &# and end it with a semi-colon (;)
 
-
 Emojis are also characters from utf-8.
-
 
 * You can size emojis like other characters
 ```
@@ -3674,7 +3582,6 @@ ISO-8859-1 was the default character set for HTML 4. This character set supporte
 ANSI (Windows-1252) was the original Windows character set. ANSI is identical to ISO-8859-1, except that ANSI has 32 extra characters.
 
 The HTML5 specification encourages web developers to use the UTF-8 character set, which covers almost all of the characters and symbols in the world!
-
 
 ** HTML charset attribute
 you specify it in the <meta> tag of the HTML page.
@@ -3890,7 +3797,6 @@ The for attribute of the ```<label>``` tag should be equal to the id attribute o
 </form> 
 ```
 
-
 * Checkboxes: Enables users select zero or more among a limited no of choices 
 ```
 <input type="checkbox"> defines a checkbox
@@ -3959,7 +3865,6 @@ _parent 	The response is displayed in the parent frame
 _top 	The response is displayed in the full body of the window
 framename 	The response is displayed in a named iframe
 ```
-
 * Example of the use of target attribute:
 ```
 <p>When submitting this form, the result will be opened in a new browser tab:</p>
@@ -3976,7 +3881,6 @@ framename 	The response is displayed in a named iframe
 * The Method Attribute
 
 This specifies the method attribute specifies HTTP method used when submitting form data. 
-
 
 * The get method: ```<form action="/action_page.php" method="get"> ```
 * The post method:  ```<form action="/action_page.php" method="post"> ```
@@ -3996,8 +3900,6 @@ POST has no size limitations, and can be used to send large amounts of data.
 Form submissions with POST cannot be bookmarked
 
 Tip: Always use POST if the form data contains sensitive or personal information!
-
-
 
 * The Autocomplete Attribute
 Specifies whether a form should have autocomplete on or off. Autocomplete when left on enables browser automatically complete values based on previously entered values in the same browser. 
@@ -4047,19 +3949,18 @@ The HTML <form> element can contain one or more of the following form elements:
 
 * The ```<input>``` Element
 Input element is one of the most used form element. Can be displayed in varying ways depending on the type attribute
-
+```
 <label for="fname">First name:</label>
 <input type="text" id="fname" name="fname"> 
-
+```
 * The ```<label>``` Element
 
 ```<label>``` element defines a label for several form elements. Helps screen-readers  read out the label when the user focus on the input. 
 It also helps users click on text next to small regions ( like checkboxes and buttons)  to click those small areas. 
 
-The 'for' attribute of the <label> tag should equal to the 'id' attribute of the <input> element to bind them together.
+The 'for' attribute of the```<label>``` tag should equal to the 'id' attribute of the <input> element to bind them together.
 
-
-* The <select> Element 
+* The ```<select>``` Element 
 
 This element defvines a drop-down list:
 ```
@@ -4072,9 +3973,9 @@ This element defvines a drop-down list:
 </select> 
 ```
 * The option elements defines an option that can be selected. The first item is selected by default. Add the 'selected' attribute to an option to make it pre-selected. 
-
+```
 <option value="fiat" selected>Fiat</option> 
-
+```
 * Visible Values: Use size attribute to specify the number of visible values (a small scroll bar is inserted if you have more than the visible value set)
 ```
 <label for="cars">Choose a car:</label>
@@ -4097,9 +3998,8 @@ This element defvines a drop-down list:
 </select> 
 ```
 
-
-* The <textarea> Element
-The <textarea> element defines a multi-line input field (a text area):
+* The ```<textarea>``` Element
+The ```<textarea>``` element defines a multi-line input field (a text area):
 The rows attribute specifies the visible number of lines in a text area.
 
 The cols attribute specifies the visible width of a text area.
@@ -4111,26 +4011,24 @@ The cat was playing in the garden.
 </textarea> 
 ``` 
 CSS can also be used to define the size of the text area. 
-
+```
 <textarea name="message" style="width:200px; height:600px;">
 The cat was playing in the garden.
 </textarea> 
+```
 
-
-* The <button> Element
-Defines a clickable button. 
-
-<button type="button" onclick="alert('Hello World!')">Click Me!</button> 
-
-
+* The ```<button>``` Element
+Defines a clickable button.
+```	
+<button type="button" onclick="alert('Hello World!')">Click Me!</button>
+```
 Note: Always specify the type attribute for the button element. Different browsers may use different default types for the button element.
 
+* The ```<fieldset>``` and ```<legend>``` Elements
 
-* The <fieldset> and <legend> Elements
+The ```<fieldset>``` element is used to group related data in a form.
 
-The <fieldset> element is used to group related data in a form.
-
-The <legend> element defines a caption for the <fieldset> element.
+The ```<legend>``` element defines a caption for the <fieldset> element.
 
 ```
 <form action="/action_page.php">
@@ -4145,13 +4043,12 @@ The <legend> element defines a caption for the <fieldset> element.
 </form> 
 ```
 
-
 * The ```<datalist>``` Element
-Specifies a list of pre-defined options for an <input> element (works like a kind of autocomplete which list options you can select from once you type a text) This should be usable with the normal form input element--experiment.
+Specifies a list of pre-defined options for an ```<input>``` element (works like a kind of autocomplete which list options you can select from once you type a text) This should be usable with the normal form input element--experiment.
 
 Users will see a drop-down list of the pre-defined options as they input data.
 
-The list attribute of the <input> element, must refer to the id attribute of the <datalist> element
+The list attribute of the ```<input>``` element, must refer to the id attribute of the <datalist> element
 
 The datalist tag is not supported in Safari prior version 12.1
 ```
@@ -4167,7 +4064,7 @@ The datalist tag is not supported in Safari prior version 12.1
 </form> 
 ```
 
-* The <output> Element
+* The ```<output>``` Element
 Rep the result of a calculation ( such as one performed by a script)
 	
 ```
@@ -4289,7 +4186,7 @@ If you omit the submit button's value attribute, the button will get a default t
 </form> 
 ```
 
-* Input Type=Radio
+* Input Type Radio
 -Defines a radio button which lets a user select one of a limited number of choices:
 ```
 <form>
@@ -4467,7 +4364,7 @@ The following example displays a numeric input field, where you can enter a valu
 ```
 
 * Input Type Range
-The <input type="range"> defines a control for entering a number whose exact value is not important (like a slider control). Default range is 0 to 100. However, you can set restrictions on what numbers are accepted with the min, max, and step attributes:
+The ```<input type="range">``` defines a control for entering a number whose exact value is not important (like a slider control). Default range is 0 to 100. However, you can set restrictions on what numbers are accepted with the min, max, and step attributes:
 ```
 <form action="/action_page.php" method="get">
   <label for="vol">Volume (between 0 and 50):</label>
@@ -4724,7 +4621,7 @@ Tip: Always specify both the height and width attributes for images. If height a
   <input type="image" src="img_submit.gif" alt="Submit" width="48" height="48">
 </form>
 ```
-NB: The input type="image" sends the X and Y coordinates of the click that activated the image button
+NB: The input ```type="image"``` sends the X and Y coordinates of the click that activated the image button
 
 
 * The List Attribute
@@ -4743,7 +4640,6 @@ The input list attribute refers to a <datalist> element that contains pre-define
   <input type="submit" value="Submit">
 </form>
 ```
-
 
 * The Autocomplete Attribute
 
@@ -4766,8 +4662,8 @@ In the case below, the autocomplete is on for the form but off for the email fie
 </form>
 ```
 
-* Use maxlength for no of characters: maxlength="40"  
-And use max for numeric value, use max: max=40
+* Use maxlength for no of characters: ```maxlength="40"``` 
+And use max for numeric value, use max: ```max=40```
 
 <kbd>return</kbd>[Back to table of contents](#homepage)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
@@ -4796,7 +4692,7 @@ The form attribute: The input form attribute Specifies the form <input> element 
 * The formaction Attribute
 The input to formaction attribute specifies the URL of the file that will process the input when the form is submitted. 
 
-Note: This attribute overrides the action attribute of the <form> element.
+Note: This attribute overrides the action attribute of the ```<form>``` element.
 
 The formaction attribute works with the following input types: submit and image.
 
@@ -4810,7 +4706,6 @@ The formaction attribute works with the following input types: submit and image.
   <input type="submit" formaction="/action_page2.php" value="Submit as Admin">
 </form>
 ```
-
 
 * The forenctype Attribute
 The input formenctype attribute specifies how the form-data should be encoded when submitted (only for forms with method="post").
@@ -4938,8 +4833,6 @@ Example of the canvas markup:
 
 Note: Always specify an id attribute (to be referred to in a script), and a width and height attribute to define the size of the canvas. To add a border, use the style attribute.
 
-
-
 Example:
 ```
  <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
@@ -4971,19 +4864,16 @@ Canvas is rendered pixel by pixel. In canvas, once the graphic is drawn, it is f
 Comparison of Canvas and SVG
 
 The table below shows some important differences between Canvas and SVG:
-Canvas 	SVG
-
-   Resolution dependent
-   No support for event handlers
-   Poor text rendering capabilities
-   You can save the resulting image as .png or .jpg
-   Well suited for graphic-intensive games
-   
-   Resolution independent
-   Support for event handlers
-   Best suited for applications with large rendering areas (Google Maps)
-   Slow rendering if complex (anything that uses the DOM a lot will be slow)
-   Not suited for game applications
+--------------------------------------------------------------------------------------------------------------------------------
+Canvas 		                                 |	SVG
+--------------------------------------------------------------------------------------------------------------------------------
+Resolution dependent                             |Resolution independent
+No support for event handlers                    | Support for event handlers
+Poor text rendering capabilities                 | Best suited for applications with large rendering areas (Google Maps)
+You can save the resulting image as .png or .jpg |  Slow rendering if complex (anything that uses the DOM a lot will be slow)
+Well suited for graphic-intensive games          | Not suited for game applications
+-------------------------------------------------------------------------------------------------------------------------------   
+  
 <kbd>return</kbd>[Back to table of contents](#homepage)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 PART 5: HTML MEDIA
@@ -4993,7 +4883,6 @@ HTML Multimedia:
 Multimedia on the web is sound, music, videos, movies, and animations.
 
 Multimedia files have formats and different extensions like: .wav, .mp3, .mp4, .mpg, .wmv, and .avi.
-
 
 * Videoformats
 
@@ -5089,7 +4978,6 @@ The ```<source>``` element allows specifying alternative video files that the br
 ```
 The autoplay attribute does not work in mobile devices like iPad and iPhone.
 
-
 * HTML Video Formats
 
 There are three supported video formats: MP4, WebM, and Ogg. The browser support for the different formats is:
@@ -5107,8 +4995,6 @@ MP4 	video/mp4
 WebM 	video/webm
 Ogg 	video/ogg
 
-
-
 * HTML Video - Methods, Properties, and Events
 
 The HTML DOM defines methods, properties, and events for the <video> element.
@@ -5119,7 +5005,6 @@ There are also DOM events that can notify you when a video begins to play, is pa
 
 
 * See HTML video audio DOM reference for details of how to customize video in HTML
-
 
 Summary
 HTML Video Tags
@@ -5243,8 +5128,6 @@ YouTube will display an id (like tgbNymZ7vqY), when you save (or play) a video.
 
 You can use this id, and refer to your video in the HTML code.
 
-
-
 * Playing YouTube in HTML
 
 To play your video on a web page, do the following:
@@ -5316,7 +5199,7 @@ Note: Geolocation is most accurate for devices with GPS, like smartphones.
 Note: As of Chrome 50, the Geolocation API will only work on secure contexts such as HTTPS. If your site is hosted on an non-secure origin (such as HTTP) the requests to get the users location will no longer function.
 
 
-The getCurrentPosition() method is used to return the user's position.
+The ```getCurrentPosition()``` method is used to return the user's position.
 
 The example below returns the latitude and longitude of the user's position( a basic geolocation without error handling):
 ```
@@ -5340,14 +5223,13 @@ function showPosition(position) {
 </script>
 ```
 
-
 code above explained.
 
 Example explained:
 Check if Geolocation is supported
-If supported, run the getCurrentPosition() method. If not, display a message to the user
-If the getCurrentPosition() method is successful, it returns a coordinates object to the function specified in the parameter (showPosition)
-The showPosition() function outputs the Latitude and Longitude
+If supported, run the ```getCurrentPosition() method```. If not, display a message to the user
+If the ```getCurrentPosition()``` method is successful, it returns a coordinates object to the function specified in the parameter (showPosition)
+The ```showPosition()``` function outputs the Latitude and Longitude
 
 The example above is a very basic Geolocation script, with no error handling.
 
@@ -5394,7 +5276,6 @@ function showError(error) {
 </script>
 ```
 
-
 * Displaying the Result in a Map
 
 To display the result in a map, you need access to a map service, like Google Maps.
@@ -5423,9 +5304,9 @@ Geolocation is also very useful for location-specific information, like:
    Turn-by-turn navigation (GPS)
 
 
-The getCurrentPosition() Method - Return Data
+The ```getCurrentPosition()``` Method - Return Data
 
-The getCurrentPosition() method returns an object on success. The latitude, longitude and accuracy properties are always returned. The other properties are returned if available:
+The ```getCurrentPosition()``` method returns an object on success. The latitude, longitude and accuracy properties are always returned. The other properties are returned if available:
 Property 	Returns
 coords.latitude 	The latitude as a decimal number (always returned)
 coords.longitude 	The longitude as a decimal number (always returned)
@@ -5441,8 +5322,8 @@ Geolocation Object - Other interesting Methods
 
 The Geolocation object also has other interesting methods:
 
-   watchPosition() - Returns the current position of the user and continues to return updated position as the user moves (like the GPS in a car).
-   clearWatch() - Stops the watchPosition() method.
+   ```watchPosition()``` - Returns the current position of the user and continues to return updated position as the user moves (like the GPS in a car).
+   ```clearWatch()``` - Stops the ```watchPosition()``` method.
 
 The example below shows the watchPosition() method. You need an accurate GPS device to test this (like smartphone): 
 ```
@@ -5493,7 +5374,6 @@ It allows a webpage to get updates from a server. An SSE is when a webpage gets 
 
 
 Examples of server sent events: Facebook/Twitter updates, stock price updates, news feeds, sport results, etc.
-
 
 * Receive Server-Sent Event Notifications
 

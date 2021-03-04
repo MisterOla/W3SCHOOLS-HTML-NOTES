@@ -129,7 +129,7 @@ Here, <!DOCTYPE html> defines that document is html5, <html> is root element of 
 
 
 .htm or .html extensions are the same thing. You decide whichever one you want.
-
+<kbd>return</kbd>[Back to table of contents](#homepage)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 ## HTML BASICS
@@ -169,7 +169,7 @@ Example of using the imag tag
 </body>
 </html>
 ```
-
+<kbd>return</kbd>[Back to table of contents](#homepage)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 ## HTML ELEMENTS
 

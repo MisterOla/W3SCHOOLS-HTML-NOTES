@@ -169,6 +169,7 @@ Example of using the imag tag
 </body>
 </html>
 ```
+
 <kbd>return</kbd>[Back to table of contents](#homepage)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 ## HTML ELEMENTS

@@ -5412,6 +5412,7 @@ A. Anchoring link
 
 (https://gist.github.com/MisterOla/6992c8a9de8814e7b78f44f796d7d70c)
 https://blog.bitsrc.io/how-to-write-beautiful-and-meaningful-readme-md-for-your-next-project-897045e3f991
+
 1. Creating a heading (in the content section):  # HTML Intromimo
 2. To link to the HTML Introduction section (in the outline), put the text you want to see in the outline in the square bracket(i.e [HTML Intromimo])
 and include the anchor in a normal bracket following the displayed text in outline (i.e. (#html-intromimo)). Note that the anchor link for the HTML introduction
@@ -5421,7 +5422,7 @@ B. Including HTML codes formated at a code and not text
  enclose your code in the three back quotes ``` html codes ```
  
  C. Inserting "Back to top" Button
-1. Insert  the hyperlink in Homepage (in table of content) first section:   HTML Lecture<a name="#homepage">
-2. Insert the Back to top button in the section of the body of document:    [Back to top](#homepage)
+1. Insert  the hyperlink in Homepage (in table of content) first section:   ```HTML Lecture<a name="#homepage">```
+2. Insert the Back to top button in the section of the body of document:    ```[Back to top](#homepage)```
 
 __See the next note on CSS:https://github.com/MisterOla/CSS-TUTORIALS-W3SCHOOLS_

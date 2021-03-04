@@ -189,7 +189,7 @@ Never rely on the fact that some tags could run without end tag. Unexpected resu
 
 HTML is not case sensitive but xhtml is more strict. So always use lower case letter do denote tags
 
-[Go back to table of contents](#homepage)
+<kbd>return</kbd>[Back to table of contents](#homepage)
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 ## HTML ATTRIBUTES
@@ -276,6 +276,7 @@ Or vice versa:
 * The lang attribute of the <html> tag declares the language of the Web page
 * The title attribute defines some extra information about an element
 
+<kbd>return</kbd>[Back to table of contents](#homepage)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 ## HTML HEADINGS
@@ -291,6 +292,7 @@ Each heading has its default size. You can change that by specifying inside a st
 <h1 style="font-size:60px;">Heading 1</h1>
 ```
 
+<kbd>return</kbd>[Back to table of contents](#homepage)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 ## HTML PARAGRAPHS
@@ -319,6 +321,8 @@ Tags summary
 <br> 	Inserts a single line break
 <pre> 	Defines pre-formatted text
 ```
+
+<kbd>return</kbd>[Back to table of contents](#homepage)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 ## HTML STYLES
 
@@ -368,6 +372,7 @@ Styles summary
 * Use font-size for text sizes
 * Use text-align for text alignment
 
+<kbd>return</kbd>[Back to table of contents](#homepage)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 ## HTML FORMATTING
 ```
@@ -387,6 +392,7 @@ Styles summary
 ```
 *<p>My favorite color is <del>blue</del> <ins>red</ins>.</p>
 ```
+<kbd>return</kbd>[Back to table of contents](#homepage)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 ## HTML QUOTATIONS
 
@@ -443,6 +449,7 @@ USA
  <bdo dir="rtl">This text will be written from right to left</bdo> 
 ```
 
+<kbd>return</kbd>[Back to table of contents](#homepage)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 ## HTML COMMENTS
 There is only exclamation at the start not at the end
@@ -462,6 +469,7 @@ Example usage
 
 * Comments can help you to debug your html lines of code
 
+<kbd>return</kbd>[Back to table of contents](#homepage)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 ## HTML COLORS
 
@@ -529,6 +537,7 @@ Black: rgb(0, 0, 0)
 White:rgb(255, 255, 255). 
 Grey: rgb( x,x,x) where x is not zero or 255. Black and white are at the two ends of the color spectrum.
 ```
+<kbd>return</kbd>[Back to table of contents](#homepage)
 
 RGBA
 
@@ -551,6 +560,8 @@ Each one of these are different shades of gray.
 #404040
 #686868
 #a0a0a0
+
+<kbd>return</kbd>[Back to table of contents](#homepage)
 
 ## HSL AND HSLA
 
@@ -588,6 +599,7 @@ HSLA Color Values:
 
 Alpha rep transparency. 0.00 means fully transparent and 1.0 not transparent at all. 
 
+<kbd>return</kbd>[Back to table of contents](#homepage)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 ## HTML CSS
 
@@ -773,6 +785,7 @@ Use the CSS border property for borders
 Use the CSS padding property for space inside the border
 Use the CSS margin property for space outside the border
 
+<kbd>return</kbd>[Back to table of contents](#homepage)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 ## HTML LINKS 
 
@@ -968,6 +981,7 @@ Chapter Summary
 Use the id attribute (```id="value"```) to define bookmarks in a page
 Use the href attribute (```href="#value"```) to link to the bookmark
 
+<kbd>return</kbd>[Back to table of contents](#homepage)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 ## HTML IMAGES
@@ -1230,6 +1244,7 @@ body {
 </style> 
 ```
 
+<kbd>return</kbd>[Back to table of contents](#homepage)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 ## PICTURE ELEMENT
@@ -1266,6 +1281,7 @@ HTML IMAGE TAGS SUMMARIZED:::
 <picture> Defines a container for multiple image resources
 ```
 
+<kbd>return</kbd>[Back to table of contents](#homepage)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 ## HTML TABLES
 ```
@@ -1326,10 +1342,6 @@ th, td {
   padding: 15px;
 }
 ```
-
-
-
-
 ** Left-align Headings::Table headings are by default bold and centred. 
 
 To left-align table headings, use CSS text-align property. 
@@ -1460,6 +1472,7 @@ you can also add more styles:
    Use the id attribute to uniquely define one table
 
 
+<kbd>return</kbd>[Back to table of contents](#homepage)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 ## HTML LISTS
 
@@ -1776,7 +1789,8 @@ HTML List Tags
 <dt> 	Defines a term in a description list
 <dd> 	Describes the term in a description list
 ```
-
+<kbd>return</kbd>[Back to table of contents](#homepage)
+- - - - - - - - - - - - - - - - - - - - - - - - -- - - - - - - - - - - - - - - - - - -- - - - - - - -- - - - - - - - -- - - - - - - - - -- - - - - - - -- - - - -
 ## HTML BLOCK AND INLINE 
 
 HTML BLOCK AND INLINE ELEMENTS
@@ -1904,6 +1918,8 @@ Tag 	Description
 <span> 	Defines a section in a document (inline)
 ```
 
+<kbd>return</kbd>[Back to table of contents](#homepage)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- - - - - - - - -- - - - -- - -- - - - -- - - -- - - - -- - - -- - -
 
 ## HTML CLASSES
 
@@ -1972,9 +1988,6 @@ Tag 	Description
 </body>
 </html> 
 ```
-
-
-
 NB
 
 Tip: The class attribute can be used on any HTML element.
@@ -2012,8 +2025,6 @@ To create a class; write a period (.) character, followed by a class name. Then,
 </body>
 </html>
 ```
-
-
 * Multiple classes. 
 
 HTML elements can belong to multiple classes. Define multiple classes by separating the class names with a space. The element will be styled according to all classes specified. 
@@ -2063,9 +2074,6 @@ Different HTML elements like ```<p>``` and ```<h2>``` points to city class ans s
 <h2 class="city">Paris</h2>
 <p class="city">Paris is the capital of France</p>
 ```
-
-
-
 ** Use ofthe class Attribute in Javascript
 Class name can also be used by JS to perform certain tasks for specific elements. 
 JS usually access elemetns with a specific class name with the ```getElementByClassName()``` method:
@@ -2080,10 +2088,8 @@ function myFunction() {
 }
 </script> 
 ```
-
-
-
-
+<kbd>return</kbd>[Back to table of contents](#homepage)
+- - - - - - - - - - - - -- - - - - - - - - - - - - - - - - - - - - -- -  - - - --  -- - -- - - - - - - - - - - - - - - - - -- - - - - - - - - - - - - - - - - - 
 ## HTML ID
 HTML ID ATTRIBUTE: Used to specify a unique id for an HTML element.
 
@@ -2292,7 +2298,8 @@ The value of the id attribute is case sensitive
 The id attribute is also used to create HTML bookmarks
 JavaScript can access an element with a specific id with the getElementById() method
 
-
+<kbd>return</kbd>[Back to table of contents](#homepage)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 ## HTML Iframes 
 
 It is used to display a webpage within another webpage
@@ -2348,13 +2355,10 @@ An iframe can be used as the target frame for a link. The target attribute of th
 
 In essence, the target of a url can be a new (_blank) page and  can also be the name (attribute) of an iframe
 
-
-
+<kbd>return</kbd>[Back to table of contents](#homepage)
+- - - - - - - - - - - - - - - - - - - - - --  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 ## HTML JavaScript
-
-
-
 Javascript inclusion in HTML makes it more interactive and dynamic.
 
 
@@ -2462,10 +2466,8 @@ document.getElementById("demo").innerHTML = "Hello JavaScript!";
 
 <p>A browser without support for JavaScript will show the text written inside the noscript element.</p>
 ```
-
-
-
-
+<kbd>return</kbd>[Back to table of contents](#homepage)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 ## HTML FILE PATH
 
 A file path describes the location of a file in a website's folder structure. 
@@ -2527,7 +2529,8 @@ It is best practice to use relative file paths (if possible).
 
 When using relative file paths, your web pages will not be bound to your current base URL. All links will work on your own computer (localhost) as well as on your current public domain and your future public domains.
 
-
+<kbd>return</kbd>[Back to table of contents](#homepage)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- - - - - - - - - - - - - - - - - - - - - - - 
 ## HTML HEAD
 * HTML HEAD- The Head Element
 
@@ -2697,7 +2700,6 @@ Chapter Summary
    The <script> element is used to define client-side JavaScripts
    The <base> element specifies the base URL and/or target for all relative URLs in a page
 ```
-
 ** HTML Head Elements
 ```
 Tag 	Description
@@ -2709,21 +2711,21 @@ Tag 	Description
 <script> 	Defines a client-side script
 <style> 	Defines style information for a document
 ```
-----
+<kbd>return</kbd>[Back to table of contents](#homepage)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - -
 ## HTML LAYOUT
-
 HTML LAYOUT--Layout Elements and Techniques
 
 HTML has semantic elements 
 ```
-    <header> - Defines a header for a document or a section
-    <nav> - Defines a set of navigation links
-    <section> - Defines a section in a document
-    <article> - Defines an independent, self-contained content
-    <aside> - Defines content aside from the content (like a sidebar)
-    <footer> - Defines a footer for a document or a section
-    <details> - Defines additional details that the user can open and close on demand
-    <summary> - Defines a heading for the <details> element
+<header> - Defines a header for a document or a section
+<nav> - Defines a set of navigation links
+<section> - Defines a section in a document
+<article> - Defines an independent, self-contained content
+<aside> - Defines content aside from the content (like a sidebar)
+<footer> - Defines a footer for a document or a section
+<etails> - Defines additional details that the user can open and close on demand
+<summary> - Defines a heading for the <details> element
 ```
 
 Techniques for creating HTML layouts
@@ -2741,7 +2743,8 @@ CSS Flexbox layout::Ensures that elements behave predictably when  multiple size
 
 CSS Gridlayout: Offers grid-based layout system which facilitate designing webpages without floats and positioning and using rows and columns to achieve this.
 
-------
+<kbd>return</kbd>[Back to table of contents](#homepage)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- -  - - - - - - -- - - - - - -- - - - - -- - - -- - - - - -- - 
 
 ## HTML RESPONSIVE
 
@@ -2900,9 +2903,7 @@ W3.CSS is designed to be independent of jQuery or any other JavaScript library.
 </body>
 </html> 
 ```
-
-
-
+<kbd>return</kbd>[Back to table of contents](#homepage)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 ## HTML COMPUTERCODE
 HTML Computer Code Elements
@@ -2982,7 +2983,8 @@ The area of a triangle is: ```1/2 x b x h, where b is the base, and h is the ver
   The <var> element defines a variable in programming or in a mathematical expression
   The <pre> element defines preformatted text
 ```
------
+<kbd>return</kbd>[Back to table of contents](#homepage)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - -- - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 ## HTML SEMANTICS
 
 HTML semantic Elements
@@ -3245,8 +3247,8 @@ Tag 	Description
 <summary> 	Defines a visible heading for a <details> element
 <time> 	Defines a date/time
 ```
-
--------
+<kbd>return</kbd>[Back to table of contents](#homepage)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - - -  - - - - - - - - -
 ## HTML STYLE GUIDE
 
 HTML Style Guide and Coding Conventions
@@ -3329,9 +3331,6 @@ and the home of the Japanese Imperial Family.</p>
   <li>Tokyo</li>
 </ul> 
 ```
-
-
-
 * Never Skip the ```<title>``` Element
 
 The content of a page title is important for SEO and is used to decide order when listing page results by search engines.
@@ -3445,7 +3444,6 @@ body {
   color: black;
 }
 ```
-
 * Some advice on how to properly include the CSS style sheet
 Place the opening bracket on the same line as the selector
 Use one space before the opening bracket
@@ -3453,7 +3451,6 @@ Use two spaces of indentation
 Use semicolon after each property-value pair, including the last
 Only use quotes around values if the value contains spaces
 Place the closing bracket on a new line, without leading spaces
-
 
 * Loading JS in HTML
 ```
@@ -3495,9 +3492,9 @@ There is no difference between them. Consistency is good, however.
 When url does not specify filenames (such as ```"https:www.abc.com/"```), the server adds a default filename like ```"index.html"``` and ```"index.htm"```, ```"default.html","default.htm"```.
 
 You can always configure servers with more than one default filename, and you can usually set up as many default filename as you want. However, if your server is only configured with ```"index.html"``` as the default filename, your file must be "index.html", not default .html.
- 
- 
- -------
+
+<kbd>return</kbd>[Back to table of contents](#homepage) 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
  ## HTML ENTITIES
 
 * HTML Entities
@@ -3573,8 +3570,8 @@ Diacritical marks can be used in combination with alphanumeric characters to pro
 ̂ 	O 	O&#770; 	Ô
  ̃ 	O 	O&#771; 	Õ
 ```
--------
-
+<kbd>return</kbd>[Back to table of contents](#homepage)
+- - - - - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - - - - - - - - - - - -- - - - - - - - -  -- - - -  - - - - - - - - - - - - - - - - - -  - -
 ## HTML SYMBOLS
 
 * HTML Symbols
@@ -3584,9 +3581,8 @@ You can add symbols absent on your keyboard to html using entities.
 Many mathematical symbols are present in HTML. You also have greek letters and many more entities. 
 
 NB: THIS SECTION HAS ABOUT 3 TABLES. Create HTML table in github later.
-
-----
-
+<kbd>return</kbd>[Back to table of contents](#homepage)
+- - - - - - - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 ## HTML EMOJIS
 
 * Using Emojis in HTML
@@ -3596,8 +3592,8 @@ Emojis are characters from UTF-8 character set:
 They look like images, or icons, but they are not. and they are letters( characters) from UTF-8 (Unicode) character set. 
 
 UTF-8 covers almost all existing characters and symbols
-
------
+<kbd>return</kbd>[Back to table of contents](#homepage)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- - - - - - - - - - - - - - - - -  - - - - - - - - - - - - - -
 ## HTML CHARSET
 HTML charset attribute:
 To display an HTML page correctly, a web browser must know the character set used in the page. 
@@ -3662,7 +3658,8 @@ you specify it in the <meta> tag of the HTML page.
 ```
 <meta charset="UTF-8">
 ```
-------------------
+<kbd>return</kbd>[Back to table of contents](#homepage)
+- - - - - - - - - - - - - - - - - - -  - - - - - - - - - -  - - - - - - - - - -  - - - - - - - - - - - - - - - - - - -- - - - - - - -- - -  - - - - - - - - - --  
 ## HTML URL ENCODE
 
 HTML Uniform Resource Locators.
@@ -3697,8 +3694,8 @@ non-ASCII characters are replaced by  % followed by hexadecimal units. and Space
 
 * Your browser will encode character-set used in your page, default character-set in HTML5 is UTF-8.
 
-
------
+<kbd>return</kbd>[Back to table of contents](#homepage)
+- - - - - - - -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 ## HTML VS XHTML
 
 XHTML is more strict and more XML-based version of HTML. 
@@ -3788,10 +3785,10 @@ W3C has XHTML Validator
 ```
 https://validator.w3.org/nu/?doc=https%3A%2F%2Fwww.w3schools.com%2Fhtml%2Fhtml_validate.html
 ```
------------------------------------------------------------------------------------------------------------------
-
+<kbd>return</kbd>[Back to table of contents](#homepage)
+- - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
 ** Part 2: HTML Forms
-------
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - -
 HTML Forms
 
 * Filling a form that contains user name and password and that redirects the form to a specific page after servers process the input.
@@ -4001,7 +3998,7 @@ novalidate 	Specifies that the form should not be validated when submitted
 rel 	Specifies the relationship between a linked resource and the current document
 target 	Specifies where to display the response that is received after submitting the form
 ```
-
+<kbd>return</kbd>[Back to table of contents](#homepage)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 HTML ```<form>``` Elements
 
@@ -4514,10 +4511,8 @@ HTML Input Type Attribute
 Tag 	Description
 ```<input type="">``` 	Specifies the input type to display
 
-
-
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-HTML INput Attributes: Attributes of input element
+HTML Input Attributes: Attributes of input element
 
 * The value attribute
 Specifies the initial(default) value for the imput field
@@ -4919,10 +4914,11 @@ Example:
 ```
 
 NB: Canvas can draw line, circle, draw text, Stroke text, Draw linar gradient, draw circular gradient, draw image into an empty canvas line. Since Javascript is used to create the canvas, detailed study of  canvas will be made under javascript training. 
+
+<kbd>return</kbd>[Back to table of contents](#homepage)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 HTML SVG 
-
 
 SVG can draw circle, rectangle, rounded rectangle, svg star, svg logo. 
 
@@ -4955,7 +4951,7 @@ Canvas 	SVG
    Best suited for applications with large rendering areas (Google Maps)
    Slow rendering if complex (anything that uses the DOM a lot will be slow)
    Not suited for game applications
-
+<kbd>return</kbd>[Back to table of contents](#homepage)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 PART 5: HTML MEDIA
 
@@ -5030,9 +5026,8 @@ Ogg 	.ogg 	Ogg. Developed by the Xiph.Org Foundation. Supported by HTML.
 MP3 	.mp3 	MP3 files are actually the sound part of MPEG files. MP3 is the most popular format for music players. Combines good compression (small files) with high quality. Supported by all browsers.
 
 MP4 	.mp4 	MP4 is a video format, but can also be used for audio. Supported by all browsers.
-
---------------------------------------------------------------------------------
-
+<kbd>return</kbd>[Back to table of contents](#homepage)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - -  - - - - - - - -  - - - - - - - - - 
 HTML VIDEO
 
 The ```<video>``` element is used to shows a video on a page. 
@@ -5101,6 +5096,7 @@ Tag 	Description
 <source> 	Defines multiple media resources for media elements, such as <video> and <audio>
 <track> 	Defines text tracks in media players
 ```
+<kbd>return</kbd>[Back to table of contents](#homepage)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 HTML AUDIO
 
@@ -5151,7 +5147,7 @@ HTML Audio Tags
 Tag 	Description
 ```<audio>``` 	Defines sound content
 ```<source>``` 	Defines multiple media resources for media elements, such as <video> and <audio>
-
+<kbd>return</kbd>[Back to table of contents](#homepage)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 HTML Plug-ins
@@ -5200,7 +5196,7 @@ Note that the ```<embed>``` element does not have a closing tag. It can not cont
 ```
 
 One thing you should note is that to select which to use between <object> and <embed>, make sure you consider which is most widely supported by various browsers and your data type embeded.
-
+<kbd>return</kbd>[Back to table of contents](#homepage)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 HTML YouTube Videos
@@ -5267,6 +5263,7 @@ Value 1 (default): Player controls display.
 <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0">
 </iframe>
 ```
+<kbd>return</kbd>[Back to table of contents](#homepage)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 Part 6 HTML API
@@ -5440,7 +5437,7 @@ function showPosition(position) {
 </script>
 
 ```
-
+<kbd>return</kbd>[Back to table of contents](#homepage)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 HTML Drag and Drop API: Can be used to make an element draggable.
@@ -5472,6 +5469,7 @@ The EventSource object is used to receive server-sent event notifications.
 
 You need a server that is capable of sending data updates like PHP or ASP
 
+<kbd>return</kbd>[Back to table of contents](#homepage)
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
